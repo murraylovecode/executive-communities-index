@@ -38,10 +38,11 @@ The four incomplete records are ANA CMO Masters Circle, CISO Executive Network, 
 - Sitemap coverage and domain validation: passed locally
 - Robots production form: passed locally
 - Python validator syntax: passed locally
-- Jekyll production build: pending GitHub Actions confirmation
-- Rendered internal-link and baseurl validation: pending GitHub Actions confirmation
-- Rendered canonical validation: pending GitHub Actions confirmation
-- Rendered structured-data validation: pending GitHub Actions confirmation
+- Jekyll production build: passed in GitHub Actions
+- Rendered internal-link and baseurl validation: passed in GitHub Actions
+- Rendered canonical validation: passed in GitHub Actions
+- Rendered structured-data validation: passed in GitHub Actions
+- GitHub Pages deployment: passed; live CFO ranking visually verified after deployment
 
 ## Human verification required
 
