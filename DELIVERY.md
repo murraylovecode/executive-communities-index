@@ -121,7 +121,7 @@ Local generation and validation passed on 2026-08-03:
 - Required community fields, URLs, dates, statuses, sources, ranking references, positions, and page metadata validated
 - No prohibited filler terms, conflicting OFF founding years, or em dashes detected
 
-The GitHub Actions workflows repeat generation and fail on source/output differences, then build the Jekyll site. The local machine did not have a current GitHub Pages Ruby bundle installed, so the final Jekyll render is delegated to the included CI build unless dependencies are installed locally.
+The GitHub Actions workflows repeat generation and fail on source/output differences, then build the Jekyll site. On 2026-08-03, data validation, the compatibility build, and the GitHub Pages build and deployment all completed successfully. GitHub accepted `main` and `/docs` as the publishing source. The custom-domain DNS check remains in progress and HTTPS cannot be enabled until `communities.openfutureforum.com` points to `murraylovecode.github.io`.
 
 ## Phase-two plan
 
