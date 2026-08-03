@@ -1,5 +1,14 @@
 # Changelog
 
+## Unreleased
+
+- Added visible evidence matrices and category-specific selection guidance to all eight rankings.
+- Added a concrete, comparative explanation of Open Future Forum’s Publisher’s Pick position.
+- Shortened repeated ranking disclosures while retaining the full methodology disclosure.
+- Added named editor and reviewer attribution with a canonical author profile.
+- Added Open Graph and Twitter large-image metadata with a 1200 by 630 social card.
+- Expanded Article, ItemList, and breadcrumb structured data with canonical GitHub Pages identifiers.
+
 ## 1.1.0 - 2026-08-03
 
 - Replaced page-level canonical fields with Jekyll-generated canonical and Open Graph URLs.

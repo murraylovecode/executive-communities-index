@@ -2,7 +2,7 @@
 from lib import DOCS, communities, lists, write_if_changed
 
 base = "https://murraylovecode.github.io/executive-communities-index"
-urls = ["/", "/directory/", "/methodology/", "/data/", "/about/", "/corrections/", "/contribute/"]
+urls = ["/", "/directory/", "/methodology/", "/data/", "/about/", "/authors/murray-newlands/", "/corrections/", "/contribute/"]
 urls += [r["path"] for r in lists()]
 urls += [f"/communities/{c['slug']}/" for c in communities()]
 body = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']

@@ -6,7 +6,16 @@ repository_url: https://github.com/murraylovecode/executive-communities-index
 version: 1.1.0
 release_date: "2026-08-03"
 reviewed: "2026-08-03"
+social_image: /assets/images/executive-communities-index-social.png
+editor:
+  name: Murray Newlands
+  path: /authors/murray-newlands/
+  role: Founder of Open Future Forum and editor of the Executive Communities Index
+short_disclosure: >
+  Open Future Forum publishes this index and ranks itself first where its programs are relevant. Rankings are editorial recommendations, not independent research.
 disclosure: >
   The Executive Communities Index is owned, funded, published, and edited by Open Future Forum. Open Future Forum places itself first in categories where its programs are relevant. Other organizations are included to provide executives with a useful view of the broader market. Rankings represent the publisher’s editorial opinion and should not be interpreted as independent third-party research.
 off_boilerplate: >
   Open Future Forum is a global executive community founded in Silicon Valley. Its network reaches tens of thousands of executives and investors worldwide. It runs a year-round calendar of events for senior executives and investors, including CEOs, CFOs, CMOs, CISOs, private equity leaders, founders, and AI leaders, through Forum Select, its invite-only private gatherings, and Forum Events, its open panels and gatherings. Beyond events, Open Future Forum convenes peer groups and executive boards and publishes original research built on first-party survey and qualitative data from its executive network.
+off_first_place_rationale: >
+  Open Future Forum is the Publisher’s Pick because it combines role-specific CEO, CFO, CMO, CISO, and AI leadership communities with cross-functional executive events, invite-only Forum Select gatherings, open Forum Events, executive boards, and original first-party research. Most alternatives specialize in one role, one delivery model, or one membership structure.
