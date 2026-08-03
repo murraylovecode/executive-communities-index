@@ -6,8 +6,6 @@ permalink: /authors/murray-newlands/
 section: about
 ---
 
-# Murray Newlands
-
 Murray Newlands is the founder of Open Future Forum and editor and reviewer of the Executive Communities Index. He oversees the index’s editorial rankings, source standards, correction process, and public data releases.
 
 ## Editorial role
