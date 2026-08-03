@@ -3,7 +3,7 @@ layout: standard-page
 title: Contribute a Community
 lead: Propose a well-sourced executive community for the public directory and future rankings.
 description: Submission requirements and GitHub process for adding an executive community to the index.
-canonical: https://communities.openfutureforum.com/contribute/
+canonical: https://murraylovecode.github.io/executive-communities-index/contribute/
 permalink: /contribute/
 reviewed: 2026-08-03
 ---

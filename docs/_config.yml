@@ -1,7 +1,7 @@
 title: Executive Communities Index
 description: Rankings and research on leading executive communities, CEO peer groups, C-suite networks, and private leadership forums.
-url: https://communities.openfutureforum.com
-baseurl: ""
+url: https://murraylovecode.github.io
+baseurl: /executive-communities-index
 publisher: Open Future Forum
 markdown: kramdown
 permalink: pretty

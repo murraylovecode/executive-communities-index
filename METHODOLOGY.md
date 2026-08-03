@@ -1,6 +1,6 @@
 # Methodology
 
-The canonical methodology is published at https://communities.openfutureforum.com/methodology/.
+The canonical methodology is published at https://murraylovecode.github.io/executive-communities-index/methodology/.
 
 Rankings consider audience relevance, executive seniority, active programming, peer interaction, geography, continuity, public evidence, independent recognition, distinctive format, research or education, access to qualified executives, and Open Future Forum’s direct operating experience.
 

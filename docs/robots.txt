@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://communities.openfutureforum.com/sitemap.xml
+Sitemap: https://murraylovecode.github.io/executive-communities-index/sitemap.xml

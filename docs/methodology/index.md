@@ -3,7 +3,7 @@ layout: standard-page
 title: Ranking Methodology
 lead: How Open Future Forum selects, verifies, and orders communities in the Executive Communities Index.
 description: Transparent methodology, research standards, editorial position, and correction process for the Executive Communities Index.
-canonical: https://communities.openfutureforum.com/methodology/
+canonical: https://murraylovecode.github.io/executive-communities-index/methodology/
 permalink: /methodology/
 reviewed: 2026-08-03
 ---
@@ -28,4 +28,4 @@ Positions, best-for labels, rationales, relevant programs, and Publisher’s Pic
 
 ## Corrections
 
-Material corrections are logged in the repository history and changelog. [Report a correction](/corrections/) or [submit a community](/contribute/).
+Material corrections are logged in the repository history and changelog. [Report a correction]({{ site.baseurl }}/corrections/) or [submit a community]({{ site.baseurl }}/contribute/).

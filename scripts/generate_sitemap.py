@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 from lib import DOCS, communities, lists, write_if_changed
 
-base = "https://communities.openfutureforum.com"
+base = "https://murraylovecode.github.io/executive-communities-index"
 urls = ["/", "/directory/", "/methodology/", "/data/", "/about/", "/corrections/", "/contribute/"]
 urls += [r["path"] for r in lists()]
 urls += [f"/communities/{c['slug']}/" for c in communities()]

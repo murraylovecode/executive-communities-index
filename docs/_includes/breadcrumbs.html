@@ -1,1 +1,1 @@
-<nav class="breadcrumbs" aria-label="Breadcrumb"><a href="{{ '/' | relative_url }}">Home</a><span>/</span>{% if page.section %}<a href="/{{ page.section }}/">{{ page.section | capitalize }}</a><span>/</span>{% endif %}<span aria-current="page">{{ page.title }}</span></nav>
+<nav class="breadcrumbs" aria-label="Breadcrumb"><a href="{{ '/' | relative_url }}">Home</a><span>/</span>{% if page.section %}<a href="{{ site.baseurl }}/{{ page.section }}/">{{ page.section | capitalize }}</a><span>/</span>{% endif %}<span aria-current="page">{{ page.title }}</span></nav>

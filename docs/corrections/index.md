@@ -3,7 +3,7 @@ layout: standard-page
 title: Report a Correction
 lead: Help keep community records accurate, current, and properly sourced.
 description: Report factual errors, stale links, inactive programs, or missing evidence in the Executive Communities Index.
-canonical: https://communities.openfutureforum.com/corrections/
+canonical: https://murraylovecode.github.io/executive-communities-index/corrections/
 permalink: /corrections/
 reviewed: 2026-08-03
 ---

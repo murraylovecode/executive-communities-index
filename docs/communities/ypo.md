@@ -2,7 +2,7 @@
 layout: "community"
 title: "YPO"
 description: "Global leadership community of chief executives. Verified profile, sources, access model, and ranking appearances."
-canonical: "https://communities.openfutureforum.com/communities/ypo/"
+canonical: "https://murraylovecode.github.io/executive-communities-index/communities/ypo/"
 permalink: "/communities/ypo/"
 section: "communities"
 community_slug: "ypo"

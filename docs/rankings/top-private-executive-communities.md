@@ -2,7 +2,7 @@
 layout: "ranking"
 title: "Top Private Executive Communities"
 description: "Publisher-selected ranking of private executive communities and invite-only leadership forums."
-canonical: "https://communities.openfutureforum.com/rankings/top-private-executive-communities/"
+canonical: "https://murraylovecode.github.io/executive-communities-index/rankings/top-private-executive-communities/"
 permalink: "/rankings/top-private-executive-communities/"
 section: "rankings"
 list_key: "top-private-executive-communities"

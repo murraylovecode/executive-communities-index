@@ -2,7 +2,7 @@
 
 Executive Communities Index is the public source repository for rankings and research on executive communities, CEO peer groups, C-suite networks, and private leadership forums.
 
-Canonical publication: https://communities.openfutureforum.com
+Canonical publication: https://murraylovecode.github.io/executive-communities-index
 
 ## Ownership and editorial position
 
@@ -48,9 +48,9 @@ Validation checks community and source records, URL and date formats, ranking re
 2. Choose **Deploy from a branch**.
 3. Select branch `main` and folder `/docs`.
 4. Save and wait for the Pages deployment.
-5. Confirm the custom domain is `communities.openfutureforum.com` and enable HTTPS after DNS resolves.
+5. Open `https://murraylovecode.github.io/executive-communities-index/`.
 
-For DNS, create a CNAME record named `communities` pointing to `murraylovecode.github.io`. Do not proxy the record until GitHub finishes domain verification. DNS provider interfaces vary.
+No custom domain or DNS configuration is required.
 
 ## Corrections and contributions
 

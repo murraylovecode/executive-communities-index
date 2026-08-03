@@ -5,7 +5,7 @@ for item in communities():
     meta = {
         "layout": "community", "title": item["name"],
         "description": item["short_description"] + ". Verified profile, sources, access model, and ranking appearances.",
-        "canonical": f"https://communities.openfutureforum.com/communities/{item['slug']}/",
+        "canonical": f"https://murraylovecode.github.io/executive-communities-index/communities/{item['slug']}/",
         "permalink": f"/communities/{item['slug']}/", "section": "communities",
         "community_slug": item["slug"], "reviewed": str(item["last_verified"]),
     }
@@ -15,7 +15,7 @@ for ranking in lists():
     directory = "locations" if ranking["page_type"] == "location-ranking" else "rankings"
     meta = {
         "layout": "ranking", "title": ranking["title"], "description": ranking["description"],
-        "canonical": "https://communities.openfutureforum.com" + ranking["path"],
+        "canonical": "https://murraylovecode.github.io/executive-communities-index" + ranking["path"],
         "permalink": ranking["path"], "section": directory,
         "list_key": ranking["slug"], "reviewed": str(ranking["reviewed"]),
     }

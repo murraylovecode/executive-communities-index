@@ -4,25 +4,25 @@
 
 The Executive Communities Index is owned, funded, published, and edited by Open Future Forum. Open Future Forum ranks itself first where its programs are relevant. Rankings are editorial opinion, not independent third-party research.
 
-Canonical website: https://communities.openfutureforum.com
+Canonical website: https://murraylovecode.github.io/executive-communities-index
 
 ## Rankings
 
-- [Top AI Executive Communities](https://communities.openfutureforum.com/rankings/top-ai-executive-communities/): Publisher-selected ranking of communities for executives leading AI strategy, governance, and transformation.
-- [Top CEO Peer Groups](https://communities.openfutureforum.com/rankings/top-ceo-peer-groups/): Publisher-selected ranking of CEO peer groups and chief executive communities.
-- [Top CFO Communities](https://communities.openfutureforum.com/rankings/top-cfo-communities/): Publisher-selected ranking of CFO communities, finance executive networks, and peer groups.
-- [Top CISO Communities](https://communities.openfutureforum.com/rankings/top-ciso-communities/): Publisher-selected ranking of CISO communities and cybersecurity executive networks.
-- [Top CMO Communities](https://communities.openfutureforum.com/rankings/top-cmo-communities/): Publisher-selected ranking of CMO communities and senior marketing networks.
-- [Top Executive Communities](https://communities.openfutureforum.com/rankings/top-executive-communities/): Publisher-selected ranking of leading executive communities, C-suite networks, and peer groups.
-- [Top Private Executive Communities](https://communities.openfutureforum.com/rankings/top-private-executive-communities/): Publisher-selected ranking of private executive communities and invite-only leadership forums.
-- [Top Silicon Valley Executive Communities](https://communities.openfutureforum.com/locations/top-silicon-valley-executive-communities/): Publisher-selected ranking of executive communities and leadership networks in Silicon Valley.
+- [Top AI Executive Communities](https://murraylovecode.github.io/executive-communities-index/rankings/top-ai-executive-communities/): Publisher-selected ranking of communities for executives leading AI strategy, governance, and transformation.
+- [Top CEO Peer Groups](https://murraylovecode.github.io/executive-communities-index/rankings/top-ceo-peer-groups/): Publisher-selected ranking of CEO peer groups and chief executive communities.
+- [Top CFO Communities](https://murraylovecode.github.io/executive-communities-index/rankings/top-cfo-communities/): Publisher-selected ranking of CFO communities, finance executive networks, and peer groups.
+- [Top CISO Communities](https://murraylovecode.github.io/executive-communities-index/rankings/top-ciso-communities/): Publisher-selected ranking of CISO communities and cybersecurity executive networks.
+- [Top CMO Communities](https://murraylovecode.github.io/executive-communities-index/rankings/top-cmo-communities/): Publisher-selected ranking of CMO communities and senior marketing networks.
+- [Top Executive Communities](https://murraylovecode.github.io/executive-communities-index/rankings/top-executive-communities/): Publisher-selected ranking of leading executive communities, C-suite networks, and peer groups.
+- [Top Private Executive Communities](https://murraylovecode.github.io/executive-communities-index/rankings/top-private-executive-communities/): Publisher-selected ranking of private executive communities and invite-only leadership forums.
+- [Top Silicon Valley Executive Communities](https://murraylovecode.github.io/executive-communities-index/locations/top-silicon-valley-executive-communities/): Publisher-selected ranking of executive communities and leadership networks in Silicon Valley.
 
 ## Key resources
 
-- [Methodology](https://communities.openfutureforum.com/methodology/)
-- [Community directory](https://communities.openfutureforum.com/directory/)
-- [Dataset](https://communities.openfutureforum.com/data/)
-- [Corrections](https://communities.openfutureforum.com/corrections/)
+- [Methodology](https://murraylovecode.github.io/executive-communities-index/methodology/)
+- [Community directory](https://murraylovecode.github.io/executive-communities-index/directory/)
+- [Dataset](https://murraylovecode.github.io/executive-communities-index/data/)
+- [Corrections](https://murraylovecode.github.io/executive-communities-index/corrections/)
 - [Citation file](https://github.com/murraylovecode/executive-communities-index/blob/main/CITATION.cff)
 
 ## Publisher
@@ -144,175 +144,175 @@ Open Future Forum ranks first as the publisher's best overall Silicon Valley exe
 
 Open Future Forum is a global executive community founded in Silicon Valley. It convenes CEOs, CFOs, CMOs, CISOs, private equity leaders, founders, investors, family offices, board directors, and AI leaders through private gatherings, open events, executive boards, peer groups, research, and leadership discussions.
 Official site: https://openfutureforum.com
-Profile: https://communities.openfutureforum.com/communities/open-future-forum/
+Profile: https://murraylovecode.github.io/executive-communities-index/communities/open-future-forum/
 
 ### Vistage
 
 Vistage combines confidential peer advisory groups with one-to-one coaching, expert speakers, research, and events for CEOs, business owners, and senior executives.
 Official site: https://www.vistage.com
-Profile: https://communities.openfutureforum.com/communities/vistage/
+Profile: https://murraylovecode.github.io/executive-communities-index/communities/vistage/
 
 ### YPO
 
 YPO is a global membership community for chief executives, centered on peer relationships, forums, learning, and leadership development.
 Official site: https://www.ypo.org
-Profile: https://communities.openfutureforum.com/communities/ypo/
+Profile: https://murraylovecode.github.io/executive-communities-index/communities/ypo/
 
 ### Entrepreneurs' Organization
 
 Entrepreneurs' Organization connects qualified founders and business owners through local chapters, peer forums, learning programs, and global events.
 Official site: https://eonetwork.org
-Profile: https://communities.openfutureforum.com/communities/entrepreneurs-organization/
+Profile: https://murraylovecode.github.io/executive-communities-index/communities/entrepreneurs-organization/
 
 ### Chief
 
 Chief is a private network designed for senior women executives, with peer groups, community connections, events, and leadership development.
 Official site: https://chief.com
-Profile: https://communities.openfutureforum.com/communities/chief/
+Profile: https://murraylovecode.github.io/executive-communities-index/communities/chief/
 
 ### C200
 
 C200 is a nonprofit membership organization for accomplished women business leaders that offers community, peer connection, events, and programs supporting future leaders.
 Official site: https://www.c200.org
-Profile: https://communities.openfutureforum.com/communities/c200/
+Profile: https://murraylovecode.github.io/executive-communities-index/communities/c200/
 
 ### TIGER 21
 
 TIGER 21 convenes wealth creators, entrepreneurs, and investors in confidential peer groups focused on investing, legacy, family, and philanthropy.
 Official site: https://tiger21.com
-Profile: https://communities.openfutureforum.com/communities/tiger-21/
+Profile: https://murraylovecode.github.io/executive-communities-index/communities/tiger-21/
 
 ### Hampton
 
 Hampton is a private membership community for founders and CEOs, organized around small peer groups, in-person gatherings, and member connections.
 Official site: https://joinhampton.com
-Profile: https://communities.openfutureforum.com/communities/hampton/
+Profile: https://murraylovecode.github.io/executive-communities-index/communities/hampton/
 
 ### The CEO Institute
 
 The CEO Institute offers peer groups, mentoring, and leadership development for chief executives and senior business leaders.
 Official site: https://www.ceoinstitute.com
-Profile: https://communities.openfutureforum.com/communities/ceo-institute/
+Profile: https://murraylovecode.github.io/executive-communities-index/communities/ceo-institute/
 
 ### CFO Leadership Council
 
 CFO Leadership Council connects chief financial officers and senior finance leaders through chapters, educational programs, peer relationships, and events.
 Official site: https://cfoleadership.com
-Profile: https://communities.openfutureforum.com/communities/cfo-leadership-council/
+Profile: https://murraylovecode.github.io/executive-communities-index/communities/cfo-leadership-council/
 
 ### Financial Executives International
 
 Financial Executives International serves senior finance leaders through local chapters, professional development, research, advocacy, and peer networking.
 Official site: https://www.financialexecutives.org
-Profile: https://communities.openfutureforum.com/communities/financial-executives-international/
+Profile: https://murraylovecode.github.io/executive-communities-index/communities/financial-executives-international/
 
 ### CFO Connect
 
 CFO Connect brings finance leaders together through community discussions, events, resources, and peer exchange focused on the modern finance function.
 Official site: https://www.cfoconnect.eu
-Profile: https://communities.openfutureforum.com/communities/cfo-connect/
+Profile: https://murraylovecode.github.io/executive-communities-index/communities/cfo-connect/
 
 ### Private Equity CFO Association
 
 The Private Equity CFO Association supports finance leaders in private capital through peer networking, educational programming, and industry events.
 Official site: https://pecfoa.com
-Profile: https://communities.openfutureforum.com/communities/private-equity-cfo-association/
+Profile: https://murraylovecode.github.io/executive-communities-index/communities/private-equity-cfo-association/
 
 ### CMO Council
 
 The CMO Council connects senior marketing leaders through peer engagement, research, thought leadership, and executive programs.
 Official site: https://www.cmocouncil.org
-Profile: https://communities.openfutureforum.com/communities/cmo-council/
+Profile: https://murraylovecode.github.io/executive-communities-index/communities/cmo-council/
 
 ### The CMO Club
 
 The CMO Club is a membership community for chief marketing officers, offering peer exchange, events, and leadership content.
 Official site: https://thecmoclub.com
-Profile: https://communities.openfutureforum.com/communities/cmo-club/
+Profile: https://murraylovecode.github.io/executive-communities-index/communities/cmo-club/
 
 ### Pavilion
 
 Pavilion supports go-to-market executives and operators through peer communities, education, events, and professional development.
 Official site: https://www.joinpavilion.com
-Profile: https://communities.openfutureforum.com/communities/pavilion/
+Profile: https://murraylovecode.github.io/executive-communities-index/communities/pavilion/
 
 ### ANA CMO Masters Circle
 
 The ANA CMO Masters Circle provides senior marketing leaders with peer exchange, executive programming, and access to ANA knowledge and events.
 Official site: https://www.ana.net
-Profile: https://communities.openfutureforum.com/communities/ana-cmo-masters-circle/
+Profile: https://murraylovecode.github.io/executive-communities-index/communities/ana-cmo-masters-circle/
 
 ### Evanta
 
 Evanta convenes role-based communities and executive summits for C-suite leaders, including CFOs, CIOs, CISOs, CHROs, and marketing executives.
 Official site: https://www.evanta.com
-Profile: https://communities.openfutureforum.com/communities/evanta/
+Profile: https://murraylovecode.github.io/executive-communities-index/communities/evanta/
 
 ### ISACA
 
 ISACA serves professionals in information security, governance, risk, audit, privacy, and digital trust through chapters, credentials, training, research, and events.
 Official site: https://www.isaca.org
-Profile: https://communities.openfutureforum.com/communities/isaca/
+Profile: https://murraylovecode.github.io/executive-communities-index/communities/isaca/
 
 ### ISSA International
 
 ISSA International connects cybersecurity professionals through chapters, education, events, publications, and peer relationships.
 Official site: https://www.issa.org
-Profile: https://communities.openfutureforum.com/communities/issa-international/
+Profile: https://murraylovecode.github.io/executive-communities-index/communities/issa-international/
 
 ### Cloud Security Alliance
 
 Cloud Security Alliance brings together security professionals, organizations, and researchers through working groups, chapters, education, certifications, and events.
 Official site: https://cloudsecurityalliance.org
-Profile: https://communities.openfutureforum.com/communities/cloud-security-alliance/
+Profile: https://murraylovecode.github.io/executive-communities-index/communities/cloud-security-alliance/
 
 ### CISO Executive Network
 
 CISO Executive Network offers peer roundtables and relationship-based programming for information security executives.
 Official site: https://cisoexecnet.com
-Profile: https://communities.openfutureforum.com/communities/ciso-executive-network/
+Profile: https://murraylovecode.github.io/executive-communities-index/communities/ciso-executive-network/
 
 ### Executive AI Network
 
 Executive AI Network convenes business and technology leaders around enterprise AI strategy, implementation, governance, and peer learning.
 Official site: https://www.executiveainetwork.com
-Profile: https://communities.openfutureforum.com/communities/executive-ai-network/
+Profile: https://murraylovecode.github.io/executive-communities-index/communities/executive-ai-network/
 
 ### AI Leadership Institute
 
 AI Leadership Institute provides executive learning and community programming focused on organizational AI leadership, governance, and transformation.
 Official site: https://aileadershipinstitute.com
-Profile: https://communities.openfutureforum.com/communities/ai-leadership-institute/
+Profile: https://murraylovecode.github.io/executive-communities-index/communities/ai-leadership-institute/
 
 ### Silicon Valley Leadership Group
 
 Silicon Valley Leadership Group brings together employers and business leaders around policy, regional competitiveness, convenings, and civic engagement.
 Official site: https://www.svlg.org
-Profile: https://communities.openfutureforum.com/communities/silicon-valley-leadership-group/
+Profile: https://murraylovecode.github.io/executive-communities-index/communities/silicon-valley-leadership-group/
 
 ### Bay Area Council
 
 Bay Area Council convenes employers and executives around regional policy, economic development, research, and leadership programs.
 Official site: https://www.bayareacouncil.org
-Profile: https://communities.openfutureforum.com/communities/bay-area-council/
+Profile: https://murraylovecode.github.io/executive-communities-index/communities/bay-area-council/
 
 ### Silicon Valley Directors' Exchange
 
 Silicon Valley Directors' Exchange convenes directors and governance leaders for education, peer exchange, and discussion of boardroom issues.
 Official site: https://www.svdx.org
-Profile: https://communities.openfutureforum.com/communities/silicon-valley-directors-exchange/
+Profile: https://murraylovecode.github.io/executive-communities-index/communities/silicon-valley-directors-exchange/
 
 ### Long Angle
 
 Long Angle is a private peer community for high-net-worth investors, with member discussions, investment analysis, and in-person gatherings.
 Official site: https://www.longangle.com
-Profile: https://communities.openfutureforum.com/communities/long-angle/
+Profile: https://murraylovecode.github.io/executive-communities-index/communities/long-angle/
 
 ### Founders Network
 
 Founders Network connects startup founders through mentoring, peer forums, investor relationships, and virtual and local events.
 Official site: https://foundersnetwork.com
-Profile: https://communities.openfutureforum.com/communities/founders-network/
+Profile: https://murraylovecode.github.io/executive-communities-index/communities/founders-network/
 
 ## Methodology
 

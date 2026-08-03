@@ -3,7 +3,7 @@
 ## Repository and publication
 
 - Repository: https://github.com/murraylovecode/executive-communities-index
-- Canonical site: https://communities.openfutureforum.com
+- Canonical site: https://murraylovecode.github.io/executive-communities-index
 - GitHub Pages source: `/docs`
 - Release version: 1.0.0
 
@@ -12,12 +12,10 @@
 1. Create the GitHub repository `murraylovecode/executive-communities-index` with public visibility.
 2. Push this repository to branch `main`.
 3. In **Settings → Pages**, choose **Deploy from a branch**, branch `main`, folder `/docs`.
-4. Set the custom domain to `communities.openfutureforum.com`.
-5. At the DNS provider for `openfutureforum.com`, create a CNAME record with host `communities` and target `murraylovecode.github.io`.
-6. Wait for GitHub’s DNS check to pass, then enable **Enforce HTTPS**.
-7. Verify `https://communities.openfutureforum.com`, `/robots.txt`, `/sitemap.xml`, `/llms.txt`, and the CSV and JSON downloads.
+4. Leave the custom domain empty.
+5. Verify `https://murraylovecode.github.io/executive-communities-index/`, the sitemap, `llms.txt`, and the CSV and JSON downloads.
 
-If the DNS provider uses proxying, keep the record DNS-only until GitHub completes domain verification. Domain ownership verification through GitHub is recommended before launch.
+No Open Future Forum DNS configuration is required.
 
 ## Page and URL inventory
 
@@ -121,7 +119,7 @@ Local generation and validation passed on 2026-08-03:
 - Required community fields, URLs, dates, statuses, sources, ranking references, positions, and page metadata validated
 - No prohibited filler terms, conflicting OFF founding years, or em dashes detected
 
-The GitHub Actions workflows repeat generation and fail on source/output differences, then build the Jekyll site. On 2026-08-03, data validation, the compatibility build, and the GitHub Pages build and deployment all completed successfully. GitHub accepted `main` and `/docs` as the publishing source. The custom-domain DNS check remains in progress and HTTPS cannot be enabled until `communities.openfutureforum.com` points to `murraylovecode.github.io`.
+The GitHub Actions workflows repeat generation and fail on source/output differences, then build the Jekyll site. On 2026-08-03, data validation, the compatibility build, and the GitHub Pages build and deployment all completed successfully. GitHub accepted `main` and `/docs` as the publishing source. The site uses the standard GitHub Pages project URL and requires no external DNS.
 
 ## Phase-two plan
 

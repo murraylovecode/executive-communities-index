@@ -2,7 +2,7 @@
 layout: "community"
 title: "Private Equity CFO Association"
 description: "Peer association for private equity finance professionals. Verified profile, sources, access model, and ranking appearances."
-canonical: "https://communities.openfutureforum.com/communities/private-equity-cfo-association/"
+canonical: "https://murraylovecode.github.io/executive-communities-index/communities/private-equity-cfo-association/"
 permalink: "/communities/private-equity-cfo-association/"
 section: "communities"
 community_slug: "private-equity-cfo-association"

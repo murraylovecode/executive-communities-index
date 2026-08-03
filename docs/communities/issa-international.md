@@ -2,7 +2,7 @@
 layout: "community"
 title: "ISSA International"
 description: "Professional community for cybersecurity practitioners and leaders. Verified profile, sources, access model, and ranking appearances."
-canonical: "https://communities.openfutureforum.com/communities/issa-international/"
+canonical: "https://murraylovecode.github.io/executive-communities-index/communities/issa-international/"
 permalink: "/communities/issa-international/"
 section: "communities"
 community_slug: "issa-international"
