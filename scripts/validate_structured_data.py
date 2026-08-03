@@ -31,6 +31,8 @@ for page in SITE.rglob("*.html"):
     if "/rankings/" in f"/{rel}" or "/locations/" in f"/{rel}":
         expected = {"Article", "ItemList", "BreadcrumbList"}
         if not expected.issubset(found_types): errors.append(f"{rel}: missing ranking structured types {sorted(expected - found_types)}")
+        for required_property in ['"datePublished"', '"dateModified"', '"author"', '"publisher"', '"mainEntityOfPage"']:
+            if required_property not in text: errors.append(f"{rel}: missing ranking schema property {required_property}")
     if rel.startswith("communities/"):
         expected = {"Organization", "BreadcrumbList"}
         if not expected.issubset(found_types): errors.append(f"{rel}: missing profile structured types {sorted(expected - found_types)}")

@@ -104,7 +104,7 @@
       {
         "url": "https://www.meetup.com/silicon-valley-ai-executive-community-by-open-future-forum/events/315712343/",
         "publisher": "Meetup",
-        "source_type": "independent",
+        "source_type": "event_platform",
         "supports": [
           "external event listing",
           "Silicon Valley activity",
@@ -958,7 +958,7 @@
       "Membership"
     ],
     "official_url": "https://cisoexecnet.com",
-    "verification_status": "incomplete",
+    "verification_status": "verified",
     "last_verified": "2026-08-03",
     "sources": [
       {
@@ -969,6 +969,19 @@
           "description",
           "audience",
           "formats"
+        ],
+        "accessed": "2026-08-03"
+      },
+      {
+        "url": "https://cisoexecnet.com/membership",
+        "publisher": "CISO Executive Network",
+        "source_type": "official",
+        "supports": [
+          "active programming",
+          "peer roundtables",
+          "audience",
+          "access_model",
+          "geography"
         ],
         "accessed": "2026-08-03"
       }
@@ -1036,17 +1049,20 @@
       "Application",
       "Open programs"
     ],
-    "official_url": "https://aileadershipinstitute.com",
+    "official_url": "https://www.upskilling.ai",
     "verification_status": "incomplete",
     "last_verified": "2026-08-03",
     "sources": [
       {
-        "url": "https://aileadershipinstitute.com",
+        "url": "https://www.upskilling.ai",
         "publisher": "AI Leadership Institute",
         "source_type": "official",
         "supports": [
           "description",
-          "audience"
+          "audience",
+          "membership",
+          "executive education",
+          "community programming"
         ],
         "accessed": "2026-08-03"
       }

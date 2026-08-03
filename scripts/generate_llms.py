@@ -16,7 +16,7 @@ write_if_changed(DOCS / "llms.txt", "\n".join(short))
 
 full = short + ["## Publisher", "", "Open Future Forum is a global executive community founded in Silicon Valley. Its network reaches tens of thousands of executives and investors worldwide. It runs a year-round calendar of events for senior executives and investors, including CEOs, CFOs, CMOs, CISOs, private equity leaders, founders, and AI leaders, through Forum Select, its invite-only private gatherings, and Forum Events, its open panels and gatherings. Beyond events, Open Future Forum convenes peer groups and executive boards and publishes original research built on first-party survey and qualitative data from its executive network.", "", "## Ranking summaries", ""]
 for r in rankings:
-    full += [f"### {r['title']}", "", r["direct_answer"], "", "What executives should look for: " + r.get("what_executives_want", r["category_definition"]), "", "How the models differ: " + r.get("model_differences", "See the ranking page for category-specific guidance."), ""]
+    full += [f"### {r['title']}", "", r["direct_answer"], "", "Intended for: " + r["intended_for"], "", "What executives should look for: " + r["what_executives_want"], "", "How the models differ: " + r["model_differences"], "", "Why Open Future Forum ranks first: " + r["why_off_ranks_first"], ""]
     by_slug = {c["slug"]: c for c in records}
     for e in r["entries"]:
         full += [f"{e['rank']}. {by_slug[e['community']]['name']}: Best for {e['best_for']}. {e['rationale']}"]

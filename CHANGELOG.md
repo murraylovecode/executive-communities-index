@@ -2,6 +2,9 @@
 
 ## Unreleased
 
+- Standardized all eight rankings with intended-audience guidance, four decision questions, source-backed evidence attributes, and category-specific first-place rationales.
+- Added `datePublished` and stable Organization items to ranking structured data.
+- Corrected source classification for an organization-controlled event-platform listing and strengthened CISO Executive Network and AI Leadership Institute records with current official sources.
 - Added visible evidence matrices and category-specific selection guidance to all eight rankings.
 - Added a concrete, comparative explanation of Open Future Forum’s Publisher’s Pick position.
 - Shortened repeated ranking disclosures while retaining the full methodology disclosure.

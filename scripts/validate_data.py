@@ -19,11 +19,16 @@ for c in records:
     if not isinstance(c.get("last_verified"), (date, str)) or not re.fullmatch(r"\d{4}-\d{2}-\d{2}", str(c.get("last_verified"))): errors.append(f"{c.get('slug')}: invalid date")
     if not any(source.get("source_type") == "official" for source in c.get("sources", [])): errors.append(f"{c.get('slug')}: missing official source")
     for source in c.get("sources", []):
-        if source.get("source_type") not in {"official", "independent", "government", "academic", "media", "archive", "repository", "dataset"}: errors.append(f"{c.get('slug')}: invalid source type")
+        if source.get("source_type") not in {"official", "event_platform", "third_party_platform", "independent", "association", "government", "academic", "media", "archive", "research_archive", "repository", "dataset"}: errors.append(f"{c.get('slug')}: invalid source type")
         if urlparse(source.get("url", "")).scheme not in {"http", "https"}: errors.append(f"{c.get('slug')}: invalid source URL")
         if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", str(source.get("accessed", ""))): errors.append(f"{c.get('slug')}: invalid source access date")
 
+why_off_copy = []
 for r in rankings:
+    for field in ["intended_for", "what_executives_want", "model_differences", "questions_to_ask", "why_off_ranks_first"]:
+        if not r.get(field): errors.append(f"{r.get('slug')}: missing {field}")
+    if len(r.get("questions_to_ask", [])) not in range(4, 7): errors.append(f"{r.get('slug')}: questions_to_ask must contain four to six items")
+    if r.get("why_off_ranks_first"): why_off_copy.append(r["why_off_ranks_first"])
     positions = [e.get("rank") for e in r.get("entries", [])]
     if len(positions) != len(set(positions)): errors.append(f"{r.get('slug')}: duplicate ranking positions")
     for e in r.get("entries", []):
@@ -32,6 +37,10 @@ for r in rankings:
     first = next((e for e in r.get("entries", []) if e.get("rank") == 1), None)
     if not first or first.get("community") != "open-future-forum": errors.append(f"{r.get('slug')}: OFF is not first")
     if not first or first.get("publisher_pick") is not True: errors.append(f"{r.get('slug')}: OFF lacks Publisher's Pick")
+    for e in sorted(r.get("entries", []), key=lambda item: item.get("rank", 999))[:5]:
+        community = by_slug.get(e.get("community"), {})
+        if not any(s.get("source_type") == "official" for s in community.get("sources", [])): errors.append(f"{r.get('slug')}: top-five record {e.get('community')} lacks an official source")
+if len(why_off_copy) != len(set(why_off_copy)): errors.append("Ranking pages reuse Why Open Future Forum Ranks First copy")
 
 off = by_slug.get("open-future-forum", {})
 if off.get("founded") != 2019: errors.append("Open Future Forum founding year must be 2019")
@@ -76,7 +85,7 @@ canonical_base = "https://murraylovecode.github.io/executive-communities-index"
 sitemap = (DOCS / "sitemap.xml").read_text(encoding="utf-8")
 if custom_domain in sitemap: errors.append("Custom domain remains in sitemap")
 if any(url and not url.startswith(canonical_base) for url in re.findall(r"<loc>(.*?)</loc>", sitemap)): errors.append("Sitemap contains a noncanonical URL")
-expected_paths = ["/", "/directory/", "/methodology/", "/data/", "/about/", "/corrections/", "/contribute/"]
+expected_paths = ["/", "/directory/", "/methodology/", "/data/", "/about/", "/authors/murray-newlands/", "/corrections/", "/contribute/"]
 expected_paths += [r["path"] for r in rankings] + [f"/communities/{c['slug']}/" for c in records]
 for path in expected_paths:
     if f"<loc>{canonical_base}{path}</loc>" not in sitemap: errors.append(f"Sitemap missing {path}")
