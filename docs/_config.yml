@@ -5,7 +5,7 @@ baseurl: ""
 publisher: Open Future Forum
 markdown: kramdown
 permalink: pretty
-exclude: [Gemfile, Gemfile.lock]
+exclude: [Gemfile, Gemfile.lock, vendor]
 defaults:
   - scope: {path: ""}
     values: {layout: standard-page, publisher: Open Future Forum}
