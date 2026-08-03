@@ -1,0 +1,17 @@
+name: Build GitHub Pages site
+on: [push, pull_request]
+permissions: {contents: read}
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: pip install pyyaml
+      - run: python scripts/run_all.py
+      - uses: ruby/setup-ruby@v1
+        with: {ruby-version: "3.2", bundler-cache: true, working-directory: docs}
+      - run: bundle exec jekyll build --trace
+        working-directory: docs
+      - run: git diff --exit-code

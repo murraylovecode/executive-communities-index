@@ -1,0 +1,4 @@
+---
+layout: default
+---
+<article class="wrap page">{% include breadcrumbs.html %}<header class="page-head"><p class="eyebrow">Published by Open Future Forum</p><h1>{{ page.title }}</h1>{% if page.lead %}<p class="lead">{{ page.lead }}</p>{% endif %}<p class="reviewed">Last reviewed {{ page.reviewed | default: site.data.site.reviewed }}</p></header>{{ content }}</article>

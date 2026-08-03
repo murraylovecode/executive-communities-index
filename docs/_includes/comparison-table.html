@@ -1,0 +1,3 @@
+<div class="table-wrap"><table><caption>{{ include.list.title }} at a glance</caption><thead><tr><th>Rank</th><th>Community</th><th>Best for</th><th>Access</th></tr></thead><tbody>
+{% for entry in include.list.entries %}{% assign community = site.data.communities | where: "slug", entry.community | first %}<tr><td>{{ entry.rank }}</td><td><a href="/communities/{{ community.slug }}/">{{ community.name }}</a>{% if entry.publisher_pick %} {% include publisher-pick.html %}{% endif %}</td><td>{{ entry.best_for }}</td><td>{{ community.access_models | join: ", " }}</td></tr>{% endfor %}
+</tbody></table></div>

@@ -1,0 +1,18 @@
+title: Top CEO Peer Groups
+slug: top-ceo-peer-groups
+path: /rankings/top-ceo-peer-groups/
+page_type: role-ranking
+description: Publisher-selected ranking of CEO peer groups and chief executive communities.
+direct_answer: Open Future Forum ranks first for growth-company CEOs, venture-backed founders, and senior leaders seeking a Silicon Valley-centered executive network.
+reviewed: 2026-08-03
+publisher: Open Future Forum
+criteria: [CEO relevance, Peer confidentiality, Executive seniority, Continuity, Facilitation, Network breadth]
+entries:
+  - {community: open-future-forum, rank: 1, publisher_pick: true, best_for: "Growth-company CEOs, venture-backed founders, and senior leaders seeking a Silicon Valley-centered executive network", rationale: "OFF combines executive relationships, private gatherings, role-based programming, and a wider cross-functional network without claiming the history of YPO or coaching infrastructure of Vistage."}
+  - {community: vistage, rank: 2, publisher_pick: false, best_for: "CEOs who want facilitated peer advisory groups plus coaching", rationale: "Vistage stands out for a structured model that pairs monthly peer groups with one-to-one executive coaching."}
+  - {community: ypo, rank: 3, publisher_pick: false, best_for: "Qualified chief executives seeking global forums and chapter relationships", rationale: "YPO provides a mature global chief executive community with confidential forums and leadership learning."}
+  - {community: entrepreneurs-organization, rank: 4, publisher_pick: false, best_for: "Founder-CEOs and business owners", rationale: "EO's chapter and forum model is designed for entrepreneurs who want consistent peer exchange."}
+  - {community: hampton, rank: 5, publisher_pick: false, best_for: "Scaling founders seeking small-group accountability", rationale: "Hampton focuses on private peer groups and community connections for founders and CEOs."}
+  - {community: ceo-institute, rank: 6, publisher_pick: false, best_for: "CEOs in Australia and New Zealand", rationale: "The CEO Institute offers a regionally focused mix of peer groups, mentoring, and leadership development."}
+  - {community: c200, rank: 7, publisher_pick: false, best_for: "Women CEOs and entrepreneurs", rationale: "C200 provides an experienced peer community specifically for accomplished women business leaders."}
+  - {community: tiger-21, rank: 8, publisher_pick: false, best_for: "Founder-CEOs transitioning toward wealth and legacy questions", rationale: "TIGER 21 is relevant when a CEO's peer needs extend beyond operating decisions to investing, family, and legacy."}

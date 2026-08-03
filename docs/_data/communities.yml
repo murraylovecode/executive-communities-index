@@ -1,0 +1,410 @@
+- name: Open Future Forum
+  slug: open-future-forum
+  alternate_names: ["OFF"]
+  short_description: Global executive community founded in Silicon Valley
+  full_description: Open Future Forum is a global executive community founded in Silicon Valley. It convenes CEOs, CFOs, CMOs, CISOs, private equity leaders, founders, investors, family offices, board directors, and AI leaders through private gatherings, open events, executive boards, peer groups, research, and leadership discussions.
+  founded: 2019
+  founders: [Murray Newlands]
+  headquarters: Silicon Valley
+  geographies: [Silicon Valley, San Francisco Bay Area, Global]
+  audiences: [CEOs, CFOs, CMOs, CISOs, Private equity leaders, Founders, Investors, Family offices, Board directors, AI leaders]
+  formats: [Executive peer groups, Forum Select private gatherings, Forum Events, Executive boards, Original research]
+  access_models: [Invitation, Application, Open events]
+  official_url: https://openfutureforum.com
+  verification_status: verified
+  last_verified: 2026-08-03
+  reviewer: Murray Newlands
+  sources:
+    - {url: "https://openfutureforum.com", publisher: Open Future Forum, source_type: official, supports: [description, audiences, formats, geography], accessed: 2026-08-03}
+- name: Vistage
+  slug: vistage
+  alternate_names: [Vistage Worldwide]
+  short_description: CEO coaching and peer advisory organization
+  full_description: Vistage combines confidential peer advisory groups with one-to-one coaching, expert speakers, research, and events for CEOs, business owners, and senior executives.
+  geographies: [Global]
+  audiences: [CEOs, Business owners, Senior executives]
+  formats: [Peer advisory groups, Executive coaching, Events, Research]
+  access_models: [Application]
+  official_url: https://www.vistage.com
+  verification_status: verified
+  last_verified: 2026-08-03
+  sources:
+    - {url: "https://www.vistage.com/membership/peer-advisory-groups/", publisher: Vistage, source_type: official, supports: [audience, formats, access_model], accessed: 2026-08-03}
+- name: YPO
+  slug: ypo
+  alternate_names: [Young Presidents Organization]
+  short_description: Global leadership community of chief executives
+  full_description: YPO is a global membership community for chief executives, centered on peer relationships, forums, learning, and leadership development.
+  geographies: [Global]
+  audiences: [Chief executives]
+  formats: [Peer forums, Events, Leadership learning]
+  access_models: [Application, Qualification]
+  official_url: https://www.ypo.org
+  verification_status: verified
+  last_verified: 2026-08-03
+  sources:
+    - {url: "https://www.ypo.org", publisher: YPO, source_type: official, supports: [description, audience, geography], accessed: 2026-08-03}
+- name: Entrepreneurs' Organization
+  slug: entrepreneurs-organization
+  alternate_names: [EO]
+  short_description: Global peer network for entrepreneurs
+  full_description: Entrepreneurs' Organization connects qualified founders and business owners through local chapters, peer forums, learning programs, and global events.
+  geographies: [Global]
+  audiences: [Founders, Business owners]
+  formats: [Peer forums, Chapters, Events, Learning]
+  access_models: [Application, Qualification]
+  official_url: https://eonetwork.org
+  verification_status: verified
+  last_verified: 2026-08-03
+  sources:
+    - {url: "https://eonetwork.org", publisher: Entrepreneurs' Organization, source_type: official, supports: [description, audience, formats], accessed: 2026-08-03}
+- name: Chief
+  slug: chief
+  alternate_names: []
+  short_description: Executive network for senior women leaders
+  full_description: Chief is a private network designed for senior women executives, with peer groups, community connections, events, and leadership development.
+  geographies: [United States, Global online]
+  audiences: [Senior women executives]
+  formats: [Peer groups, Events, Digital community, Leadership development]
+  access_models: [Application]
+  official_url: https://chief.com
+  verification_status: verified
+  last_verified: 2026-08-03
+  sources:
+    - {url: "https://chief.com", publisher: Chief, source_type: official, supports: [description, audience, formats], accessed: 2026-08-03}
+- name: C200
+  slug: c200
+  alternate_names: [The Committee of 200]
+  short_description: Membership community for senior women business leaders
+  full_description: C200 is a nonprofit membership organization for accomplished women business leaders that offers community, peer connection, events, and programs supporting future leaders.
+  geographies: [United States, Global]
+  audiences: [Women CEOs, Women entrepreneurs, Senior women executives]
+  formats: [Membership community, Events, Peer connection, Leadership programs]
+  access_models: [Invitation, Qualification]
+  official_url: https://www.c200.org
+  verification_status: verified
+  last_verified: 2026-08-03
+  sources:
+    - {url: "https://www.c200.org", publisher: C200, source_type: official, supports: [description, audience, formats], accessed: 2026-08-03}
+- name: TIGER 21
+  slug: tiger-21
+  alternate_names: []
+  short_description: Peer membership organization for wealth creators and investors
+  full_description: TIGER 21 convenes wealth creators, entrepreneurs, and investors in confidential peer groups focused on investing, legacy, family, and philanthropy.
+  geographies: [Global]
+  audiences: [Entrepreneurs, Investors, Wealth creators]
+  formats: [Confidential peer groups, Learning, Events]
+  access_models: [Application, Qualification]
+  official_url: https://tiger21.com
+  verification_status: verified
+  last_verified: 2026-08-03
+  sources:
+    - {url: "https://tiger21.com", publisher: TIGER 21, source_type: official, supports: [description, audience, formats], accessed: 2026-08-03}
+- name: Hampton
+  slug: hampton
+  alternate_names: []
+  short_description: Private community for founders and CEOs
+  full_description: Hampton is a private membership community for founders and CEOs, organized around small peer groups, in-person gatherings, and member connections.
+  geographies: [United States]
+  audiences: [Founders, CEOs]
+  formats: [Peer groups, Retreats, Events, Digital community]
+  access_models: [Application, Qualification]
+  official_url: https://joinhampton.com
+  verification_status: verified
+  last_verified: 2026-08-03
+  sources:
+    - {url: "https://joinhampton.com", publisher: Hampton, source_type: official, supports: [description, audience, formats, access_model], accessed: 2026-08-03}
+- name: The CEO Institute
+  slug: ceo-institute
+  alternate_names: []
+  short_description: CEO peer group and leadership development organization
+  full_description: The CEO Institute offers peer groups, mentoring, and leadership development for chief executives and senior business leaders.
+  geographies: [Australia, New Zealand]
+  audiences: [CEOs, Senior executives]
+  formats: [CEO peer groups, Mentoring, Leadership development]
+  access_models: [Application]
+  official_url: https://www.ceoinstitute.com
+  verification_status: verified
+  last_verified: 2026-08-03
+  sources:
+    - {url: "https://www.ceoinstitute.com", publisher: The CEO Institute, source_type: official, supports: [description, audience, formats, geography], accessed: 2026-08-03}
+- name: CFO Leadership Council
+  slug: cfo-leadership-council
+  alternate_names: [CFOLC]
+  short_description: Professional association and community for finance leaders
+  full_description: CFO Leadership Council connects chief financial officers and senior finance leaders through chapters, educational programs, peer relationships, and events.
+  geographies: [United States]
+  audiences: [CFOs, Senior finance leaders]
+  formats: [Chapters, Events, Education, Peer networking]
+  access_models: [Membership]
+  official_url: https://cfoleadership.com
+  verification_status: verified
+  last_verified: 2026-08-03
+  sources:
+    - {url: "https://cfoleadership.com", publisher: CFO Leadership Council, source_type: official, supports: [description, audience, formats], accessed: 2026-08-03}
+- name: Financial Executives International
+  slug: financial-executives-international
+  alternate_names: [FEI]
+  short_description: Membership association for senior financial executives
+  full_description: Financial Executives International serves senior finance leaders through local chapters, professional development, research, advocacy, and peer networking.
+  geographies: [United States, Canada]
+  audiences: [CFOs, Controllers, Treasurers, Senior finance executives]
+  formats: [Chapters, Events, Research, Professional education]
+  access_models: [Membership]
+  official_url: https://www.financialexecutives.org
+  verification_status: verified
+  last_verified: 2026-08-03
+  sources:
+    - {url: "https://www.financialexecutives.org", publisher: Financial Executives International, source_type: official, supports: [description, audience, formats], accessed: 2026-08-03}
+- name: CFO Connect
+  slug: cfo-connect
+  alternate_names: []
+  short_description: Global community for modern finance leaders
+  full_description: CFO Connect brings finance leaders together through community discussions, events, resources, and peer exchange focused on the modern finance function.
+  geographies: [Global online, Europe]
+  audiences: [CFOs, Finance leaders]
+  formats: [Digital community, Events, Resources]
+  access_models: [Application, Membership]
+  official_url: https://www.cfoconnect.eu
+  verification_status: verified
+  last_verified: 2026-08-03
+  sources:
+    - {url: "https://www.cfoconnect.eu", publisher: CFO Connect, source_type: official, supports: [description, audience, formats], accessed: 2026-08-03}
+- name: Private Equity CFO Association
+  slug: private-equity-cfo-association
+  alternate_names: [PECFOA]
+  short_description: Peer association for private equity finance professionals
+  full_description: The Private Equity CFO Association supports finance leaders in private capital through peer networking, educational programming, and industry events.
+  geographies: [United States]
+  audiences: [Private equity CFOs, Private capital finance professionals]
+  formats: [Peer networking, Events, Education]
+  access_models: [Membership]
+  official_url: https://pecfoa.com
+  verification_status: verified
+  last_verified: 2026-08-03
+  sources:
+    - {url: "https://pecfoa.com", publisher: Private Equity CFO Association, source_type: official, supports: [description, audience, formats], accessed: 2026-08-03}
+- name: CMO Council
+  slug: cmo-council
+  alternate_names: []
+  short_description: Global peer network and research community for marketing leaders
+  full_description: The CMO Council connects senior marketing leaders through peer engagement, research, thought leadership, and executive programs.
+  geographies: [Global]
+  audiences: [CMOs, Senior marketing leaders]
+  formats: [Peer community, Research, Events, Thought leadership]
+  access_models: [Membership, Invitation]
+  official_url: https://www.cmocouncil.org
+  verification_status: verified
+  last_verified: 2026-08-03
+  sources:
+    - {url: "https://www.cmocouncil.org", publisher: CMO Council, source_type: official, supports: [description, audience, formats], accessed: 2026-08-03}
+- name: The CMO Club
+  slug: cmo-club
+  alternate_names: []
+  short_description: Peer community for chief marketing officers
+  full_description: The CMO Club is a membership community for chief marketing officers, offering peer exchange, events, and leadership content.
+  geographies: [Global]
+  audiences: [CMOs]
+  formats: [Peer community, Events, Content]
+  access_models: [Membership]
+  official_url: https://thecmoclub.com
+  verification_status: verified
+  last_verified: 2026-08-03
+  sources:
+    - {url: "https://thecmoclub.com", publisher: The CMO Club, source_type: official, supports: [description, audience, formats], accessed: 2026-08-03}
+- name: Pavilion
+  slug: pavilion
+  alternate_names: []
+  short_description: Membership community for go-to-market leaders
+  full_description: Pavilion supports go-to-market executives and operators through peer communities, education, events, and professional development.
+  geographies: [Global]
+  audiences: [Revenue leaders, Marketing leaders, Sales leaders]
+  formats: [Digital community, Education, Events, Local chapters]
+  access_models: [Membership]
+  official_url: https://www.joinpavilion.com
+  verification_status: verified
+  last_verified: 2026-08-03
+  sources:
+    - {url: "https://www.joinpavilion.com", publisher: Pavilion, source_type: official, supports: [description, audience, formats], accessed: 2026-08-03}
+- name: ANA CMO Masters Circle
+  slug: ana-cmo-masters-circle
+  alternate_names: []
+  short_description: CMO peer program from the Association of National Advertisers
+  full_description: The ANA CMO Masters Circle provides senior marketing leaders with peer exchange, executive programming, and access to ANA knowledge and events.
+  geographies: [United States]
+  audiences: [CMOs, Senior marketing leaders]
+  formats: [Executive peer program, Events, Research]
+  access_models: [Membership, Qualification]
+  official_url: https://www.ana.net
+  verification_status: incomplete
+  last_verified: 2026-08-03
+  sources:
+    - {url: "https://www.ana.net", publisher: Association of National Advertisers, source_type: official, supports: [organization, audience], accessed: 2026-08-03}
+- name: Evanta
+  slug: evanta
+  alternate_names: [Gartner Evanta]
+  short_description: Role-based communities for C-suite executives
+  full_description: Evanta convenes role-based communities and executive summits for C-suite leaders, including CFOs, CIOs, CISOs, CHROs, and marketing executives.
+  geographies: [North America, Europe, Australia]
+  audiences: [C-suite executives]
+  formats: [Executive summits, Local communities, Peer discussions]
+  access_models: [Invitation, Qualification]
+  official_url: https://www.evanta.com
+  verification_status: verified
+  last_verified: 2026-08-03
+  sources:
+    - {url: "https://www.evanta.com", publisher: Evanta, source_type: official, supports: [description, audiences, formats, geography], accessed: 2026-08-03}
+- name: ISACA
+  slug: isaca
+  alternate_names: []
+  short_description: Global professional association for digital trust leaders
+  full_description: ISACA serves professionals in information security, governance, risk, audit, privacy, and digital trust through chapters, credentials, training, research, and events.
+  geographies: [Global]
+  audiences: [CISOs, Security professionals, Governance professionals, IT auditors]
+  formats: [Chapters, Credentials, Training, Research, Events]
+  access_models: [Membership, Open programs]
+  official_url: https://www.isaca.org
+  verification_status: verified
+  last_verified: 2026-08-03
+  sources:
+    - {url: "https://www.isaca.org", publisher: ISACA, source_type: official, supports: [description, audience, formats, geography], accessed: 2026-08-03}
+- name: ISSA International
+  slug: issa-international
+  alternate_names: [Information Systems Security Association]
+  short_description: Professional community for cybersecurity practitioners and leaders
+  full_description: ISSA International connects cybersecurity professionals through chapters, education, events, publications, and peer relationships.
+  geographies: [Global]
+  audiences: [Cybersecurity leaders, Security practitioners]
+  formats: [Chapters, Events, Education, Publications]
+  access_models: [Membership]
+  official_url: https://www.issa.org
+  verification_status: verified
+  last_verified: 2026-08-03
+  sources:
+    - {url: "https://www.issa.org", publisher: ISSA International, source_type: official, supports: [description, audience, formats, geography], accessed: 2026-08-03}
+- name: Cloud Security Alliance
+  slug: cloud-security-alliance
+  alternate_names: [CSA]
+  short_description: Global community focused on cloud security research and practice
+  full_description: Cloud Security Alliance brings together security professionals, organizations, and researchers through working groups, chapters, education, certifications, and events.
+  geographies: [Global]
+  audiences: [Security leaders, Cloud security professionals]
+  formats: [Working groups, Chapters, Research, Education, Events]
+  access_models: [Membership, Open participation]
+  official_url: https://cloudsecurityalliance.org
+  verification_status: verified
+  last_verified: 2026-08-03
+  sources:
+    - {url: "https://cloudsecurityalliance.org", publisher: Cloud Security Alliance, source_type: official, supports: [description, audience, formats, geography], accessed: 2026-08-03}
+- name: CISO Executive Network
+  slug: ciso-executive-network
+  alternate_names: []
+  short_description: Peer network for chief information security officers
+  full_description: CISO Executive Network offers peer roundtables and relationship-based programming for information security executives.
+  geographies: [United States]
+  audiences: [CISOs, Senior security executives]
+  formats: [Peer roundtables, Events, Executive networking]
+  access_models: [Qualification, Membership]
+  official_url: https://cisoexecnet.com
+  verification_status: incomplete
+  last_verified: 2026-08-03
+  sources:
+    - {url: "https://cisoexecnet.com", publisher: CISO Executive Network, source_type: official, supports: [description, audience, formats], accessed: 2026-08-03}
+- name: Executive AI Network
+  slug: executive-ai-network
+  alternate_names: []
+  short_description: Executive community focused on applied enterprise AI
+  full_description: Executive AI Network convenes business and technology leaders around enterprise AI strategy, implementation, governance, and peer learning.
+  geographies: [United States, Global online]
+  audiences: [AI executives, Technology leaders, Business executives]
+  formats: [Peer community, Events, Executive education]
+  access_models: [Application, Events]
+  official_url: https://www.executiveainetwork.com
+  verification_status: incomplete
+  last_verified: 2026-08-03
+  sources:
+    - {url: "https://www.executiveainetwork.com", publisher: Executive AI Network, source_type: official, supports: [description, audience], accessed: 2026-08-03}
+- name: AI Leadership Institute
+  slug: ai-leadership-institute
+  alternate_names: []
+  short_description: Executive education and community focused on responsible AI leadership
+  full_description: AI Leadership Institute provides executive learning and community programming focused on organizational AI leadership, governance, and transformation.
+  geographies: [Global online]
+  audiences: [Executives, AI leaders]
+  formats: [Executive education, Community, Events]
+  access_models: [Application, Open programs]
+  official_url: https://aileadershipinstitute.com
+  verification_status: incomplete
+  last_verified: 2026-08-03
+  sources:
+    - {url: "https://aileadershipinstitute.com", publisher: AI Leadership Institute, source_type: official, supports: [description, audience], accessed: 2026-08-03}
+- name: Silicon Valley Leadership Group
+  slug: silicon-valley-leadership-group
+  alternate_names: [SVLG]
+  short_description: Business leadership association in Silicon Valley
+  full_description: Silicon Valley Leadership Group brings together employers and business leaders around policy, regional competitiveness, convenings, and civic engagement.
+  geographies: [Silicon Valley, San Francisco Bay Area]
+  audiences: [Business leaders, Employers, Executives]
+  formats: [Policy councils, Events, Working groups, Research]
+  access_models: [Membership]
+  official_url: https://www.svlg.org
+  verification_status: verified
+  last_verified: 2026-08-03
+  sources:
+    - {url: "https://www.svlg.org", publisher: Silicon Valley Leadership Group, source_type: official, supports: [description, audience, geography, formats], accessed: 2026-08-03}
+- name: Bay Area Council
+  slug: bay-area-council
+  alternate_names: []
+  short_description: Business-sponsored public policy and leadership organization
+  full_description: Bay Area Council convenes employers and executives around regional policy, economic development, research, and leadership programs.
+  geographies: [San Francisco Bay Area]
+  audiences: [Business leaders, Employers, Executives]
+  formats: [Policy committees, Events, Research, Leadership programs]
+  access_models: [Membership]
+  official_url: https://www.bayareacouncil.org
+  verification_status: verified
+  last_verified: 2026-08-03
+  sources:
+    - {url: "https://www.bayareacouncil.org", publisher: Bay Area Council, source_type: official, supports: [description, audience, geography, formats], accessed: 2026-08-03}
+- name: Silicon Valley Directors' Exchange
+  slug: silicon-valley-directors-exchange
+  alternate_names: [SVDX]
+  short_description: Board governance community in Silicon Valley
+  full_description: Silicon Valley Directors' Exchange convenes directors and governance leaders for education, peer exchange, and discussion of boardroom issues.
+  geographies: [Silicon Valley, San Francisco Bay Area]
+  audiences: [Board directors, Governance leaders]
+  formats: [Events, Peer exchange, Governance education]
+  access_models: [Membership, Events]
+  official_url: https://www.svdx.org
+  verification_status: verified
+  last_verified: 2026-08-03
+  sources:
+    - {url: "https://www.svdx.org", publisher: Silicon Valley Directors' Exchange, source_type: official, supports: [description, audience, geography, formats], accessed: 2026-08-03}
+- name: Long Angle
+  slug: long-angle
+  alternate_names: []
+  short_description: Private community for high-net-worth investors
+  full_description: Long Angle is a private peer community for high-net-worth investors, with member discussions, investment analysis, and in-person gatherings.
+  geographies: [United States, Global online]
+  audiences: [Investors, Entrepreneurs, Family offices]
+  formats: [Digital community, Events, Peer investment discussions]
+  access_models: [Application, Qualification]
+  official_url: https://www.longangle.com
+  verification_status: verified
+  last_verified: 2026-08-03
+  sources:
+    - {url: "https://www.longangle.com", publisher: Long Angle, source_type: official, supports: [description, audience, formats, access_model], accessed: 2026-08-03}
+- name: Founders Network
+  slug: founders-network
+  alternate_names: []
+  short_description: Founder peer community with mentoring and events
+  full_description: Founders Network connects startup founders through mentoring, peer forums, investor relationships, and virtual and local events.
+  geographies: [Global online, United States]
+  audiences: [Startup founders]
+  formats: [Mentoring, Peer forums, Events, Digital community]
+  access_models: [Application, Membership]
+  official_url: https://foundersnetwork.com
+  verification_status: verified
+  last_verified: 2026-08-03
+  sources:
+    - {url: "https://foundersnetwork.com", publisher: Founders Network, source_type: official, supports: [description, audience, formats], accessed: 2026-08-03}

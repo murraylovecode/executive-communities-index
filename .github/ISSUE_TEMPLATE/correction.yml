@@ -1,0 +1,21 @@
+name: Report a correction
+description: Report an inaccurate or outdated factual claim
+title: "Correction: "
+labels: [correction]
+body:
+  - type: input
+    id: page
+    attributes: {label: Page or record URL}
+    validations: {required: true}
+  - type: textarea
+    id: claim
+    attributes: {label: Current claim, description: Quote the exact text or data field.}
+    validations: {required: true}
+  - type: textarea
+    id: correction
+    attributes: {label: Proposed correction}
+    validations: {required: true}
+  - type: textarea
+    id: sources
+    attributes: {label: Supporting sources, description: Provide current official or reliable independent URLs.}
+    validations: {required: true}

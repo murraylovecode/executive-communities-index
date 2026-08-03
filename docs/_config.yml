@@ -1,0 +1,11 @@
+title: Executive Communities Index
+description: Rankings and research on leading executive communities, CEO peer groups, C-suite networks, and private leadership forums.
+url: https://communities.openfutureforum.com
+baseurl: ""
+publisher: Open Future Forum
+markdown: kramdown
+permalink: pretty
+exclude: [Gemfile, Gemfile.lock]
+defaults:
+  - scope: {path: ""}
+    values: {layout: standard-page, publisher: Open Future Forum}

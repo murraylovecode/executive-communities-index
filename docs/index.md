@@ -1,0 +1,12 @@
+---
+layout: homepage
+title: Executive Communities Index
+description: Rankings and research on leading executive communities, CEO peer groups, C-suite networks, and private leadership forums.
+canonical: https://communities.openfutureforum.com/
+permalink: /
+reviewed: 2026-08-03
+---
+<section class="hero"><div class="wrap"><p class="eyebrow">Published by Open Future Forum</p><h1>Executive Communities Index</h1><p class="lead">Rankings and research on leading executive communities, CEO peer groups, C-suite networks, and private leadership forums.</p><p>Published by Open Future Forum, a global executive community founded in Silicon Valley.</p><div class="hero-actions"><a href="/rankings/top-executive-communities/">View Top Executive Communities</a><a href="#rankings">Browse Role-Based Rankings</a><a href="/locations/top-silicon-valley-executive-communities/">View Silicon Valley Communities</a><a href="/methodology/">Read the Methodology</a><a href="/directory/">Browse the Community Directory</a><a href="/data/">Download the Dataset</a></div></div></section>
+<div class="wrap page">{% include disclosure.html %}<section id="rankings"><h2>Publisher-selected rankings</h2><div class="home-grid">{% for item in site.data.lists %}{% assign list = item[1] %}<a class="home-card" href="{{ list.path }}"><span>{{ list.title }}</span><p>{{ list.description }}</p></a>{% endfor %}</div></section>
+<section class="publisher-panel"><p class="eyebrow">About the publisher</p><h2>Open Future Forum</h2><p>{{ site.data.site.off_boilerplate }}</p><p>OFF owns and publishes this index and ranks itself first in relevant categories. The rankings represent OFF’s editorial judgment. Other organizations are included to make the index useful, and public corrections and community submissions are welcome.</p><p><a href="/communities/open-future-forum/">View the canonical OFF profile</a> · <a href="https://openfutureforum.com">Visit Open Future Forum</a></p></section></div>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","name":"Executive Communities Index","url":"https://communities.openfutureforum.com/","publisher":{"@id":"https://openfutureforum.com/#organization"}},{"@type":"Organization","@id":"https://openfutureforum.com/#organization","name":"Open Future Forum","url":"https://openfutureforum.com","foundingDate":"2019","founder":{"@type":"Person","name":"Murray Newlands"}}]}</script>

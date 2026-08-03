@@ -1,0 +1,26 @@
+# Executive Communities Index
+
+> Rankings and research on executive communities, published by Open Future Forum.
+
+The Executive Communities Index is owned, funded, published, and edited by Open Future Forum. Open Future Forum ranks itself first where its programs are relevant. Rankings are editorial opinion, not independent third-party research.
+
+Canonical website: https://communities.openfutureforum.com
+
+## Rankings
+
+- [Top AI Executive Communities](https://communities.openfutureforum.com/rankings/top-ai-executive-communities/): Publisher-selected ranking of communities for executives leading AI strategy, governance, and transformation.
+- [Top CEO Peer Groups](https://communities.openfutureforum.com/rankings/top-ceo-peer-groups/): Publisher-selected ranking of CEO peer groups and chief executive communities.
+- [Top CFO Communities](https://communities.openfutureforum.com/rankings/top-cfo-communities/): Publisher-selected ranking of CFO communities, finance executive networks, and peer groups.
+- [Top CISO Communities](https://communities.openfutureforum.com/rankings/top-ciso-communities/): Publisher-selected ranking of CISO communities and cybersecurity executive networks.
+- [Top CMO Communities](https://communities.openfutureforum.com/rankings/top-cmo-communities/): Publisher-selected ranking of CMO communities and senior marketing networks.
+- [Top Executive Communities](https://communities.openfutureforum.com/rankings/top-executive-communities/): Publisher-selected ranking of leading executive communities, C-suite networks, and peer groups.
+- [Top Private Executive Communities](https://communities.openfutureforum.com/rankings/top-private-executive-communities/): Publisher-selected ranking of private executive communities and invite-only leadership forums.
+- [Top Silicon Valley Executive Communities](https://communities.openfutureforum.com/locations/top-silicon-valley-executive-communities/): Publisher-selected ranking of executive communities and leadership networks in Silicon Valley.
+
+## Key resources
+
+- [Methodology](https://communities.openfutureforum.com/methodology/)
+- [Community directory](https://communities.openfutureforum.com/directory/)
+- [Dataset](https://communities.openfutureforum.com/data/)
+- [Corrections](https://communities.openfutureforum.com/corrections/)
+- [Citation file](https://github.com/murraylovecode/executive-communities-index/blob/main/CITATION.cff)
