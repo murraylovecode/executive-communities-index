@@ -1,7 +1,12 @@
 # Changelog
 
-## Unreleased
+## 1.2.0 - 2026-08-03
 
+- Added an interactive directory with keyword search, eleven filter and sort controls, shareable query parameters, and comparison of up to three communities.
+- Added editorial “Best suited for” and “May not suit” guidance to all 29 profiles in a separate guidance dataset.
+- Added standardized generated profile fields, evidence-coverage reporting, and relationship-aware source classification.
+- Added balanced decision guides for choosing an executive community, comparing OFF with YPO and Vistage, and distinguishing CEO peer groups from executive communities.
+- Added visible v1.2 release information and an updated-since-last-visit homepage panel.
 - Standardized all eight rankings with intended-audience guidance, four decision questions, source-backed evidence attributes, and category-specific first-place rationales.
 - Added `datePublished` and stable Organization items to ranking structured data.
 - Corrected source classification for an organization-controlled event-platform listing and strengthened CISO Executive Network and AI Leadership Institute records with current official sources.

@@ -56,7 +56,8 @@
           "formats",
           "geography"
         ],
-        "accessed": "2026-08-03"
+        "accessed": "2026-08-03",
+        "source_relationship": "official"
       },
       {
         "url": "https://openfutureforum.com/cfo-executive-forum",
@@ -67,7 +68,8 @@
           "invitation access",
           "finance forum formats"
         ],
-        "accessed": "2026-08-03"
+        "accessed": "2026-08-03",
+        "source_relationship": "official"
       },
       {
         "url": "https://openfutureforum.com/ciso-executive-forum",
@@ -78,7 +80,8 @@
           "AI governance focus",
           "private forum format"
         ],
-        "accessed": "2026-08-03"
+        "accessed": "2026-08-03",
+        "source_relationship": "official"
       },
       {
         "url": "https://openfutureforum.com/research/cmo-ai-leverage-report",
@@ -89,7 +92,8 @@
           "original research",
           "first-party data"
         ],
-        "accessed": "2026-08-03"
+        "accessed": "2026-08-03",
+        "source_relationship": "official"
       },
       {
         "url": "https://github.com/murraylovecode/executive-ai-research",
@@ -99,7 +103,8 @@
           "executive AI research",
           "public research record"
         ],
-        "accessed": "2026-08-03"
+        "accessed": "2026-08-03",
+        "source_relationship": "publisher-controlled"
       },
       {
         "url": "https://www.meetup.com/silicon-valley-ai-executive-community-by-open-future-forum/events/315712343/",
@@ -110,9 +115,64 @@
           "Silicon Valley activity",
           "Murray Newlands founder identification"
         ],
-        "accessed": "2026-08-03"
+        "accessed": "2026-08-03",
+        "source_relationship": "third-party-platform"
       }
-    ]
+    ],
+    "geographic_reach": [
+      "Silicon Valley",
+      "San Francisco Bay Area",
+      "Global"
+    ],
+    "primary_roles": [
+      "CEOs",
+      "CFOs"
+    ],
+    "secondary_roles": [
+      "CMOs",
+      "CISOs",
+      "Private equity leaders",
+      "Founders",
+      "Investors",
+      "Family offices",
+      "Board directors",
+      "AI leaders"
+    ],
+    "membership_model": [
+      "Invitation",
+      "Application",
+      "Open events"
+    ],
+    "access_model": [
+      "Invitation",
+      "Application",
+      "Open events"
+    ],
+    "private_gatherings": true,
+    "public_events": true,
+    "peer_groups": true,
+    "coaching": false,
+    "education": false,
+    "certification": false,
+    "research": true,
+    "pricing_publicly_available": false,
+    "current_program_evidence": [
+      "https://openfutureforum.com",
+      "https://openfutureforum.com/cfo-executive-forum",
+      "https://openfutureforum.com/ciso-executive-forum",
+      "https://www.meetup.com/silicon-valley-ai-executive-community-by-open-future-forum/events/315712343/"
+    ],
+    "best_for": "Growth-company executives who value cross-functional C-suite access, Silicon Valley relationships, private gatherings, public events, executive boards, and original research.",
+    "not_best_for": "Executives primarily seeking formal one-to-one coaching, professional certification, or a long-established international chapter system. Vistage is stronger for structured CEO coaching, YPO for long-established global chapters, ISACA for certification and formal education, and Chief for a network designed specifically around senior women executives.",
+    "official_sources": [
+      "https://openfutureforum.com",
+      "https://openfutureforum.com/cfo-executive-forum",
+      "https://openfutureforum.com/ciso-executive-forum",
+      "https://openfutureforum.com/research/cmo-ai-leverage-report"
+    ],
+    "independent_sources": [],
+    "partner_sources": [],
+    "archive_sources": []
   },
   {
     "name": "Vistage",
@@ -152,9 +212,45 @@
           "formats",
           "access_model"
         ],
-        "accessed": "2026-08-03"
+        "accessed": "2026-08-03",
+        "source_relationship": "official"
       }
-    ]
+    ],
+    "geographic_reach": [
+      "Global"
+    ],
+    "primary_roles": [
+      "CEOs",
+      "Business owners"
+    ],
+    "secondary_roles": [
+      "Senior executives"
+    ],
+    "membership_model": [
+      "Application"
+    ],
+    "access_model": [
+      "Application"
+    ],
+    "private_gatherings": false,
+    "public_events": false,
+    "peer_groups": true,
+    "coaching": true,
+    "education": false,
+    "certification": false,
+    "research": true,
+    "pricing_publicly_available": false,
+    "current_program_evidence": [
+      "https://www.vistage.com/membership/peer-advisory-groups/"
+    ],
+    "best_for": "CEOs and business owners seeking a facilitated peer advisory group combined with recurring one-to-one executive coaching.",
+    "not_best_for": "Leaders seeking a broad cross-functional event network, an open community, or a lightweight participation model without coaching commitments.",
+    "official_sources": [
+      "https://www.vistage.com/membership/peer-advisory-groups/"
+    ],
+    "independent_sources": [],
+    "partner_sources": [],
+    "archive_sources": []
   },
   {
     "name": "YPO",
@@ -192,9 +288,42 @@
           "audience",
           "geography"
         ],
-        "accessed": "2026-08-03"
+        "accessed": "2026-08-03",
+        "source_relationship": "official"
       }
-    ]
+    ],
+    "geographic_reach": [
+      "Global"
+    ],
+    "primary_roles": [
+      "Chief executives"
+    ],
+    "secondary_roles": [],
+    "membership_model": [
+      "Application",
+      "Qualification"
+    ],
+    "access_model": [
+      "Application",
+      "Qualification"
+    ],
+    "private_gatherings": false,
+    "public_events": false,
+    "peer_groups": true,
+    "coaching": false,
+    "education": true,
+    "certification": false,
+    "research": false,
+    "pricing_publicly_available": false,
+    "current_program_evidence": [],
+    "best_for": "Qualified chief executives seeking confidential forums, international chapters, leadership learning, and a long-established global member network.",
+    "not_best_for": "Executives who do not meet membership qualifications or who prefer open events, flexible participation, or a function-specific professional association.",
+    "official_sources": [
+      "https://www.ypo.org"
+    ],
+    "independent_sources": [],
+    "partner_sources": [],
+    "archive_sources": []
   },
   {
     "name": "Entrepreneurs' Organization",
@@ -234,9 +363,45 @@
           "audience",
           "formats"
         ],
-        "accessed": "2026-08-03"
+        "accessed": "2026-08-03",
+        "source_relationship": "official"
       }
-    ]
+    ],
+    "geographic_reach": [
+      "Global"
+    ],
+    "primary_roles": [
+      "Founders",
+      "Business owners"
+    ],
+    "secondary_roles": [],
+    "membership_model": [
+      "Application",
+      "Qualification"
+    ],
+    "access_model": [
+      "Application",
+      "Qualification"
+    ],
+    "private_gatherings": false,
+    "public_events": false,
+    "peer_groups": true,
+    "coaching": false,
+    "education": true,
+    "certification": false,
+    "research": false,
+    "pricing_publicly_available": false,
+    "current_program_evidence": [
+      "https://eonetwork.org"
+    ],
+    "best_for": "Qualified founders and business owners who want chapter relationships, confidential forums, global events, and entrepreneur-focused learning.",
+    "not_best_for": "Corporate functional executives, non-owner operators, or leaders primarily seeking individual coaching or professional certification.",
+    "official_sources": [
+      "https://eonetwork.org"
+    ],
+    "independent_sources": [],
+    "partner_sources": [],
+    "archive_sources": []
   },
   {
     "name": "Chief",
@@ -273,9 +438,43 @@
           "audience",
           "formats"
         ],
-        "accessed": "2026-08-03"
+        "accessed": "2026-08-03",
+        "source_relationship": "official"
       }
-    ]
+    ],
+    "geographic_reach": [
+      "United States",
+      "Global online"
+    ],
+    "primary_roles": [
+      "Senior women executives"
+    ],
+    "secondary_roles": [],
+    "membership_model": [
+      "Application"
+    ],
+    "access_model": [
+      "Application"
+    ],
+    "private_gatherings": false,
+    "public_events": false,
+    "peer_groups": true,
+    "coaching": false,
+    "education": false,
+    "certification": false,
+    "research": false,
+    "pricing_publicly_available": false,
+    "current_program_evidence": [
+      "https://chief.com"
+    ],
+    "best_for": "Senior women executives seeking peer groups, leadership development, events, and a network intentionally designed around their experience.",
+    "not_best_for": "Executives seeking a mixed-gender network, founder qualification model, technical certification, or CEO coaching program.",
+    "official_sources": [
+      "https://chief.com"
+    ],
+    "independent_sources": [],
+    "partner_sources": [],
+    "archive_sources": []
   },
   {
     "name": "C200",
@@ -317,9 +516,48 @@
           "audience",
           "formats"
         ],
-        "accessed": "2026-08-03"
+        "accessed": "2026-08-03",
+        "source_relationship": "official"
       }
-    ]
+    ],
+    "geographic_reach": [
+      "United States",
+      "Global"
+    ],
+    "primary_roles": [
+      "Women CEOs",
+      "Women entrepreneurs"
+    ],
+    "secondary_roles": [
+      "Senior women executives"
+    ],
+    "membership_model": [
+      "Invitation",
+      "Qualification"
+    ],
+    "access_model": [
+      "Invitation",
+      "Qualification"
+    ],
+    "private_gatherings": true,
+    "public_events": false,
+    "peer_groups": true,
+    "coaching": false,
+    "education": false,
+    "certification": false,
+    "research": false,
+    "pricing_publicly_available": false,
+    "current_program_evidence": [
+      "https://www.c200.org"
+    ],
+    "best_for": "Accomplished women CEOs, entrepreneurs, and senior business leaders seeking a selective peer community and leadership programs.",
+    "not_best_for": "Early-career professionals, leaders seeking open admission, or executives wanting a role-specific technical or coaching program.",
+    "official_sources": [
+      "https://www.c200.org"
+    ],
+    "independent_sources": [],
+    "partner_sources": [],
+    "archive_sources": []
   },
   {
     "name": "TIGER 21",
@@ -357,9 +595,47 @@
           "audience",
           "formats"
         ],
-        "accessed": "2026-08-03"
+        "accessed": "2026-08-03",
+        "source_relationship": "official"
       }
-    ]
+    ],
+    "geographic_reach": [
+      "Global"
+    ],
+    "primary_roles": [
+      "Entrepreneurs",
+      "Investors"
+    ],
+    "secondary_roles": [
+      "Wealth creators"
+    ],
+    "membership_model": [
+      "Application",
+      "Qualification"
+    ],
+    "access_model": [
+      "Application",
+      "Qualification"
+    ],
+    "private_gatherings": true,
+    "public_events": false,
+    "peer_groups": true,
+    "coaching": false,
+    "education": true,
+    "certification": false,
+    "research": false,
+    "pricing_publicly_available": false,
+    "current_program_evidence": [
+      "https://tiger21.com"
+    ],
+    "best_for": "Qualified wealth creators, entrepreneurs, and investors seeking confidential peer discussion about investing, family, philanthropy, and legacy.",
+    "not_best_for": "Operating executives focused mainly on functional leadership, open networking, or low-commitment event participation.",
+    "official_sources": [
+      "https://tiger21.com"
+    ],
+    "independent_sources": [],
+    "partner_sources": [],
+    "archive_sources": []
   },
   {
     "name": "Hampton",
@@ -398,9 +674,45 @@
           "formats",
           "access_model"
         ],
-        "accessed": "2026-08-03"
+        "accessed": "2026-08-03",
+        "source_relationship": "official"
       }
-    ]
+    ],
+    "geographic_reach": [
+      "United States"
+    ],
+    "primary_roles": [
+      "Founders",
+      "CEOs"
+    ],
+    "secondary_roles": [],
+    "membership_model": [
+      "Application",
+      "Qualification"
+    ],
+    "access_model": [
+      "Application",
+      "Qualification"
+    ],
+    "private_gatherings": false,
+    "public_events": false,
+    "peer_groups": true,
+    "coaching": false,
+    "education": false,
+    "certification": false,
+    "research": false,
+    "pricing_publicly_available": false,
+    "current_program_evidence": [
+      "https://joinhampton.com"
+    ],
+    "best_for": "Founders and CEOs seeking small private peer groups, retreats, and relationships with other scaling company leaders.",
+    "not_best_for": "Corporate functional executives, leaders wanting formal certification, or those seeking a broad public-events calendar.",
+    "official_sources": [
+      "https://joinhampton.com"
+    ],
+    "independent_sources": [],
+    "partner_sources": [],
+    "archive_sources": []
   },
   {
     "name": "The CEO Institute",
@@ -438,9 +750,44 @@
           "formats",
           "geography"
         ],
-        "accessed": "2026-08-03"
+        "accessed": "2026-08-03",
+        "source_relationship": "official"
       }
-    ]
+    ],
+    "geographic_reach": [
+      "Australia",
+      "New Zealand"
+    ],
+    "primary_roles": [
+      "CEOs",
+      "Senior executives"
+    ],
+    "secondary_roles": [],
+    "membership_model": [
+      "Application"
+    ],
+    "access_model": [
+      "Application"
+    ],
+    "private_gatherings": false,
+    "public_events": false,
+    "peer_groups": true,
+    "coaching": false,
+    "education": false,
+    "certification": false,
+    "research": false,
+    "pricing_publicly_available": false,
+    "current_program_evidence": [
+      "https://www.ceoinstitute.com"
+    ],
+    "best_for": "CEOs in Australia and New Zealand seeking peer groups, mentoring, and structured leadership development.",
+    "not_best_for": "Leaders outside its main geography or those primarily seeking a global chapter network or open executive events.",
+    "official_sources": [
+      "https://www.ceoinstitute.com"
+    ],
+    "independent_sources": [],
+    "partner_sources": [],
+    "archive_sources": []
   },
   {
     "name": "CFO Leadership Council",
@@ -479,9 +826,43 @@
           "audience",
           "formats"
         ],
-        "accessed": "2026-08-03"
+        "accessed": "2026-08-03",
+        "source_relationship": "official"
       }
-    ]
+    ],
+    "geographic_reach": [
+      "United States"
+    ],
+    "primary_roles": [
+      "CFOs",
+      "Senior finance leaders"
+    ],
+    "secondary_roles": [],
+    "membership_model": [
+      "Membership"
+    ],
+    "access_model": [
+      "Membership"
+    ],
+    "private_gatherings": false,
+    "public_events": false,
+    "peer_groups": true,
+    "coaching": false,
+    "education": true,
+    "certification": false,
+    "research": false,
+    "pricing_publicly_available": false,
+    "current_program_evidence": [
+      "https://cfoleadership.com"
+    ],
+    "best_for": "CFOs and senior finance leaders seeking chapters, professional education, events, and relationships with finance peers.",
+    "not_best_for": "Leaders seeking a confidential coached CEO group or a community spanning every C-suite function.",
+    "official_sources": [
+      "https://cfoleadership.com"
+    ],
+    "independent_sources": [],
+    "partner_sources": [],
+    "archive_sources": []
   },
   {
     "name": "Financial Executives International",
@@ -523,9 +904,47 @@
           "audience",
           "formats"
         ],
-        "accessed": "2026-08-03"
+        "accessed": "2026-08-03",
+        "source_relationship": "official"
       }
-    ]
+    ],
+    "geographic_reach": [
+      "United States",
+      "Canada"
+    ],
+    "primary_roles": [
+      "CFOs",
+      "Controllers"
+    ],
+    "secondary_roles": [
+      "Treasurers",
+      "Senior finance executives"
+    ],
+    "membership_model": [
+      "Membership"
+    ],
+    "access_model": [
+      "Membership"
+    ],
+    "private_gatherings": false,
+    "public_events": false,
+    "peer_groups": false,
+    "coaching": false,
+    "education": true,
+    "certification": false,
+    "research": true,
+    "pricing_publicly_available": false,
+    "current_program_evidence": [
+      "https://www.financialexecutives.org"
+    ],
+    "best_for": "CFOs, controllers, treasurers, and senior finance executives seeking professional education, research, advocacy, and local chapters.",
+    "not_best_for": "Executives wanting a small private peer group or a community centered on founders, investors, or cross-functional leadership.",
+    "official_sources": [
+      "https://www.financialexecutives.org"
+    ],
+    "independent_sources": [],
+    "partner_sources": [],
+    "archive_sources": []
   },
   {
     "name": "CFO Connect",
@@ -563,9 +982,46 @@
           "audience",
           "formats"
         ],
-        "accessed": "2026-08-03"
+        "accessed": "2026-08-03",
+        "source_relationship": "official"
       }
-    ]
+    ],
+    "geographic_reach": [
+      "Global online",
+      "Europe"
+    ],
+    "primary_roles": [
+      "CFOs",
+      "Finance leaders"
+    ],
+    "secondary_roles": [],
+    "membership_model": [
+      "Application",
+      "Membership"
+    ],
+    "access_model": [
+      "Application",
+      "Membership"
+    ],
+    "private_gatherings": false,
+    "public_events": false,
+    "peer_groups": false,
+    "coaching": false,
+    "education": false,
+    "certification": false,
+    "research": false,
+    "pricing_publicly_available": false,
+    "current_program_evidence": [
+      "https://www.cfoconnect.eu"
+    ],
+    "best_for": "Modern finance leaders seeking online community, events, resources, and international peer exchange.",
+    "not_best_for": "CFOs prioritizing a local confidential forum, formal coaching, or a large North American chapter association.",
+    "official_sources": [
+      "https://www.cfoconnect.eu"
+    ],
+    "independent_sources": [],
+    "partner_sources": [],
+    "archive_sources": []
   },
   {
     "name": "Private Equity CFO Association",
@@ -603,9 +1059,43 @@
           "audience",
           "formats"
         ],
-        "accessed": "2026-08-03"
+        "accessed": "2026-08-03",
+        "source_relationship": "official"
       }
-    ]
+    ],
+    "geographic_reach": [
+      "United States"
+    ],
+    "primary_roles": [
+      "Private equity CFOs",
+      "Private capital finance professionals"
+    ],
+    "secondary_roles": [],
+    "membership_model": [
+      "Membership"
+    ],
+    "access_model": [
+      "Membership"
+    ],
+    "private_gatherings": false,
+    "public_events": false,
+    "peer_groups": true,
+    "coaching": false,
+    "education": true,
+    "certification": false,
+    "research": false,
+    "pricing_publicly_available": false,
+    "current_program_evidence": [
+      "https://pecfoa.com"
+    ],
+    "best_for": "CFOs and finance professionals in private equity and private capital seeking specialized education and industry relationships.",
+    "not_best_for": "Finance leaders outside private capital or those wanting a broad cross-functional executive community.",
+    "official_sources": [
+      "https://pecfoa.com"
+    ],
+    "independent_sources": [],
+    "partner_sources": [],
+    "archive_sources": []
   },
   {
     "name": "CMO Council",
@@ -643,9 +1133,45 @@
           "audience",
           "formats"
         ],
-        "accessed": "2026-08-03"
+        "accessed": "2026-08-03",
+        "source_relationship": "official"
       }
-    ]
+    ],
+    "geographic_reach": [
+      "Global"
+    ],
+    "primary_roles": [
+      "CMOs",
+      "Senior marketing leaders"
+    ],
+    "secondary_roles": [],
+    "membership_model": [
+      "Membership",
+      "Invitation"
+    ],
+    "access_model": [
+      "Membership",
+      "Invitation"
+    ],
+    "private_gatherings": true,
+    "public_events": false,
+    "peer_groups": true,
+    "coaching": false,
+    "education": false,
+    "certification": false,
+    "research": true,
+    "pricing_publicly_available": false,
+    "current_program_evidence": [
+      "https://www.cmocouncil.org"
+    ],
+    "best_for": "CMOs and senior marketing leaders seeking global peer research, thought leadership, and executive programs.",
+    "not_best_for": "Leaders wanting a small confidential coaching group or a community centered on local cross-functional relationships.",
+    "official_sources": [
+      "https://www.cmocouncil.org"
+    ],
+    "independent_sources": [],
+    "partner_sources": [],
+    "archive_sources": []
   },
   {
     "name": "The CMO Club",
@@ -680,9 +1206,42 @@
           "audience",
           "formats"
         ],
-        "accessed": "2026-08-03"
+        "accessed": "2026-08-03",
+        "source_relationship": "official"
       }
-    ]
+    ],
+    "geographic_reach": [
+      "Global"
+    ],
+    "primary_roles": [
+      "CMOs"
+    ],
+    "secondary_roles": [],
+    "membership_model": [
+      "Membership"
+    ],
+    "access_model": [
+      "Membership"
+    ],
+    "private_gatherings": false,
+    "public_events": false,
+    "peer_groups": true,
+    "coaching": false,
+    "education": false,
+    "certification": false,
+    "research": false,
+    "pricing_publicly_available": false,
+    "current_program_evidence": [
+      "https://thecmoclub.com"
+    ],
+    "best_for": "Chief marketing officers seeking role-specific peer exchange, events, and marketing leadership content.",
+    "not_best_for": "Broader go-to-market teams or executives seeking certification, formal coaching, or a cross-C-suite community.",
+    "official_sources": [
+      "https://thecmoclub.com"
+    ],
+    "independent_sources": [],
+    "partner_sources": [],
+    "archive_sources": []
   },
   {
     "name": "Pavilion",
@@ -720,9 +1279,45 @@
           "audience",
           "formats"
         ],
-        "accessed": "2026-08-03"
+        "accessed": "2026-08-03",
+        "source_relationship": "official"
       }
-    ]
+    ],
+    "geographic_reach": [
+      "Global"
+    ],
+    "primary_roles": [
+      "Revenue leaders",
+      "Marketing leaders"
+    ],
+    "secondary_roles": [
+      "Sales leaders"
+    ],
+    "membership_model": [
+      "Membership"
+    ],
+    "access_model": [
+      "Membership"
+    ],
+    "private_gatherings": false,
+    "public_events": false,
+    "peer_groups": false,
+    "coaching": false,
+    "education": true,
+    "certification": false,
+    "research": false,
+    "pricing_publicly_available": false,
+    "current_program_evidence": [
+      "https://www.joinpavilion.com"
+    ],
+    "best_for": "Marketing, sales, revenue, and go-to-market leaders seeking community, education, chapters, and professional development.",
+    "not_best_for": "Executives wanting a CEO-only forum, private wealth community, or narrowly CMO-exclusive network.",
+    "official_sources": [
+      "https://www.joinpavilion.com"
+    ],
+    "independent_sources": [],
+    "partner_sources": [],
+    "archive_sources": []
   },
   {
     "name": "ANA CMO Masters Circle",
@@ -758,9 +1353,43 @@
           "organization",
           "audience"
         ],
-        "accessed": "2026-08-03"
+        "accessed": "2026-08-03",
+        "source_relationship": "official"
       }
-    ]
+    ],
+    "geographic_reach": [
+      "United States"
+    ],
+    "primary_roles": [
+      "CMOs",
+      "Senior marketing leaders"
+    ],
+    "secondary_roles": [],
+    "membership_model": [
+      "Membership",
+      "Qualification"
+    ],
+    "access_model": [
+      "Membership",
+      "Qualification"
+    ],
+    "private_gatherings": false,
+    "public_events": false,
+    "peer_groups": true,
+    "coaching": false,
+    "education": false,
+    "certification": false,
+    "research": true,
+    "pricing_publicly_available": false,
+    "current_program_evidence": [],
+    "best_for": "CMOs at major advertisers seeking peer activity connected to ANA research, industry programs, and events.",
+    "not_best_for": "Leaders who require fully documented current access details or a small independent peer-group model; this record remains incomplete.",
+    "official_sources": [
+      "https://www.ana.net"
+    ],
+    "independent_sources": [],
+    "partner_sources": [],
+    "archive_sources": []
   },
   {
     "name": "Evanta",
@@ -801,9 +1430,46 @@
           "formats",
           "geography"
         ],
-        "accessed": "2026-08-03"
+        "accessed": "2026-08-03",
+        "source_relationship": "official"
       }
-    ]
+    ],
+    "geographic_reach": [
+      "North America",
+      "Europe",
+      "Australia"
+    ],
+    "primary_roles": [
+      "C-suite executives"
+    ],
+    "secondary_roles": [],
+    "membership_model": [
+      "Invitation",
+      "Qualification"
+    ],
+    "access_model": [
+      "Invitation",
+      "Qualification"
+    ],
+    "private_gatherings": true,
+    "public_events": false,
+    "peer_groups": true,
+    "coaching": false,
+    "education": false,
+    "certification": false,
+    "research": false,
+    "pricing_publicly_available": false,
+    "current_program_evidence": [
+      "https://www.evanta.com"
+    ],
+    "best_for": "C-suite leaders seeking invitation-based, role-specific regional summits and concentrated peer discussion.",
+    "not_best_for": "Executives wanting a continuous small-group forum, individual coaching, or a member-led chapter association.",
+    "official_sources": [
+      "https://www.evanta.com"
+    ],
+    "independent_sources": [],
+    "partner_sources": [],
+    "archive_sources": []
   },
   {
     "name": "ISACA",
@@ -845,9 +1511,48 @@
           "formats",
           "geography"
         ],
-        "accessed": "2026-08-03"
+        "accessed": "2026-08-03",
+        "source_relationship": "official"
       }
-    ]
+    ],
+    "geographic_reach": [
+      "Global"
+    ],
+    "primary_roles": [
+      "CISOs",
+      "Security professionals"
+    ],
+    "secondary_roles": [
+      "Governance professionals",
+      "IT auditors"
+    ],
+    "membership_model": [
+      "Membership",
+      "Open programs"
+    ],
+    "access_model": [
+      "Membership",
+      "Open programs"
+    ],
+    "private_gatherings": false,
+    "public_events": true,
+    "peer_groups": false,
+    "coaching": false,
+    "education": true,
+    "certification": true,
+    "research": true,
+    "pricing_publicly_available": false,
+    "current_program_evidence": [
+      "https://www.isaca.org"
+    ],
+    "best_for": "Security, audit, risk, privacy, and governance leaders seeking credentials, frameworks, chapters, research, and formal education.",
+    "not_best_for": "CISOs seeking only an intimate private executive forum or a cross-functional CEO and investor community.",
+    "official_sources": [
+      "https://www.isaca.org"
+    ],
+    "independent_sources": [],
+    "partner_sources": [],
+    "archive_sources": []
   },
   {
     "name": "ISSA International",
@@ -887,9 +1592,43 @@
           "formats",
           "geography"
         ],
-        "accessed": "2026-08-03"
+        "accessed": "2026-08-03",
+        "source_relationship": "official"
       }
-    ]
+    ],
+    "geographic_reach": [
+      "Global"
+    ],
+    "primary_roles": [
+      "Cybersecurity leaders",
+      "Security practitioners"
+    ],
+    "secondary_roles": [],
+    "membership_model": [
+      "Membership"
+    ],
+    "access_model": [
+      "Membership"
+    ],
+    "private_gatherings": false,
+    "public_events": false,
+    "peer_groups": false,
+    "coaching": false,
+    "education": true,
+    "certification": false,
+    "research": false,
+    "pricing_publicly_available": false,
+    "current_program_evidence": [
+      "https://www.issa.org"
+    ],
+    "best_for": "Cybersecurity practitioners and leaders seeking local chapters, education, publications, and professional relationships.",
+    "not_best_for": "Executives seeking a CISO-only qualification model, cross-functional C-suite access, or individual coaching.",
+    "official_sources": [
+      "https://www.issa.org"
+    ],
+    "independent_sources": [],
+    "partner_sources": [],
+    "archive_sources": []
   },
   {
     "name": "Cloud Security Alliance",
@@ -931,9 +1670,45 @@
           "formats",
           "geography"
         ],
-        "accessed": "2026-08-03"
+        "accessed": "2026-08-03",
+        "source_relationship": "official"
       }
-    ]
+    ],
+    "geographic_reach": [
+      "Global"
+    ],
+    "primary_roles": [
+      "Security leaders",
+      "Cloud security professionals"
+    ],
+    "secondary_roles": [],
+    "membership_model": [
+      "Membership",
+      "Open participation"
+    ],
+    "access_model": [
+      "Membership",
+      "Open participation"
+    ],
+    "private_gatherings": false,
+    "public_events": true,
+    "peer_groups": false,
+    "coaching": false,
+    "education": true,
+    "certification": false,
+    "research": true,
+    "pricing_publicly_available": false,
+    "current_program_evidence": [
+      "https://cloudsecurityalliance.org"
+    ],
+    "best_for": "Security leaders and practitioners seeking cloud-security research, working groups, chapters, education, and open participation.",
+    "not_best_for": "Executives seeking a general leadership network or a private forum focused only on enterprise CISO peers.",
+    "official_sources": [
+      "https://cloudsecurityalliance.org"
+    ],
+    "independent_sources": [],
+    "partner_sources": [],
+    "archive_sources": []
   },
   {
     "name": "CISO Executive Network",
@@ -970,7 +1745,8 @@
           "audience",
           "formats"
         ],
-        "accessed": "2026-08-03"
+        "accessed": "2026-08-03",
+        "source_relationship": "official"
       },
       {
         "url": "https://cisoexecnet.com/membership",
@@ -983,9 +1759,47 @@
           "access_model",
           "geography"
         ],
-        "accessed": "2026-08-03"
+        "accessed": "2026-08-03",
+        "source_relationship": "official"
       }
-    ]
+    ],
+    "geographic_reach": [
+      "United States"
+    ],
+    "primary_roles": [
+      "CISOs",
+      "Senior security executives"
+    ],
+    "secondary_roles": [],
+    "membership_model": [
+      "Qualification",
+      "Membership"
+    ],
+    "access_model": [
+      "Qualification",
+      "Membership"
+    ],
+    "private_gatherings": false,
+    "public_events": false,
+    "peer_groups": true,
+    "coaching": false,
+    "education": false,
+    "certification": false,
+    "research": false,
+    "pricing_publicly_available": false,
+    "current_program_evidence": [
+      "https://cisoexecnet.com",
+      "https://cisoexecnet.com/membership"
+    ],
+    "best_for": "Qualified CISOs seeking recurring regional roundtables, closed-door peer sessions, and security-executive relationships.",
+    "not_best_for": "Technical practitioners below its membership criteria or leaders seeking certification and broad public education.",
+    "official_sources": [
+      "https://cisoexecnet.com",
+      "https://cisoexecnet.com/membership"
+    ],
+    "independent_sources": [],
+    "partner_sources": [],
+    "archive_sources": []
   },
   {
     "name": "Executive AI Network",
@@ -1023,9 +1837,46 @@
           "description",
           "audience"
         ],
-        "accessed": "2026-08-03"
+        "accessed": "2026-08-03",
+        "source_relationship": "official"
       }
-    ]
+    ],
+    "geographic_reach": [
+      "United States",
+      "Global online"
+    ],
+    "primary_roles": [
+      "AI executives",
+      "Technology leaders"
+    ],
+    "secondary_roles": [
+      "Business executives"
+    ],
+    "membership_model": [
+      "Application",
+      "Events"
+    ],
+    "access_model": [
+      "Application",
+      "Events"
+    ],
+    "private_gatherings": false,
+    "public_events": false,
+    "peer_groups": true,
+    "coaching": false,
+    "education": true,
+    "certification": false,
+    "research": false,
+    "pricing_publicly_available": false,
+    "current_program_evidence": [],
+    "best_for": "Business and technology executives exploring enterprise AI strategy, implementation, governance, and peer learning.",
+    "not_best_for": "Buyers requiring fully verified current programming, access, and geography; this record remains incomplete.",
+    "official_sources": [
+      "https://www.executiveainetwork.com"
+    ],
+    "independent_sources": [],
+    "partner_sources": [],
+    "archive_sources": []
   },
   {
     "name": "AI Leadership Institute",
@@ -1064,9 +1915,45 @@
           "executive education",
           "community programming"
         ],
-        "accessed": "2026-08-03"
+        "accessed": "2026-08-03",
+        "source_relationship": "official"
       }
-    ]
+    ],
+    "geographic_reach": [
+      "Global online"
+    ],
+    "primary_roles": [
+      "Executives",
+      "AI leaders"
+    ],
+    "secondary_roles": [],
+    "membership_model": [
+      "Application",
+      "Open programs"
+    ],
+    "access_model": [
+      "Application",
+      "Open programs"
+    ],
+    "private_gatherings": false,
+    "public_events": true,
+    "peer_groups": false,
+    "coaching": false,
+    "education": true,
+    "certification": false,
+    "research": false,
+    "pricing_publicly_available": false,
+    "current_program_evidence": [
+      "https://www.upskilling.ai"
+    ],
+    "best_for": "Executives and professionals seeking responsible-AI education, community programming, workshops, and implementation guidance.",
+    "not_best_for": "Leaders requiring a documented invitation-only peer forum or independently verified global executive network; this record remains incomplete.",
+    "official_sources": [
+      "https://www.upskilling.ai"
+    ],
+    "independent_sources": [],
+    "partner_sources": [],
+    "archive_sources": []
   },
   {
     "name": "Silicon Valley Leadership Group",
@@ -1108,9 +1995,46 @@
           "geography",
           "formats"
         ],
-        "accessed": "2026-08-03"
+        "accessed": "2026-08-03",
+        "source_relationship": "official"
       }
-    ]
+    ],
+    "geographic_reach": [
+      "Silicon Valley",
+      "San Francisco Bay Area"
+    ],
+    "primary_roles": [
+      "Business leaders",
+      "Employers"
+    ],
+    "secondary_roles": [
+      "Executives"
+    ],
+    "membership_model": [
+      "Membership"
+    ],
+    "access_model": [
+      "Membership"
+    ],
+    "private_gatherings": false,
+    "public_events": false,
+    "peer_groups": false,
+    "coaching": false,
+    "education": false,
+    "certification": false,
+    "research": true,
+    "pricing_publicly_available": false,
+    "current_program_evidence": [
+      "https://www.svlg.org"
+    ],
+    "best_for": "Silicon Valley employers and executives interested in regional policy, competitiveness, convenings, research, and civic engagement.",
+    "not_best_for": "Individuals seeking a confidential CEO forum, private coaching group, or role-exclusive membership network.",
+    "official_sources": [
+      "https://www.svlg.org"
+    ],
+    "independent_sources": [],
+    "partner_sources": [],
+    "archive_sources": []
   },
   {
     "name": "Bay Area Council",
@@ -1149,9 +2073,45 @@
           "geography",
           "formats"
         ],
-        "accessed": "2026-08-03"
+        "accessed": "2026-08-03",
+        "source_relationship": "official"
       }
-    ]
+    ],
+    "geographic_reach": [
+      "San Francisco Bay Area"
+    ],
+    "primary_roles": [
+      "Business leaders",
+      "Employers"
+    ],
+    "secondary_roles": [
+      "Executives"
+    ],
+    "membership_model": [
+      "Membership"
+    ],
+    "access_model": [
+      "Membership"
+    ],
+    "private_gatherings": false,
+    "public_events": false,
+    "peer_groups": false,
+    "coaching": false,
+    "education": false,
+    "certification": false,
+    "research": true,
+    "pricing_publicly_available": false,
+    "current_program_evidence": [
+      "https://www.bayareacouncil.org"
+    ],
+    "best_for": "Bay Area business leaders and employers seeking policy engagement, regional initiatives, research, and executive events.",
+    "not_best_for": "Executives seeking a small confidential peer group or a function-specific professional community.",
+    "official_sources": [
+      "https://www.bayareacouncil.org"
+    ],
+    "independent_sources": [],
+    "partner_sources": [],
+    "archive_sources": []
   },
   {
     "name": "Silicon Valley Directors' Exchange",
@@ -1192,9 +2152,46 @@
           "geography",
           "formats"
         ],
-        "accessed": "2026-08-03"
+        "accessed": "2026-08-03",
+        "source_relationship": "official"
       }
-    ]
+    ],
+    "geographic_reach": [
+      "Silicon Valley",
+      "San Francisco Bay Area"
+    ],
+    "primary_roles": [
+      "Board directors",
+      "Governance leaders"
+    ],
+    "secondary_roles": [],
+    "membership_model": [
+      "Membership",
+      "Events"
+    ],
+    "access_model": [
+      "Membership",
+      "Events"
+    ],
+    "private_gatherings": false,
+    "public_events": false,
+    "peer_groups": true,
+    "coaching": false,
+    "education": true,
+    "certification": false,
+    "research": false,
+    "pricing_publicly_available": false,
+    "current_program_evidence": [
+      "https://www.svdx.org"
+    ],
+    "best_for": "Board directors and governance leaders seeking Silicon Valley-based peer exchange, education, and governance events.",
+    "not_best_for": "Operating executives seeking general C-suite networking, coaching, or a global chapter community.",
+    "official_sources": [
+      "https://www.svdx.org"
+    ],
+    "independent_sources": [],
+    "partner_sources": [],
+    "archive_sources": []
   },
   {
     "name": "Long Angle",
@@ -1234,9 +2231,48 @@
           "formats",
           "access_model"
         ],
-        "accessed": "2026-08-03"
+        "accessed": "2026-08-03",
+        "source_relationship": "official"
       }
-    ]
+    ],
+    "geographic_reach": [
+      "United States",
+      "Global online"
+    ],
+    "primary_roles": [
+      "Investors",
+      "Entrepreneurs"
+    ],
+    "secondary_roles": [
+      "Family offices"
+    ],
+    "membership_model": [
+      "Application",
+      "Qualification"
+    ],
+    "access_model": [
+      "Application",
+      "Qualification"
+    ],
+    "private_gatherings": false,
+    "public_events": false,
+    "peer_groups": true,
+    "coaching": false,
+    "education": false,
+    "certification": false,
+    "research": false,
+    "pricing_publicly_available": false,
+    "current_program_evidence": [
+      "https://www.longangle.com"
+    ],
+    "best_for": "Qualified high-net-worth investors seeking private, member-led discussion of investment opportunities and portfolio decisions.",
+    "not_best_for": "Operating executives seeking functional leadership programs, public events, or professional certification.",
+    "official_sources": [
+      "https://www.longangle.com"
+    ],
+    "independent_sources": [],
+    "partner_sources": [],
+    "archive_sources": []
   },
   {
     "name": "Founders Network",
@@ -1274,8 +2310,44 @@
           "audience",
           "formats"
         ],
-        "accessed": "2026-08-03"
+        "accessed": "2026-08-03",
+        "source_relationship": "official"
       }
-    ]
+    ],
+    "geographic_reach": [
+      "Global online",
+      "United States"
+    ],
+    "primary_roles": [
+      "Startup founders"
+    ],
+    "secondary_roles": [],
+    "membership_model": [
+      "Application",
+      "Membership"
+    ],
+    "access_model": [
+      "Application",
+      "Membership"
+    ],
+    "private_gatherings": false,
+    "public_events": false,
+    "peer_groups": true,
+    "coaching": false,
+    "education": false,
+    "certification": false,
+    "research": false,
+    "pricing_publicly_available": false,
+    "current_program_evidence": [
+      "https://foundersnetwork.com"
+    ],
+    "best_for": "Startup founders seeking mentoring, investor access, events, and relationships with other entrepreneurs.",
+    "not_best_for": "Established corporate executives seeking a C-suite-only forum, formal coaching, or professional-association credentials.",
+    "official_sources": [
+      "https://foundersnetwork.com"
+    ],
+    "independent_sources": [],
+    "partner_sources": [],
+    "archive_sources": []
   }
 ]

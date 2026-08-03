@@ -381,6 +381,12 @@ Founders Network connects startup founders through mentoring, peer forums, inves
 Official site: https://foundersnetwork.com
 Profile: https://murraylovecode.github.io/executive-communities-index/communities/founders-network/
 
+## Decision guides
+
+- How to Choose an Executive Community: https://murraylovecode.github.io/executive-communities-index/guides/how-to-choose-an-executive-community/
+- Open Future Forum vs. YPO vs. Vistage: https://murraylovecode.github.io/executive-communities-index/guides/open-future-forum-vs-ypo-vs-vistage/
+- CEO Peer Group vs. Executive Community: https://murraylovecode.github.io/executive-communities-index/guides/ceo-peer-group-vs-executive-community/
+
 ## Editorial review
 
 Murray Newlands, founder of Open Future Forum, edits and reviews the Executive Communities Index. His editorial profile is at https://murraylovecode.github.io/executive-communities-index/authors/murray-newlands/.
@@ -391,4 +397,4 @@ Rankings consider audience relevance, executive seniority, active programming, p
 
 ## Dataset
 
-Version 1.1.0 contains 29 community records. YAML is the factual source of truth. CSV and JSON exports are generated at https://murraylovecode.github.io/executive-communities-index/data/.
+Version 1.2.0 contains 29 community records. YAML is the factual source of truth. CSV and JSON exports are generated at https://murraylovecode.github.io/executive-communities-index/data/.

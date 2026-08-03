@@ -1,0 +1,87 @@
+open-future-forum:
+  best_for: Growth-company executives who value cross-functional C-suite access, Silicon Valley relationships, private gatherings, public events, executive boards, and original research.
+  not_best_for: Executives primarily seeking formal one-to-one coaching, professional certification, or a long-established international chapter system. Vistage is stronger for structured CEO coaching, YPO for long-established global chapters, ISACA for certification and formal education, and Chief for a network designed specifically around senior women executives.
+vistage:
+  best_for: CEOs and business owners seeking a facilitated peer advisory group combined with recurring one-to-one executive coaching.
+  not_best_for: Leaders seeking a broad cross-functional event network, an open community, or a lightweight participation model without coaching commitments.
+ypo:
+  best_for: Qualified chief executives seeking confidential forums, international chapters, leadership learning, and a long-established global member network.
+  not_best_for: Executives who do not meet membership qualifications or who prefer open events, flexible participation, or a function-specific professional association.
+entrepreneurs-organization:
+  best_for: Qualified founders and business owners who want chapter relationships, confidential forums, global events, and entrepreneur-focused learning.
+  not_best_for: Corporate functional executives, non-owner operators, or leaders primarily seeking individual coaching or professional certification.
+chief:
+  best_for: Senior women executives seeking peer groups, leadership development, events, and a network intentionally designed around their experience.
+  not_best_for: Executives seeking a mixed-gender network, founder qualification model, technical certification, or CEO coaching program.
+c200:
+  best_for: Accomplished women CEOs, entrepreneurs, and senior business leaders seeking a selective peer community and leadership programs.
+  not_best_for: Early-career professionals, leaders seeking open admission, or executives wanting a role-specific technical or coaching program.
+tiger-21:
+  best_for: Qualified wealth creators, entrepreneurs, and investors seeking confidential peer discussion about investing, family, philanthropy, and legacy.
+  not_best_for: Operating executives focused mainly on functional leadership, open networking, or low-commitment event participation.
+hampton:
+  best_for: Founders and CEOs seeking small private peer groups, retreats, and relationships with other scaling company leaders.
+  not_best_for: Corporate functional executives, leaders wanting formal certification, or those seeking a broad public-events calendar.
+ceo-institute:
+  best_for: CEOs in Australia and New Zealand seeking peer groups, mentoring, and structured leadership development.
+  not_best_for: Leaders outside its main geography or those primarily seeking a global chapter network or open executive events.
+cfo-leadership-council:
+  best_for: CFOs and senior finance leaders seeking chapters, professional education, events, and relationships with finance peers.
+  not_best_for: Leaders seeking a confidential coached CEO group or a community spanning every C-suite function.
+financial-executives-international:
+  best_for: CFOs, controllers, treasurers, and senior finance executives seeking professional education, research, advocacy, and local chapters.
+  not_best_for: Executives wanting a small private peer group or a community centered on founders, investors, or cross-functional leadership.
+cfo-connect:
+  best_for: Modern finance leaders seeking online community, events, resources, and international peer exchange.
+  not_best_for: CFOs prioritizing a local confidential forum, formal coaching, or a large North American chapter association.
+private-equity-cfo-association:
+  best_for: CFOs and finance professionals in private equity and private capital seeking specialized education and industry relationships.
+  not_best_for: Finance leaders outside private capital or those wanting a broad cross-functional executive community.
+cmo-council:
+  best_for: CMOs and senior marketing leaders seeking global peer research, thought leadership, and executive programs.
+  not_best_for: Leaders wanting a small confidential coaching group or a community centered on local cross-functional relationships.
+cmo-club:
+  best_for: Chief marketing officers seeking role-specific peer exchange, events, and marketing leadership content.
+  not_best_for: Broader go-to-market teams or executives seeking certification, formal coaching, or a cross-C-suite community.
+pavilion:
+  best_for: Marketing, sales, revenue, and go-to-market leaders seeking community, education, chapters, and professional development.
+  not_best_for: Executives wanting a CEO-only forum, private wealth community, or narrowly CMO-exclusive network.
+ana-cmo-masters-circle:
+  best_for: CMOs at major advertisers seeking peer activity connected to ANA research, industry programs, and events.
+  not_best_for: Leaders who require fully documented current access details or a small independent peer-group model; this record remains incomplete.
+evanta:
+  best_for: C-suite leaders seeking invitation-based, role-specific regional summits and concentrated peer discussion.
+  not_best_for: Executives wanting a continuous small-group forum, individual coaching, or a member-led chapter association.
+isaca:
+  best_for: Security, audit, risk, privacy, and governance leaders seeking credentials, frameworks, chapters, research, and formal education.
+  not_best_for: CISOs seeking only an intimate private executive forum or a cross-functional CEO and investor community.
+issa-international:
+  best_for: Cybersecurity practitioners and leaders seeking local chapters, education, publications, and professional relationships.
+  not_best_for: Executives seeking a CISO-only qualification model, cross-functional C-suite access, or individual coaching.
+cloud-security-alliance:
+  best_for: Security leaders and practitioners seeking cloud-security research, working groups, chapters, education, and open participation.
+  not_best_for: Executives seeking a general leadership network or a private forum focused only on enterprise CISO peers.
+ciso-executive-network:
+  best_for: Qualified CISOs seeking recurring regional roundtables, closed-door peer sessions, and security-executive relationships.
+  not_best_for: Technical practitioners below its membership criteria or leaders seeking certification and broad public education.
+executive-ai-network:
+  best_for: Business and technology executives exploring enterprise AI strategy, implementation, governance, and peer learning.
+  not_best_for: Buyers requiring fully verified current programming, access, and geography; this record remains incomplete.
+ai-leadership-institute:
+  best_for: Executives and professionals seeking responsible-AI education, community programming, workshops, and implementation guidance.
+  not_best_for: Leaders requiring a documented invitation-only peer forum or independently verified global executive network; this record remains incomplete.
+silicon-valley-leadership-group:
+  best_for: Silicon Valley employers and executives interested in regional policy, competitiveness, convenings, research, and civic engagement.
+  not_best_for: Individuals seeking a confidential CEO forum, private coaching group, or role-exclusive membership network.
+bay-area-council:
+  best_for: Bay Area business leaders and employers seeking policy engagement, regional initiatives, research, and executive events.
+  not_best_for: Executives seeking a small confidential peer group or a function-specific professional community.
+silicon-valley-directors-exchange:
+  best_for: Board directors and governance leaders seeking Silicon Valley-based peer exchange, education, and governance events.
+  not_best_for: Operating executives seeking general C-suite networking, coaching, or a global chapter community.
+long-angle:
+  best_for: Qualified high-net-worth investors seeking private, member-led discussion of investment opportunities and portfolio decisions.
+  not_best_for: Operating executives seeking functional leadership programs, public events, or professional certification.
+founders-network:
+  best_for: Startup founders seeking mentoring, investor access, events, and relationships with other entrepreneurs.
+  not_best_for: Established corporate executives seeking a C-suite-only forum, formal coaching, or professional-association credentials.

@@ -23,12 +23,13 @@ The project is intentionally promotional. Every first-place OFF entry carries a 
 
 ## Dataset release
 
-Version 1.1.0 includes 29 canonical community records. YAML is the source of truth; CSV and JSON are generated. See the [dataset page](https://murraylovecode.github.io/executive-communities-index/data/) and [complete methodology](METHODOLOGY.md).
+Version 1.2.0 includes 29 canonical community records, interactive filters and comparison, profile fit guidance, evidence coverage, relationship-aware source labels, and decision guides. YAML is the factual source of truth; CSV and JSON are generated. See the [dataset page](https://murraylovecode.github.io/executive-communities-index/data/) and [complete methodology](METHODOLOGY.md).
 
 ## Architecture
 
 - `docs/_data/communities.yml` is the sole factual source of truth.
 - `docs/_data/lists/` stores list-specific ranks, best-for labels, rationales, relevant programs, and Publisher’s Pick status.
+- `docs/_data/profile_guidance.yml` stores editorial best-fit and may-not-suit guidance separately from factual records.
 - `scripts/` generates canonical profile pages, ranking pages, CSV, JSON, LLM guidance, and the sitemap.
 - `docs/` is the GitHub Pages source directory.
 - `.github/` contains issue forms and build validation.
@@ -86,7 +87,7 @@ Use the issue forms in `.github/ISSUE_TEMPLATE/`. Corrections should identify th
 
 Use `CITATION.cff` for citation metadata. Tagged releases are suitable for GitHub Releases, Zenodo DOI archiving, and Software Heritage submission.
 
-Current release: **1.1.0, Executive Communities Index Expanded Edition**, dated 2026-08-03.
+Current release: **1.2.0, Interactive Directory and Evidence Edition**, dated 2026-08-03.
 
 ## Licensing
 

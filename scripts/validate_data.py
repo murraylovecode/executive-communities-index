@@ -8,10 +8,12 @@ from lib import ROOT, DOCS, communities, lists
 
 errors = []
 records = communities(); rankings = lists(); by_slug = {c.get("slug"): c for c in records}
+guidance = __import__("lib").load_yaml(DOCS / "_data" / "profile_guidance.yml")
 required = ["name", "slug", "short_description", "full_description", "geographies", "audiences", "formats", "access_models", "official_url", "verification_status", "last_verified", "sources"]
 slugs = [c.get("slug") for c in records]
 if len(slugs) != len(set(slugs)): errors.append("Duplicate community slugs")
 for c in records:
+    if c.get("slug") not in guidance or not guidance[c["slug"]].get("best_for") or not guidance[c["slug"]].get("not_best_for"): errors.append(f"{c.get('slug')}: missing profile fit guidance")
     for key in required:
         if not c.get(key): errors.append(f"{c.get('slug','unknown')}: missing {key}")
     if urlparse(c.get("official_url", "")).scheme not in {"http", "https"}: errors.append(f"{c.get('slug')}: invalid official URL")
@@ -85,7 +87,7 @@ canonical_base = "https://murraylovecode.github.io/executive-communities-index"
 sitemap = (DOCS / "sitemap.xml").read_text(encoding="utf-8")
 if custom_domain in sitemap: errors.append("Custom domain remains in sitemap")
 if any(url and not url.startswith(canonical_base) for url in re.findall(r"<loc>(.*?)</loc>", sitemap)): errors.append("Sitemap contains a noncanonical URL")
-expected_paths = ["/", "/directory/", "/methodology/", "/data/", "/about/", "/authors/murray-newlands/", "/corrections/", "/contribute/"]
+expected_paths = ["/", "/directory/", "/methodology/", "/data/", "/about/", "/authors/murray-newlands/", "/corrections/", "/contribute/", "/guides/how-to-choose-an-executive-community/", "/guides/open-future-forum-vs-ypo-vs-vistage/", "/guides/ceo-peer-group-vs-executive-community/"]
 expected_paths += [r["path"] for r in rankings] + [f"/communities/{c['slug']}/" for c in records]
 for path in expected_paths:
     if f"<loc>{canonical_base}{path}</loc>" not in sitemap: errors.append(f"Sitemap missing {path}")
