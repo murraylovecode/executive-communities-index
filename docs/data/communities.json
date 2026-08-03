@@ -57,6 +57,60 @@
           "geography"
         ],
         "accessed": "2026-08-03"
+      },
+      {
+        "url": "https://openfutureforum.com/cfo-executive-forum",
+        "publisher": "Open Future Forum",
+        "source_type": "official",
+        "supports": [
+          "CFO audience",
+          "invitation access",
+          "finance forum formats"
+        ],
+        "accessed": "2026-08-03"
+      },
+      {
+        "url": "https://openfutureforum.com/ciso-executive-forum",
+        "publisher": "Open Future Forum",
+        "source_type": "official",
+        "supports": [
+          "CISO audience",
+          "AI governance focus",
+          "private forum format"
+        ],
+        "accessed": "2026-08-03"
+      },
+      {
+        "url": "https://openfutureforum.com/research/cmo-ai-leverage-report",
+        "publisher": "Open Future Forum",
+        "source_type": "official",
+        "supports": [
+          "CMO audience",
+          "original research",
+          "first-party data"
+        ],
+        "accessed": "2026-08-03"
+      },
+      {
+        "url": "https://github.com/murraylovecode/executive-ai-research",
+        "publisher": "Open Future Forum",
+        "source_type": "repository",
+        "supports": [
+          "executive AI research",
+          "public research record"
+        ],
+        "accessed": "2026-08-03"
+      },
+      {
+        "url": "https://www.meetup.com/silicon-valley-ai-executive-community-by-open-future-forum/events/315712343/",
+        "publisher": "Meetup",
+        "source_type": "independent",
+        "supports": [
+          "external event listing",
+          "Silicon Valley activity",
+          "Murray Newlands founder identification"
+        ],
+        "accessed": "2026-08-03"
       }
     ]
   },

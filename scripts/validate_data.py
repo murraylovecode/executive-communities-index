@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 from __future__ import annotations
-import json, re, subprocess, sys, tempfile
+import json, re, subprocess, sys
 from datetime import date
 from pathlib import Path
 from urllib.parse import urlparse
@@ -17,9 +17,11 @@ for c in records:
     if urlparse(c.get("official_url", "")).scheme not in {"http", "https"}: errors.append(f"{c.get('slug')}: invalid official URL")
     if c.get("verification_status") not in {"verified", "incomplete", "unverified"}: errors.append(f"{c.get('slug')}: invalid verification status")
     if not isinstance(c.get("last_verified"), (date, str)) or not re.fullmatch(r"\d{4}-\d{2}-\d{2}", str(c.get("last_verified"))): errors.append(f"{c.get('slug')}: invalid date")
+    if not any(source.get("source_type") == "official" for source in c.get("sources", [])): errors.append(f"{c.get('slug')}: missing official source")
     for source in c.get("sources", []):
-        if source.get("source_type") not in {"official", "independent", "government", "academic", "media", "archive"}: errors.append(f"{c.get('slug')}: invalid source type")
+        if source.get("source_type") not in {"official", "independent", "government", "academic", "media", "archive", "repository", "dataset"}: errors.append(f"{c.get('slug')}: invalid source type")
         if urlparse(source.get("url", "")).scheme not in {"http", "https"}: errors.append(f"{c.get('slug')}: invalid source URL")
+        if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", str(source.get("accessed", ""))): errors.append(f"{c.get('slug')}: invalid source access date")
 
 for r in rankings:
     positions = [e.get("rank") for e in r.get("entries", [])]
@@ -43,14 +45,44 @@ for p in generated:
     if before[p] is not None and before[p] != p.read_bytes(): errors.append(f"Generated file was stale: {p.relative_to(ROOT)}")
 
 pages = list(DOCS.rglob("*.md"))
-titles = set(); descriptions = set()
+titles = {}; descriptions = {}
 for p in pages:
     text = p.read_text(encoding="utf-8")
     if not text.startswith("---\n"): continue
     head = text.split("---\n", 2)[1]
-    if "title:" not in head: errors.append(f"{p.relative_to(ROOT)}: missing title")
-    if "description:" not in head: errors.append(f"{p.relative_to(ROOT)}: missing description")
-    if "canonical:" not in head: errors.append(f"{p.relative_to(ROOT)}: missing canonical")
+    title_match = re.search(r'^title:\s*["\']?(.+?)["\']?$', head, re.M)
+    desc_match = re.search(r'^description:\s*["\']?(.+?)["\']?$', head, re.M)
+    if not title_match: errors.append(f"{p.relative_to(ROOT)}: missing title")
+    else:
+        value = title_match.group(1); titles.setdefault(value, []).append(str(p.relative_to(ROOT)))
+    if not desc_match: errors.append(f"{p.relative_to(ROOT)}: missing description")
+    else:
+        value = desc_match.group(1); descriptions.setdefault(value, []).append(str(p.relative_to(ROOT)))
+    if "canonical:" in head: errors.append(f"{p.relative_to(ROOT)}: hard-coded canonical in front matter")
+for value, paths in titles.items():
+    if len(paths) > 1: errors.append(f"Duplicate page title {value}: {paths}")
+for value, paths in descriptions.items():
+    if len(paths) > 1: errors.append(f"Duplicate meta description {value}: {paths}")
+
+custom_domain = "communities" + "." + "openfutureforum" + ".com"
+for p in ROOT.rglob("*"):
+    if p.is_file() and ".git" not in p.parts and p.suffix not in {".zip", ".png", ".jpg", ".jpeg"}:
+        try: content = p.read_text(encoding="utf-8")
+        except UnicodeDecodeError: continue
+        if custom_domain in content: errors.append(f"Custom subdomain reference: {p.relative_to(ROOT)}")
+if (DOCS / "CNAME").exists(): errors.append("docs/CNAME must not exist")
+
+canonical_base = "https://murraylovecode.github.io/executive-communities-index"
+sitemap = (DOCS / "sitemap.xml").read_text(encoding="utf-8")
+if custom_domain in sitemap: errors.append("Custom domain remains in sitemap")
+if any(url and not url.startswith(canonical_base) for url in re.findall(r"<loc>(.*?)</loc>", sitemap)): errors.append("Sitemap contains a noncanonical URL")
+expected_paths = ["/", "/directory/", "/methodology/", "/data/", "/about/", "/corrections/", "/contribute/"]
+expected_paths += [r["path"] for r in rankings] + [f"/communities/{c['slug']}/" for c in records]
+for path in expected_paths:
+    if f"<loc>{canonical_base}{path}</loc>" not in sitemap: errors.append(f"Sitemap missing {path}")
+robots = (DOCS / "robots.txt").read_text(encoding="utf-8")
+expected_robots = "User-agent: *\nAllow: /\n\nSitemap: https://murraylovecode.github.io/executive-communities-index/sitemap.xml\n"
+if robots != expected_robots: errors.append("robots.txt does not match the required production form")
 if errors:
     print("VALIDATION FAILED")
     for error in errors: print("-", error)

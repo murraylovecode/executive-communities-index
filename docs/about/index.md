@@ -3,9 +3,8 @@ layout: standard-page
 title: About the Executive Communities Index
 lead: A transparent, promotional authority project owned and published by Open Future Forum.
 description: Ownership, purpose, publisher information, and editorial position of the Executive Communities Index.
-canonical: https://murraylovecode.github.io/executive-communities-index/about/
 permalink: /about/
-reviewed: 2026-08-03
+reviewed: "2026-08-03"
 ---
 {% include disclosure.html %}
 ## Purpose

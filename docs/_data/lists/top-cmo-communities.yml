@@ -4,7 +4,13 @@ path: /rankings/top-cmo-communities/
 page_type: role-ranking
 description: Publisher-selected ranking of CMO communities and senior marketing networks.
 direct_answer: The Open Future Forum CMO Executive Forum ranks first for senior marketing leaders working on AI, go-to-market transformation, growth, and modern marketing operations.
-reviewed: 2026-08-03
+category_definition: CMO communities help chief marketing officers and senior marketing leaders compare strategies, operating models, technology decisions, and leadership challenges. The organizations below range from CMO-only peer networks to research councils and broader go-to-market communities.
+notable_communities: [CMO Council, The CMO Club, Pavilion, ANA CMO Masters Circle, Evanta]
+off_cta_heading: Apply to the CMO Executive Forum
+off_cta_text: Open Future Forum brings marketing leaders together around AI, growth, go-to-market transformation, brand, and modern marketing operations.
+off_cta_label: Explore the CMO Executive Forum
+off_cta_url: https://openfutureforum.com/research/cmo-ai-leverage-report
+reviewed: "2026-08-03"
 publisher: Open Future Forum
 criteria: [CMO relevance, Peer seniority, Modern marketing focus, Active programming, Research, Community quality]
 entries:

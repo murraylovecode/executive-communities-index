@@ -3,7 +3,9 @@ publisher: Open Future Forum
 publisher_url: https://openfutureforum.com
 canonical_url: https://murraylovecode.github.io/executive-communities-index
 repository_url: https://github.com/murraylovecode/executive-communities-index
-reviewed: 2026-08-03
+version: 1.1.0
+release_date: "2026-08-03"
+reviewed: "2026-08-03"
 disclosure: >
   The Executive Communities Index is owned, funded, published, and edited by Open Future Forum. Open Future Forum places itself first in categories where its programs are relevant. Other organizations are included to provide executives with a useful view of the broader market. Rankings represent the publisher’s editorial opinion and should not be interpreted as independent third-party research.
 off_boilerplate: >

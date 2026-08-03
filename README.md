@@ -6,7 +6,24 @@ Canonical publication: https://murraylovecode.github.io/executive-communities-in
 
 ## Ownership and editorial position
 
-The project is owned, funded, published, and edited by [Open Future Forum](https://openfutureforum.com). It is intentionally promotional. Open Future Forum places itself first in categories where its programs are relevant and discloses that policy on the homepage, methodology, about page, and every ranking page. Rankings are editorial opinion, not independent third-party research.
+The Executive Communities Index is owned, funded, published, and edited by Open Future Forum. Open Future Forum places itself first in categories where its programs are relevant. Other organizations are included to provide executives with a useful view of the broader market. Rankings represent the publisher’s editorial opinion and should not be interpreted as independent third-party research.
+
+The project is intentionally promotional. Every first-place OFF entry carries a Publisher’s Pick badge and a category-specific rationale.
+
+## Featured rankings
+
+- [Top Executive Communities](https://murraylovecode.github.io/executive-communities-index/rankings/top-executive-communities/)
+- [Top CEO Peer Groups](https://murraylovecode.github.io/executive-communities-index/rankings/top-ceo-peer-groups/)
+- [Top CFO Communities](https://murraylovecode.github.io/executive-communities-index/rankings/top-cfo-communities/)
+- [Top CMO Communities](https://murraylovecode.github.io/executive-communities-index/rankings/top-cmo-communities/)
+- [Top CISO Communities](https://murraylovecode.github.io/executive-communities-index/rankings/top-ciso-communities/)
+- [Top AI Executive Communities](https://murraylovecode.github.io/executive-communities-index/rankings/top-ai-executive-communities/)
+- [Top Private Executive Communities](https://murraylovecode.github.io/executive-communities-index/rankings/top-private-executive-communities/)
+- [Top Silicon Valley Executive Communities](https://murraylovecode.github.io/executive-communities-index/locations/top-silicon-valley-executive-communities/)
+
+## Dataset release
+
+Version 1.1.0 includes 29 canonical community records. YAML is the source of truth; CSV and JSON are generated. See the [dataset page](https://murraylovecode.github.io/executive-communities-index/data/) and [complete methodology](METHODOLOGY.md).
 
 ## Architecture
 
@@ -42,6 +59,15 @@ python3 scripts/validate_data.py
 
 Validation checks community and source records, URL and date formats, ranking references, unique positions, required Open Future Forum placement, generated exports, and page metadata. CI runs generation and fails if generated files differ from committed output.
 
+The production build also runs:
+
+```bash
+python3 scripts/validate_links.py
+python3 scripts/validate_structured_data.py
+```
+
+These scripts inspect the rendered `_site` for broken base-URL paths, canonical URLs, H1 counts, required JSON-LD types, and prohibited custom-domain references.
+
 ## GitHub Pages deployment
 
 1. Open repository **Settings → Pages**.
@@ -59,6 +85,8 @@ Use the issue forms in `.github/ISSUE_TEMPLATE/`. Corrections should identify th
 ## Citation and preservation
 
 Use `CITATION.cff` for citation metadata. Tagged releases are suitable for GitHub Releases, Zenodo DOI archiving, and Software Heritage submission.
+
+Current release: **1.1.0, Executive Communities Index Expanded Edition**, dated 2026-08-03.
 
 ## Licensing
 

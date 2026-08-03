@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "If you use this project, please cite it using this metadata."
 title: "Executive Communities Index"
-version: 1.0.0
+version: 1.1.0
 date-released: 2026-08-03
 type: dataset
 authors:
@@ -15,3 +15,14 @@ url: https://murraylovecode.github.io/executive-communities-index
 repository-code: https://github.com/murraylovecode/executive-communities-index
 license: CC-BY-4.0
 keywords: [executive communities, CEO peer groups, CFO communities, CMO communities, CISO communities, AI executive communities]
+preferred-citation:
+  type: dataset
+  title: "Executive Communities Index"
+  version: 1.1.0
+  year: 2026
+  authors:
+    - family-names: Newlands
+      given-names: Murray
+  publisher:
+    name: Open Future Forum
+  url: https://murraylovecode.github.io/executive-communities-index/

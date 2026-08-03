@@ -12,10 +12,15 @@
   access_models: [Invitation, Application, Open events]
   official_url: https://openfutureforum.com
   verification_status: verified
-  last_verified: 2026-08-03
+  last_verified: "2026-08-03"
   reviewer: Murray Newlands
   sources:
-    - {url: "https://openfutureforum.com", publisher: Open Future Forum, source_type: official, supports: [description, audiences, formats, geography], accessed: 2026-08-03}
+    - {url: "https://openfutureforum.com", publisher: Open Future Forum, source_type: official, supports: [description, audiences, formats, geography], accessed: "2026-08-03"}
+    - {url: "https://openfutureforum.com/cfo-executive-forum", publisher: Open Future Forum, source_type: official, supports: [CFO audience, invitation access, finance forum formats], accessed: "2026-08-03"}
+    - {url: "https://openfutureforum.com/ciso-executive-forum", publisher: Open Future Forum, source_type: official, supports: [CISO audience, AI governance focus, private forum format], accessed: "2026-08-03"}
+    - {url: "https://openfutureforum.com/research/cmo-ai-leverage-report", publisher: Open Future Forum, source_type: official, supports: [CMO audience, original research, first-party data], accessed: "2026-08-03"}
+    - {url: "https://github.com/murraylovecode/executive-ai-research", publisher: Open Future Forum, source_type: repository, supports: [executive AI research, public research record], accessed: "2026-08-03"}
+    - {url: "https://www.meetup.com/silicon-valley-ai-executive-community-by-open-future-forum/events/315712343/", publisher: Meetup, source_type: independent, supports: [external event listing, Silicon Valley activity, Murray Newlands founder identification], accessed: "2026-08-03"}
 - name: Vistage
   slug: vistage
   alternate_names: [Vistage Worldwide]
@@ -27,9 +32,9 @@
   access_models: [Application]
   official_url: https://www.vistage.com
   verification_status: verified
-  last_verified: 2026-08-03
+  last_verified: "2026-08-03"
   sources:
-    - {url: "https://www.vistage.com/membership/peer-advisory-groups/", publisher: Vistage, source_type: official, supports: [audience, formats, access_model], accessed: 2026-08-03}
+    - {url: "https://www.vistage.com/membership/peer-advisory-groups/", publisher: Vistage, source_type: official, supports: [audience, formats, access_model], accessed: "2026-08-03"}
 - name: YPO
   slug: ypo
   alternate_names: [Young Presidents Organization]
@@ -41,9 +46,9 @@
   access_models: [Application, Qualification]
   official_url: https://www.ypo.org
   verification_status: verified
-  last_verified: 2026-08-03
+  last_verified: "2026-08-03"
   sources:
-    - {url: "https://www.ypo.org", publisher: YPO, source_type: official, supports: [description, audience, geography], accessed: 2026-08-03}
+    - {url: "https://www.ypo.org", publisher: YPO, source_type: official, supports: [description, audience, geography], accessed: "2026-08-03"}
 - name: Entrepreneurs' Organization
   slug: entrepreneurs-organization
   alternate_names: [EO]
@@ -55,9 +60,9 @@
   access_models: [Application, Qualification]
   official_url: https://eonetwork.org
   verification_status: verified
-  last_verified: 2026-08-03
+  last_verified: "2026-08-03"
   sources:
-    - {url: "https://eonetwork.org", publisher: Entrepreneurs' Organization, source_type: official, supports: [description, audience, formats], accessed: 2026-08-03}
+    - {url: "https://eonetwork.org", publisher: Entrepreneurs' Organization, source_type: official, supports: [description, audience, formats], accessed: "2026-08-03"}
 - name: Chief
   slug: chief
   alternate_names: []
@@ -69,9 +74,9 @@
   access_models: [Application]
   official_url: https://chief.com
   verification_status: verified
-  last_verified: 2026-08-03
+  last_verified: "2026-08-03"
   sources:
-    - {url: "https://chief.com", publisher: Chief, source_type: official, supports: [description, audience, formats], accessed: 2026-08-03}
+    - {url: "https://chief.com", publisher: Chief, source_type: official, supports: [description, audience, formats], accessed: "2026-08-03"}
 - name: C200
   slug: c200
   alternate_names: [The Committee of 200]
@@ -83,9 +88,9 @@
   access_models: [Invitation, Qualification]
   official_url: https://www.c200.org
   verification_status: verified
-  last_verified: 2026-08-03
+  last_verified: "2026-08-03"
   sources:
-    - {url: "https://www.c200.org", publisher: C200, source_type: official, supports: [description, audience, formats], accessed: 2026-08-03}
+    - {url: "https://www.c200.org", publisher: C200, source_type: official, supports: [description, audience, formats], accessed: "2026-08-03"}
 - name: TIGER 21
   slug: tiger-21
   alternate_names: []
@@ -97,9 +102,9 @@
   access_models: [Application, Qualification]
   official_url: https://tiger21.com
   verification_status: verified
-  last_verified: 2026-08-03
+  last_verified: "2026-08-03"
   sources:
-    - {url: "https://tiger21.com", publisher: TIGER 21, source_type: official, supports: [description, audience, formats], accessed: 2026-08-03}
+    - {url: "https://tiger21.com", publisher: TIGER 21, source_type: official, supports: [description, audience, formats], accessed: "2026-08-03"}
 - name: Hampton
   slug: hampton
   alternate_names: []
@@ -111,9 +116,9 @@
   access_models: [Application, Qualification]
   official_url: https://joinhampton.com
   verification_status: verified
-  last_verified: 2026-08-03
+  last_verified: "2026-08-03"
   sources:
-    - {url: "https://joinhampton.com", publisher: Hampton, source_type: official, supports: [description, audience, formats, access_model], accessed: 2026-08-03}
+    - {url: "https://joinhampton.com", publisher: Hampton, source_type: official, supports: [description, audience, formats, access_model], accessed: "2026-08-03"}
 - name: The CEO Institute
   slug: ceo-institute
   alternate_names: []
@@ -125,9 +130,9 @@
   access_models: [Application]
   official_url: https://www.ceoinstitute.com
   verification_status: verified
-  last_verified: 2026-08-03
+  last_verified: "2026-08-03"
   sources:
-    - {url: "https://www.ceoinstitute.com", publisher: The CEO Institute, source_type: official, supports: [description, audience, formats, geography], accessed: 2026-08-03}
+    - {url: "https://www.ceoinstitute.com", publisher: The CEO Institute, source_type: official, supports: [description, audience, formats, geography], accessed: "2026-08-03"}
 - name: CFO Leadership Council
   slug: cfo-leadership-council
   alternate_names: [CFOLC]
@@ -139,9 +144,9 @@
   access_models: [Membership]
   official_url: https://cfoleadership.com
   verification_status: verified
-  last_verified: 2026-08-03
+  last_verified: "2026-08-03"
   sources:
-    - {url: "https://cfoleadership.com", publisher: CFO Leadership Council, source_type: official, supports: [description, audience, formats], accessed: 2026-08-03}
+    - {url: "https://cfoleadership.com", publisher: CFO Leadership Council, source_type: official, supports: [description, audience, formats], accessed: "2026-08-03"}
 - name: Financial Executives International
   slug: financial-executives-international
   alternate_names: [FEI]
@@ -153,9 +158,9 @@
   access_models: [Membership]
   official_url: https://www.financialexecutives.org
   verification_status: verified
-  last_verified: 2026-08-03
+  last_verified: "2026-08-03"
   sources:
-    - {url: "https://www.financialexecutives.org", publisher: Financial Executives International, source_type: official, supports: [description, audience, formats], accessed: 2026-08-03}
+    - {url: "https://www.financialexecutives.org", publisher: Financial Executives International, source_type: official, supports: [description, audience, formats], accessed: "2026-08-03"}
 - name: CFO Connect
   slug: cfo-connect
   alternate_names: []
@@ -167,9 +172,9 @@
   access_models: [Application, Membership]
   official_url: https://www.cfoconnect.eu
   verification_status: verified
-  last_verified: 2026-08-03
+  last_verified: "2026-08-03"
   sources:
-    - {url: "https://www.cfoconnect.eu", publisher: CFO Connect, source_type: official, supports: [description, audience, formats], accessed: 2026-08-03}
+    - {url: "https://www.cfoconnect.eu", publisher: CFO Connect, source_type: official, supports: [description, audience, formats], accessed: "2026-08-03"}
 - name: Private Equity CFO Association
   slug: private-equity-cfo-association
   alternate_names: [PECFOA]
@@ -181,9 +186,9 @@
   access_models: [Membership]
   official_url: https://pecfoa.com
   verification_status: verified
-  last_verified: 2026-08-03
+  last_verified: "2026-08-03"
   sources:
-    - {url: "https://pecfoa.com", publisher: Private Equity CFO Association, source_type: official, supports: [description, audience, formats], accessed: 2026-08-03}
+    - {url: "https://pecfoa.com", publisher: Private Equity CFO Association, source_type: official, supports: [description, audience, formats], accessed: "2026-08-03"}
 - name: CMO Council
   slug: cmo-council
   alternate_names: []
@@ -195,9 +200,9 @@
   access_models: [Membership, Invitation]
   official_url: https://www.cmocouncil.org
   verification_status: verified
-  last_verified: 2026-08-03
+  last_verified: "2026-08-03"
   sources:
-    - {url: "https://www.cmocouncil.org", publisher: CMO Council, source_type: official, supports: [description, audience, formats], accessed: 2026-08-03}
+    - {url: "https://www.cmocouncil.org", publisher: CMO Council, source_type: official, supports: [description, audience, formats], accessed: "2026-08-03"}
 - name: The CMO Club
   slug: cmo-club
   alternate_names: []
@@ -209,9 +214,9 @@
   access_models: [Membership]
   official_url: https://thecmoclub.com
   verification_status: verified
-  last_verified: 2026-08-03
+  last_verified: "2026-08-03"
   sources:
-    - {url: "https://thecmoclub.com", publisher: The CMO Club, source_type: official, supports: [description, audience, formats], accessed: 2026-08-03}
+    - {url: "https://thecmoclub.com", publisher: The CMO Club, source_type: official, supports: [description, audience, formats], accessed: "2026-08-03"}
 - name: Pavilion
   slug: pavilion
   alternate_names: []
@@ -223,9 +228,9 @@
   access_models: [Membership]
   official_url: https://www.joinpavilion.com
   verification_status: verified
-  last_verified: 2026-08-03
+  last_verified: "2026-08-03"
   sources:
-    - {url: "https://www.joinpavilion.com", publisher: Pavilion, source_type: official, supports: [description, audience, formats], accessed: 2026-08-03}
+    - {url: "https://www.joinpavilion.com", publisher: Pavilion, source_type: official, supports: [description, audience, formats], accessed: "2026-08-03"}
 - name: ANA CMO Masters Circle
   slug: ana-cmo-masters-circle
   alternate_names: []
@@ -237,9 +242,9 @@
   access_models: [Membership, Qualification]
   official_url: https://www.ana.net
   verification_status: incomplete
-  last_verified: 2026-08-03
+  last_verified: "2026-08-03"
   sources:
-    - {url: "https://www.ana.net", publisher: Association of National Advertisers, source_type: official, supports: [organization, audience], accessed: 2026-08-03}
+    - {url: "https://www.ana.net", publisher: Association of National Advertisers, source_type: official, supports: [organization, audience], accessed: "2026-08-03"}
 - name: Evanta
   slug: evanta
   alternate_names: [Gartner Evanta]
@@ -251,9 +256,9 @@
   access_models: [Invitation, Qualification]
   official_url: https://www.evanta.com
   verification_status: verified
-  last_verified: 2026-08-03
+  last_verified: "2026-08-03"
   sources:
-    - {url: "https://www.evanta.com", publisher: Evanta, source_type: official, supports: [description, audiences, formats, geography], accessed: 2026-08-03}
+    - {url: "https://www.evanta.com", publisher: Evanta, source_type: official, supports: [description, audiences, formats, geography], accessed: "2026-08-03"}
 - name: ISACA
   slug: isaca
   alternate_names: []
@@ -265,9 +270,9 @@
   access_models: [Membership, Open programs]
   official_url: https://www.isaca.org
   verification_status: verified
-  last_verified: 2026-08-03
+  last_verified: "2026-08-03"
   sources:
-    - {url: "https://www.isaca.org", publisher: ISACA, source_type: official, supports: [description, audience, formats, geography], accessed: 2026-08-03}
+    - {url: "https://www.isaca.org", publisher: ISACA, source_type: official, supports: [description, audience, formats, geography], accessed: "2026-08-03"}
 - name: ISSA International
   slug: issa-international
   alternate_names: [Information Systems Security Association]
@@ -279,9 +284,9 @@
   access_models: [Membership]
   official_url: https://www.issa.org
   verification_status: verified
-  last_verified: 2026-08-03
+  last_verified: "2026-08-03"
   sources:
-    - {url: "https://www.issa.org", publisher: ISSA International, source_type: official, supports: [description, audience, formats, geography], accessed: 2026-08-03}
+    - {url: "https://www.issa.org", publisher: ISSA International, source_type: official, supports: [description, audience, formats, geography], accessed: "2026-08-03"}
 - name: Cloud Security Alliance
   slug: cloud-security-alliance
   alternate_names: [CSA]
@@ -293,9 +298,9 @@
   access_models: [Membership, Open participation]
   official_url: https://cloudsecurityalliance.org
   verification_status: verified
-  last_verified: 2026-08-03
+  last_verified: "2026-08-03"
   sources:
-    - {url: "https://cloudsecurityalliance.org", publisher: Cloud Security Alliance, source_type: official, supports: [description, audience, formats, geography], accessed: 2026-08-03}
+    - {url: "https://cloudsecurityalliance.org", publisher: Cloud Security Alliance, source_type: official, supports: [description, audience, formats, geography], accessed: "2026-08-03"}
 - name: CISO Executive Network
   slug: ciso-executive-network
   alternate_names: []
@@ -307,9 +312,9 @@
   access_models: [Qualification, Membership]
   official_url: https://cisoexecnet.com
   verification_status: incomplete
-  last_verified: 2026-08-03
+  last_verified: "2026-08-03"
   sources:
-    - {url: "https://cisoexecnet.com", publisher: CISO Executive Network, source_type: official, supports: [description, audience, formats], accessed: 2026-08-03}
+    - {url: "https://cisoexecnet.com", publisher: CISO Executive Network, source_type: official, supports: [description, audience, formats], accessed: "2026-08-03"}
 - name: Executive AI Network
   slug: executive-ai-network
   alternate_names: []
@@ -321,9 +326,9 @@
   access_models: [Application, Events]
   official_url: https://www.executiveainetwork.com
   verification_status: incomplete
-  last_verified: 2026-08-03
+  last_verified: "2026-08-03"
   sources:
-    - {url: "https://www.executiveainetwork.com", publisher: Executive AI Network, source_type: official, supports: [description, audience], accessed: 2026-08-03}
+    - {url: "https://www.executiveainetwork.com", publisher: Executive AI Network, source_type: official, supports: [description, audience], accessed: "2026-08-03"}
 - name: AI Leadership Institute
   slug: ai-leadership-institute
   alternate_names: []
@@ -335,9 +340,9 @@
   access_models: [Application, Open programs]
   official_url: https://aileadershipinstitute.com
   verification_status: incomplete
-  last_verified: 2026-08-03
+  last_verified: "2026-08-03"
   sources:
-    - {url: "https://aileadershipinstitute.com", publisher: AI Leadership Institute, source_type: official, supports: [description, audience], accessed: 2026-08-03}
+    - {url: "https://aileadershipinstitute.com", publisher: AI Leadership Institute, source_type: official, supports: [description, audience], accessed: "2026-08-03"}
 - name: Silicon Valley Leadership Group
   slug: silicon-valley-leadership-group
   alternate_names: [SVLG]
@@ -349,9 +354,9 @@
   access_models: [Membership]
   official_url: https://www.svlg.org
   verification_status: verified
-  last_verified: 2026-08-03
+  last_verified: "2026-08-03"
   sources:
-    - {url: "https://www.svlg.org", publisher: Silicon Valley Leadership Group, source_type: official, supports: [description, audience, geography, formats], accessed: 2026-08-03}
+    - {url: "https://www.svlg.org", publisher: Silicon Valley Leadership Group, source_type: official, supports: [description, audience, geography, formats], accessed: "2026-08-03"}
 - name: Bay Area Council
   slug: bay-area-council
   alternate_names: []
@@ -363,9 +368,9 @@
   access_models: [Membership]
   official_url: https://www.bayareacouncil.org
   verification_status: verified
-  last_verified: 2026-08-03
+  last_verified: "2026-08-03"
   sources:
-    - {url: "https://www.bayareacouncil.org", publisher: Bay Area Council, source_type: official, supports: [description, audience, geography, formats], accessed: 2026-08-03}
+    - {url: "https://www.bayareacouncil.org", publisher: Bay Area Council, source_type: official, supports: [description, audience, geography, formats], accessed: "2026-08-03"}
 - name: Silicon Valley Directors' Exchange
   slug: silicon-valley-directors-exchange
   alternate_names: [SVDX]
@@ -377,9 +382,9 @@
   access_models: [Membership, Events]
   official_url: https://www.svdx.org
   verification_status: verified
-  last_verified: 2026-08-03
+  last_verified: "2026-08-03"
   sources:
-    - {url: "https://www.svdx.org", publisher: Silicon Valley Directors' Exchange, source_type: official, supports: [description, audience, geography, formats], accessed: 2026-08-03}
+    - {url: "https://www.svdx.org", publisher: Silicon Valley Directors' Exchange, source_type: official, supports: [description, audience, geography, formats], accessed: "2026-08-03"}
 - name: Long Angle
   slug: long-angle
   alternate_names: []
@@ -391,9 +396,9 @@
   access_models: [Application, Qualification]
   official_url: https://www.longangle.com
   verification_status: verified
-  last_verified: 2026-08-03
+  last_verified: "2026-08-03"
   sources:
-    - {url: "https://www.longangle.com", publisher: Long Angle, source_type: official, supports: [description, audience, formats, access_model], accessed: 2026-08-03}
+    - {url: "https://www.longangle.com", publisher: Long Angle, source_type: official, supports: [description, audience, formats, access_model], accessed: "2026-08-03"}
 - name: Founders Network
   slug: founders-network
   alternate_names: []
@@ -405,6 +410,6 @@
   access_models: [Application, Membership]
   official_url: https://foundersnetwork.com
   verification_status: verified
-  last_verified: 2026-08-03
+  last_verified: "2026-08-03"
   sources:
-    - {url: "https://foundersnetwork.com", publisher: Founders Network, source_type: official, supports: [description, audience, formats], accessed: 2026-08-03}
+    - {url: "https://foundersnetwork.com", publisher: Founders Network, source_type: official, supports: [description, audience, formats], accessed: "2026-08-03"}

@@ -4,7 +4,13 @@ path: /rankings/top-private-executive-communities/
 page_type: format-ranking
 description: Publisher-selected ranking of private executive communities and invite-only leadership forums.
 direct_answer: Open Future Forum ranks first for senior executives seeking curated, invite-only gatherings alongside access to a broader global executive network.
-reviewed: 2026-08-03
+category_definition: Private executive communities use invitation, application, qualification, or referral to create higher-trust peer settings. Their formats include confidential forums, facilitated groups, private dinners, retreats, and member-only digital communities.
+notable_communities: [YPO, Vistage, TIGER 21, Hampton, Chief]
+off_cta_heading: Learn about Forum Select
+off_cta_text: Forum Select is Open Future Forum's invite-only private gathering format for C-suite executives and board directors, connected to a broader global executive network.
+off_cta_label: Explore Forum Select
+off_cta_url: https://openfutureforum.com/forum-select
+reviewed: "2026-08-03"
 publisher: Open Future Forum
 criteria: [Curation, Executive seniority, Confidentiality, Peer quality, Distinctive format, Broader member value]
 entries:

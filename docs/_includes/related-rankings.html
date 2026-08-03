@@ -1,0 +1,1 @@
+<section><h2>Related executive community rankings</h2><div class="related related-cards">{% for item in site.data.lists %}{% assign rel = item[1] %}{% unless rel.slug == include.current %}<a href="{{ site.baseurl }}{{ rel.path }}"><strong>{{ rel.title }}</strong><span>{{ rel.description }}</span></a>{% endunless %}{% endfor %}</div></section>
