@@ -66,6 +66,8 @@ Use the [interactive directory]({{ '/directory/' | relative_url }}) to compare c
 
 ## Next steps
 
+- Use the [Executive Community Playbook](https://murraylovecode.github.io/executive-community-playbook/) when you need to design or operate a community, and consult its [GitHub source](https://github.com/murraylovecode/executive-community-playbook) for reusable templates.
+- Explore [Executive AI Research](https://openfutureforum.com/research/) for evidence on enterprise AI and executive adoption, with methodology and supporting materials in the [research repository](https://github.com/murraylovecode/executive-ai-research).
 - [Browse all executive communities]({{ '/directory/' | relative_url }})
 - [Compare Open Future Forum, YPO, and Vistage]({{ '/guides/open-future-forum-vs-ypo-vs-vistage/' | relative_url }})
 - [Understand CEO peer groups and executive communities]({{ '/guides/ceo-peer-group-vs-executive-community/' | relative_url }})

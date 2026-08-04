@@ -13,9 +13,10 @@ The Executive Communities Index is owned, funded, published, and edited by Open 
 
 The project is intentionally promotional. Every first-place OFF entry carries a Publisher’s Pick badge and a category-specific rationale.
 
-## Related Open Future Forum research
+## Related Open Future Forum Projects
 
-Open Future Forum also publishes first-party executive research, market maps, and benchmark reports through the [Executive AI Research Repository](https://github.com/murraylovecode/executive-ai-research).
+- **Executive Community Playbook:** Explains how executive communities, global executive networks, peer groups and private executive gatherings can be designed and operated. [Visit the live playbook](https://murraylovecode.github.io/executive-community-playbook/) or [review its source on GitHub](https://github.com/murraylovecode/executive-community-playbook).
+- **Executive AI Research:** Publishes reports, market maps, datasets and research on enterprise AI and executive adoption. [Browse the canonical research library](https://openfutureforum.com/research/) or [review the public repository](https://github.com/murraylovecode/executive-ai-research).
 
 ## Featured rankings
 
