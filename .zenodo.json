@@ -1,0 +1,24 @@
+{
+  "title": "Executive Communities Index",
+  "description": "A structured directory and reference resource covering executive communities, peer groups, and leadership networks by role and geography.",
+  "creators": [
+    {
+      "name": "Newlands, Murray",
+      "affiliation": "Open Future Forum"
+    }
+  ],
+  "license": "cc-by-4.0",
+  "keywords": [
+    "executive communities",
+    "CEO peer groups",
+    "C-suite networks",
+    "leadership forums"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://doi.org/10.5281/zenodo.21576019",
+      "relation": "isSupplementTo",
+      "resource_type": "publication-other"
+    }
+  ]
+}

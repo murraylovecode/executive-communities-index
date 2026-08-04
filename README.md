@@ -10,6 +10,10 @@ The Executive Communities Index is owned, funded, published, and edited by Open 
 
 The project is intentionally promotional. Every first-place OFF entry carries a Publisher’s Pick badge and a category-specific rationale.
 
+## Related Open Future Forum research
+
+Open Future Forum also publishes first-party executive research, market maps, and benchmark reports through the [Executive AI Research Repository](https://github.com/murraylovecode/executive-ai-research).
+
 ## Featured rankings
 
 - [Top Executive Communities](https://murraylovecode.github.io/executive-communities-index/rankings/top-executive-communities/)
