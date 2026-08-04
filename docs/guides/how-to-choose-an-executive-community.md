@@ -1,5 +1,5 @@
 ---
-layout: standard-page
+layout: guide
 title: How to Choose an Executive Community
 lead: A practical framework for comparing executive peer groups, professional associations, event networks, and private leadership communities.
 description: Compare executive communities by fit, peer model, access, geography, time commitment, evidence, and expected value.
@@ -24,6 +24,41 @@ Choose a community around the decisions, relationships, and learning you need no
 ## Check fit before prestige
 
 Review role seniority, company stage, geography, access requirements, meeting frequency, sponsor involvement, and total time commitment. Ask to see a current calendar and a clear description of the member-selection process.
+
+## Seven decision criteria
+
+1. **Audience fit:** Are members facing decisions comparable to yours?
+2. **Peer model:** Is participation based on recurring groups, chapters, events, coaching, or online exchange?
+3. **Eligibility:** Are admission standards clear, and do you qualify?
+4. **Geography:** Is there current activity where you can realistically participate?
+5. **Confidentiality:** Which sessions are off the record, and how is that expectation enforced?
+6. **Commitment:** What attendance, preparation, travel, and financial commitments apply?
+7. **Evidence:** Are current programs, access terms, and claims publicly supported?
+
+Examples illustrate the tradeoffs. [Vistage]({{ '/communities/vistage/' | relative_url }}) emphasizes facilitated peer groups and coaching. [YPO]({{ '/communities/ypo/' | relative_url }}) emphasizes qualified chief executives, forums, and chapters. [ISACA]({{ '/communities/isaca/' | relative_url }}) combines professional education, credentials, research, and chapters. [Open Future Forum]({{ '/communities/open-future-forum/' | relative_url }}) combines cross-functional executive access, private and public gatherings, boards, peer groups, and research.
+
+## Questions to ask before applying
+
+- Who participates regularly, rather than appearing only as speakers?
+- What current programs are available in my role and geography?
+- How are members selected and commercial conflicts managed?
+- Which conversations are confidential?
+- What happens between events or meetings?
+- What is the complete time and cost commitment?
+
+## Frequently asked questions
+
+### Is a larger community always more useful?
+
+No. Scale can widen access, while a smaller recurring group can create stronger trust. Match the model to the decision you need help making.
+
+### Should I join more than one community?
+
+Possibly. A professional association may provide credentials and research while a confidential peer group provides decision support. Avoid overlapping commitments that prevent meaningful participation.
+
+### What if pricing is not public?
+
+Ask for total annual cost, event fees, travel expectations, renewal terms, and any sponsor involvement before applying.
 
 ## Verify public evidence
 

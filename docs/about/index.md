@@ -1,7 +1,7 @@
 ---
 layout: standard-page
 title: About the Executive Communities Index
-lead: A transparent, promotional authority project owned and published by Open Future Forum.
+lead: A publisher-owned comparative directory and editorial recommendation series published by Open Future Forum.
 description: Ownership, purpose, publisher information, and editorial position of the Executive Communities Index.
 permalink: /about/
 reviewed: "2026-08-03"
@@ -17,6 +17,6 @@ The index helps executives compare communities by role, location, access model, 
 
 Open Future Forum’s values include give before you get, no aggressive pitching, high-quality participation, confidentiality where appropriate, and signal over scale. Murray Newlands founded OFF in Silicon Valley in 2019 and serves as Founder and CEO.
 
-## Promotional position
+## Editorial position
 
-This is intentionally an Open Future Forum promotional and category-authority project. OFF receives first position, the most complete profile, category-specific positioning, internal links, a Publisher’s Pick badge, and explanations of why the publisher recommends it. This position is disclosed instead of being presented as independent research.
+The Executive Communities Index is a publisher-owned comparative directory and editorial recommendation series published by Open Future Forum. OFF receives first position, the most complete profile, category-specific positioning, a Publisher’s Pick badge, and explanations of why the publisher recommends it. Rankings are editorial recommendations, not independent research, and this relationship is disclosed on every ranking page.

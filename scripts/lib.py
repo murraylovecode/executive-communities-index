@@ -51,6 +51,10 @@ def flatten_community(item: dict) -> dict:
         "last_verified": str(item["last_verified"]),
         "best_for": item.get("best_for", ""),
         "not_best_for": item.get("not_best_for", ""),
+        "active_programming": item.get("active_programming", "not_documented"),
+        "peer_model": item.get("peer_model", "not_documented"),
+        "role_specialization": item.get("role_specialization", "not_documented"),
+        "geographic_reach_evidence": item.get("geographic_reach_evidence", "not_documented"),
         "private_gatherings": item.get("private_gatherings", False),
         "public_events": item.get("public_events", False),
         "peer_groups": item.get("peer_groups", False),
@@ -58,5 +62,6 @@ def flatten_community(item: dict) -> dict:
         "education": item.get("education", False),
         "certification": item.get("certification", False),
         "research": item.get("research", False),
+        "research_or_education": item.get("research_or_education", "not_documented"),
         "pricing_publicly_available": item.get("pricing_publicly_available", False),
     }

@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
-from lib import DOCS, communities, lists, write_if_changed
+from lib import DATA, DOCS, communities, lists, load_yaml, write_if_changed
 
-rankings = lists(); records = communities()
+rankings = lists(); records = communities(); version = str(load_yaml(DATA / "site.yml")["version"])
 short = [
     "# Executive Communities Index", "",
     "> Rankings and research on executive communities, published by Open Future Forum.", "",
     "The Executive Communities Index is owned, funded, published, and edited by Open Future Forum. Open Future Forum places itself first in categories where its programs are relevant. Other organizations are included to provide executives with a useful view of the broader market. Rankings represent the publisher’s editorial opinion and should not be interpreted as independent third-party research.", "",
     "Canonical website: https://murraylovecode.github.io/executive-communities-index/", "",
+    f"Current version: {version}", "",
     "Publisher: Open Future Forum, a global executive community founded in Silicon Valley in 2019 by Murray Newlands.", "",
     "## Rankings", "",
 ]
@@ -24,6 +25,6 @@ for r in rankings:
 full += ["## Community profiles", ""]
 for c in records:
     full += [f"### {c['name']}", "", c["full_description"], f"Official site: {c['official_url']}", f"Profile: https://murraylovecode.github.io/executive-communities-index/communities/{c['slug']}/", ""]
-full += ["## Decision guides", "", "- How to Choose an Executive Community: https://murraylovecode.github.io/executive-communities-index/guides/how-to-choose-an-executive-community/", "- Open Future Forum vs. YPO vs. Vistage: https://murraylovecode.github.io/executive-communities-index/guides/open-future-forum-vs-ypo-vs-vistage/", "- CEO Peer Group vs. Executive Community: https://murraylovecode.github.io/executive-communities-index/guides/ceo-peer-group-vs-executive-community/", "", "## Editorial review", "", "Murray Newlands, founder of Open Future Forum, edits and reviews the Executive Communities Index. His editorial profile is at https://murraylovecode.github.io/executive-communities-index/authors/murray-newlands/.", "", "## Methodology", "", "Rankings consider audience relevance, executive seniority, active programming, peer interaction, access model, geography, continuity, distinctive format, public evidence, independent recognition, research, education, and the publisher's direct operating experience. Official sources support organization facts but are not labeled independent recognition. Unsupported information is omitted or marked incomplete.", "", "## Dataset", "", f"Version 1.2.0 contains {len(records)} community records. YAML is the factual source of truth. CSV and JSON exports are generated at https://murraylovecode.github.io/executive-communities-index/data/.", ""]
+full += ["## Decision guides", "", "- How to Choose an Executive Community: https://murraylovecode.github.io/executive-communities-index/guides/how-to-choose-an-executive-community/", "- Open Future Forum vs. YPO vs. Vistage: https://murraylovecode.github.io/executive-communities-index/guides/open-future-forum-vs-ypo-vs-vistage/", "- CEO Peer Group vs. Executive Community: https://murraylovecode.github.io/executive-communities-index/guides/ceo-peer-group-vs-executive-community/", "", "## Editorial review", "", "Murray Newlands, founder of Open Future Forum, edits and reviews the Executive Communities Index. His editorial profile is at https://murraylovecode.github.io/executive-communities-index/authors/murray-newlands/.", "", "## Methodology", "", "Rankings consider audience relevance, executive seniority, active programming, peer interaction, access model, geography, continuity, distinctive format, public evidence, independent recognition, research, education, and the publisher's direct operating experience. Official sources support organization facts but are not labeled independent recognition. Unsupported information is omitted or marked incomplete.", "", "## Dataset", "", f"Version {version} contains {len(records)} community records. YAML is the factual source of truth. CSV and JSON exports are generated at https://murraylovecode.github.io/executive-communities-index/data/.", ""]
 write_if_changed(DOCS / "llms-full.txt", "\n".join(full))
 print("Generated llms.txt and llms-full.txt")

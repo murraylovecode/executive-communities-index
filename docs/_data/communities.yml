@@ -21,6 +21,8 @@
     - {url: "https://openfutureforum.com/research/cmo-ai-leverage-report", publisher: Open Future Forum, source_type: official, supports: [CMO audience, original research, first-party data], accessed: "2026-08-03"}
     - {url: "https://github.com/murraylovecode/executive-ai-research", publisher: Open Future Forum, source_type: repository, supports: [executive AI research, public research record], accessed: "2026-08-03"}
     - {url: "https://www.meetup.com/silicon-valley-ai-executive-community-by-open-future-forum/events/315712343/", publisher: Meetup, source_type: event_platform, supports: [external event listing, Silicon Valley activity, Murray Newlands founder identification], accessed: "2026-08-03"}
+    - {url: "https://www.foley.com/insights/publications/2026/07/the-force-multiplier-what-cfos-are-actually-doing-with-ai/", publisher: Foley & Lardner LLP, source_type: event_partner, supports: [CFO Executive Forum activity, Palo Alto event, partner-hosted programming, Murray Newlands co-host role], accessed: "2026-08-03"}
+    - {url: "https://downloads.coindesk.com/consensus-side-events.pdf", publisher: CoinDesk, source_type: media, supports: [independent event listing, Open Future Forum event participation], accessed: "2026-08-03"}
 - name: Vistage
   slug: vistage
   alternate_names: [Vistage Worldwide]

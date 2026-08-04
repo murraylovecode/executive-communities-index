@@ -36,6 +36,8 @@ for page in SITE.rglob("*.html"):
     if rel.startswith("communities/"):
         expected = {"Organization", "BreadcrumbList"}
         if not expected.issubset(found_types): errors.append(f"{rel}: missing profile structured types {sorted(expected - found_types)}")
+    if rel.startswith("guides/") and rel != "guides/index.html" and "Article" not in found_types:
+        errors.append(f"{rel}: missing Article structured data")
 if errors:
     print("STRUCTURED DATA VALIDATION FAILED")
     for error in errors: print("-", error)

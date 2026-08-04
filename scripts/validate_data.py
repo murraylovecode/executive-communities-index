@@ -9,11 +9,22 @@ from lib import ROOT, DOCS, communities, lists
 errors = []
 records = communities(); rankings = lists(); by_slug = {c.get("slug"): c for c in records}
 guidance = __import__("lib").load_yaml(DOCS / "_data" / "profile_guidance.yml")
+evidence = __import__("lib").load_yaml(DOCS / "_data" / "community_evidence.yml")
+site_data = __import__("lib").load_yaml(DOCS / "_data" / "site.yml")
+release_version = str(site_data.get("version"))
+citation_text = (ROOT / "CITATION.cff").read_text(encoding="utf-8")
+if not re.search(rf"^version:\s*{re.escape(release_version)}$", citation_text, re.M): errors.append("CITATION.cff version does not match site version")
+if f"## {release_version} -" not in (ROOT / "CHANGELOG.md").read_text(encoding="utf-8"): errors.append("Changelog does not contain current site version")
 required = ["name", "slug", "short_description", "full_description", "geographies", "audiences", "formats", "access_models", "official_url", "verification_status", "last_verified", "sources"]
 slugs = [c.get("slug") for c in records]
 if len(slugs) != len(set(slugs)): errors.append("Duplicate community slugs")
 for c in records:
     if c.get("slug") not in guidance or not guidance[c["slug"]].get("best_for") or not guidance[c["slug"]].get("not_best_for"): errors.append(f"{c.get('slug')}: missing profile fit guidance")
+    evidence_fields = ["active_programming", "peer_model", "role_specialization", "geographic_reach", "private_gatherings", "public_events", "research_or_education"]
+    if c.get("slug") not in evidence: errors.append(f"{c.get('slug')}: missing explicit evidence record")
+    else:
+        for field in evidence_fields:
+            if evidence[c["slug"]].get(field) not in {"documented", "not_documented"}: errors.append(f"{c.get('slug')}: invalid evidence value for {field}")
     for key in required:
         if not c.get(key): errors.append(f"{c.get('slug','unknown')}: missing {key}")
     if urlparse(c.get("official_url", "")).scheme not in {"http", "https"}: errors.append(f"{c.get('slug')}: invalid official URL")
@@ -21,7 +32,7 @@ for c in records:
     if not isinstance(c.get("last_verified"), (date, str)) or not re.fullmatch(r"\d{4}-\d{2}-\d{2}", str(c.get("last_verified"))): errors.append(f"{c.get('slug')}: invalid date")
     if not any(source.get("source_type") == "official" for source in c.get("sources", [])): errors.append(f"{c.get('slug')}: missing official source")
     for source in c.get("sources", []):
-        if source.get("source_type") not in {"official", "event_platform", "third_party_platform", "independent", "association", "government", "academic", "media", "archive", "research_archive", "repository", "dataset"}: errors.append(f"{c.get('slug')}: invalid source type")
+        if source.get("source_type") not in {"official", "event_platform", "third_party_platform", "event_partner", "independent", "association", "government", "academic", "media", "archive", "research_archive", "repository", "dataset"}: errors.append(f"{c.get('slug')}: invalid source type")
         if urlparse(source.get("url", "")).scheme not in {"http", "https"}: errors.append(f"{c.get('slug')}: invalid source URL")
         if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", str(source.get("accessed", ""))): errors.append(f"{c.get('slug')}: invalid source access date")
 
@@ -87,13 +98,16 @@ canonical_base = "https://murraylovecode.github.io/executive-communities-index"
 sitemap = (DOCS / "sitemap.xml").read_text(encoding="utf-8")
 if custom_domain in sitemap: errors.append("Custom domain remains in sitemap")
 if any(url and not url.startswith(canonical_base) for url in re.findall(r"<loc>(.*?)</loc>", sitemap)): errors.append("Sitemap contains a noncanonical URL")
-expected_paths = ["/", "/directory/", "/methodology/", "/data/", "/about/", "/authors/murray-newlands/", "/corrections/", "/contribute/", "/guides/how-to-choose-an-executive-community/", "/guides/open-future-forum-vs-ypo-vs-vistage/", "/guides/ceo-peer-group-vs-executive-community/"]
+expected_paths = ["/", "/rankings/", "/directory/", "/guides/", "/methodology/", "/data/", "/about/", "/authors/murray-newlands/", "/corrections/", "/contribute/", "/guides/how-to-choose-an-executive-community/", "/guides/open-future-forum-vs-ypo-vs-vistage/", "/guides/ceo-peer-group-vs-executive-community/"]
 expected_paths += [r["path"] for r in rankings] + [f"/communities/{c['slug']}/" for c in records]
 for path in expected_paths:
     if f"<loc>{canonical_base}{path}</loc>" not in sitemap: errors.append(f"Sitemap missing {path}")
 robots = (DOCS / "robots.txt").read_text(encoding="utf-8")
 expected_robots = "User-agent: *\nAllow: /\n\nSitemap: https://murraylovecode.github.io/executive-communities-index/sitemap.xml\n"
 if robots != expected_robots: errors.append("robots.txt does not match the required production form")
+if "{{ site.data.site.version }}" not in (DOCS / "data" / "index.md").read_text(encoding="utf-8"): errors.append("Dataset page does not read the central site version")
+for generated_page in [DOCS / "llms.txt", DOCS / "llms-full.txt"]:
+    if release_version not in generated_page.read_text(encoding="utf-8"): errors.append(f"{generated_page.relative_to(ROOT)} does not contain current version {release_version}")
 if errors:
     print("VALIDATION FAILED")
     for error in errors: print("-", error)

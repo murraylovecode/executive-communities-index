@@ -2,13 +2,15 @@
 import copy, csv, io, json
 from lib import DATA, DOCS, communities, flatten_community, load_yaml, write_if_changed
 
-relationship_map = {"official": "official", "event_platform": "third-party-platform", "third_party_platform": "third-party-platform", "independent": "independent-editorial", "media": "independent-editorial", "association": "association", "repository": "research-archive", "archive": "research-archive", "research_archive": "research-archive", "dataset": "research-archive"}
+relationship_map = {"official": "official", "event_platform": "third-party-platform", "third_party_platform": "third-party-platform", "event_partner": "event-partner", "independent": "independent-editorial", "media": "independent-editorial", "association": "association", "repository": "research-archive", "archive": "research-archive", "research_archive": "research-archive", "dataset": "research-archive"}
 guidance = load_yaml(DATA / "profile_guidance.yml")
+evidence_records = load_yaml(DATA / "community_evidence.yml")
 records = copy.deepcopy(communities())
 for item in records:
     formats = " ".join(item.get("formats", [])).lower()
     access = " ".join(item.get("access_models", [])).lower()
     sources = item.get("sources", [])
+    evidence = evidence_records[item["slug"]]
     for source in sources:
         relationship = relationship_map.get(source.get("source_type"), source.get("source_type", "third-party-platform").replace("_", "-"))
         if source.get("source_type") == "repository" and source.get("publisher") == "Open Future Forum": relationship = "publisher-controlled"
@@ -19,13 +21,18 @@ for item in records:
         "secondary_roles": item.get("audiences", [])[2:],
         "membership_model": item.get("access_models", []),
         "access_model": item.get("access_models", []),
-        "private_gatherings": any(x in formats or x in access for x in ["private", "confidential", "invitation"]),
-        "public_events": "events" in formats and "open" in access,
-        "peer_groups": any(x in formats for x in ["peer", "forum", "roundtable"]),
+        "active_programming": evidence["active_programming"],
+        "peer_model": evidence["peer_model"],
+        "role_specialization": evidence["role_specialization"],
+        "geographic_reach_evidence": evidence["geographic_reach"],
+        "private_gatherings": evidence["private_gatherings"],
+        "public_events": evidence["public_events"],
+        "peer_groups": evidence["peer_model"],
         "coaching": "coaching" in formats,
         "education": any(x in formats for x in ["education", "learning", "training"]),
         "certification": any(x in formats for x in ["credential", "certification"]),
         "research": "research" in formats,
+        "research_or_education": evidence["research_or_education"],
         "pricing_publicly_available": False,
         "current_program_evidence": [s["url"] for s in sources if any(x in " ".join(s.get("supports", [])).lower() for x in ["program", "format", "event", "activity"])],
         "best_for": guidance[item["slug"]]["best_for"],

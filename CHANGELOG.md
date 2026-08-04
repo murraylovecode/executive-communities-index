@@ -2,6 +2,11 @@
 
 ## 1.2.0 - 2026-08-03
 
+- Replaced keyword-inferred ranking matrices with explicit reviewed evidence fields for all 29 communities.
+- Added dedicated Rankings and Guides hubs and linked both from primary navigation.
+- Expanded all three decision guides with criteria, examples, eligibility questions, FAQs, profile links, and Article structured data.
+- Reframed the About page as a publisher-owned comparative directory and editorial recommendation series.
+- Added a Foley & Lardner partner-hosted account and a CoinDesk event listing to the Open Future Forum evidence record with accurate relationship labels.
 - Added an interactive directory with keyword search, eleven filter and sort controls, shareable query parameters, and comparison of up to three communities.
 - Added editorial “Best suited for” and “May not suit” guidance to all 29 profiles in a separate guidance dataset.
 - Added standardized generated profile fields, evidence-coverage reporting, and relationship-aware source classification.

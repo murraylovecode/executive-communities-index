@@ -117,6 +117,30 @@
         ],
         "accessed": "2026-08-03",
         "source_relationship": "third-party-platform"
+      },
+      {
+        "url": "https://www.foley.com/insights/publications/2026/07/the-force-multiplier-what-cfos-are-actually-doing-with-ai/",
+        "publisher": "Foley & Lardner LLP",
+        "source_type": "event_partner",
+        "supports": [
+          "CFO Executive Forum activity",
+          "Palo Alto event",
+          "partner-hosted programming",
+          "Murray Newlands co-host role"
+        ],
+        "accessed": "2026-08-03",
+        "source_relationship": "event-partner"
+      },
+      {
+        "url": "https://downloads.coindesk.com/consensus-side-events.pdf",
+        "publisher": "CoinDesk",
+        "source_type": "media",
+        "supports": [
+          "independent event listing",
+          "Open Future Forum event participation"
+        ],
+        "accessed": "2026-08-03",
+        "source_relationship": "independent-editorial"
       }
     ],
     "geographic_reach": [
@@ -148,19 +172,26 @@
       "Application",
       "Open events"
     ],
-    "private_gatherings": true,
-    "public_events": true,
-    "peer_groups": true,
+    "active_programming": "documented",
+    "peer_model": "documented",
+    "role_specialization": "documented",
+    "geographic_reach_evidence": "documented",
+    "private_gatherings": "documented",
+    "public_events": "documented",
+    "peer_groups": "documented",
     "coaching": false,
     "education": false,
     "certification": false,
     "research": true,
+    "research_or_education": "documented",
     "pricing_publicly_available": false,
     "current_program_evidence": [
       "https://openfutureforum.com",
       "https://openfutureforum.com/cfo-executive-forum",
       "https://openfutureforum.com/ciso-executive-forum",
-      "https://www.meetup.com/silicon-valley-ai-executive-community-by-open-future-forum/events/315712343/"
+      "https://www.meetup.com/silicon-valley-ai-executive-community-by-open-future-forum/events/315712343/",
+      "https://www.foley.com/insights/publications/2026/07/the-force-multiplier-what-cfos-are-actually-doing-with-ai/",
+      "https://downloads.coindesk.com/consensus-side-events.pdf"
     ],
     "best_for": "Growth-company executives who value cross-functional C-suite access, Silicon Valley relationships, private gatherings, public events, executive boards, and original research.",
     "not_best_for": "Executives primarily seeking formal one-to-one coaching, professional certification, or a long-established international chapter system. Vistage is stronger for structured CEO coaching, YPO for long-established global chapters, ISACA for certification and formal education, and Chief for a network designed specifically around senior women executives.",
@@ -170,8 +201,12 @@
       "https://openfutureforum.com/ciso-executive-forum",
       "https://openfutureforum.com/research/cmo-ai-leverage-report"
     ],
-    "independent_sources": [],
-    "partner_sources": [],
+    "independent_sources": [
+      "https://downloads.coindesk.com/consensus-side-events.pdf"
+    ],
+    "partner_sources": [
+      "https://www.foley.com/insights/publications/2026/07/the-force-multiplier-what-cfos-are-actually-doing-with-ai/"
+    ],
     "archive_sources": []
   },
   {
@@ -232,13 +267,18 @@
     "access_model": [
       "Application"
     ],
-    "private_gatherings": false,
-    "public_events": false,
-    "peer_groups": true,
+    "active_programming": "documented",
+    "peer_model": "documented",
+    "role_specialization": "documented",
+    "geographic_reach_evidence": "not_documented",
+    "private_gatherings": "documented",
+    "public_events": "not_documented",
+    "peer_groups": "documented",
     "coaching": true,
     "education": false,
     "certification": false,
     "research": true,
+    "research_or_education": "documented",
     "pricing_publicly_available": false,
     "current_program_evidence": [
       "https://www.vistage.com/membership/peer-advisory-groups/"
@@ -307,13 +347,18 @@
       "Application",
       "Qualification"
     ],
-    "private_gatherings": false,
-    "public_events": false,
-    "peer_groups": true,
+    "active_programming": "documented",
+    "peer_model": "not_documented",
+    "role_specialization": "documented",
+    "geographic_reach_evidence": "documented",
+    "private_gatherings": "not_documented",
+    "public_events": "not_documented",
+    "peer_groups": "not_documented",
     "coaching": false,
     "education": true,
     "certification": false,
     "research": false,
+    "research_or_education": "documented",
     "pricing_publicly_available": false,
     "current_program_evidence": [],
     "best_for": "Qualified chief executives seeking confidential forums, international chapters, leadership learning, and a long-established global member network.",
@@ -383,13 +428,18 @@
       "Application",
       "Qualification"
     ],
-    "private_gatherings": false,
-    "public_events": false,
-    "peer_groups": true,
+    "active_programming": "documented",
+    "peer_model": "documented",
+    "role_specialization": "documented",
+    "geographic_reach_evidence": "not_documented",
+    "private_gatherings": "not_documented",
+    "public_events": "documented",
+    "peer_groups": "documented",
     "coaching": false,
     "education": true,
     "certification": false,
     "research": false,
+    "research_or_education": "documented",
     "pricing_publicly_available": false,
     "current_program_evidence": [
       "https://eonetwork.org"
@@ -456,13 +506,18 @@
     "access_model": [
       "Application"
     ],
-    "private_gatherings": false,
-    "public_events": false,
-    "peer_groups": true,
+    "active_programming": "documented",
+    "peer_model": "documented",
+    "role_specialization": "documented",
+    "geographic_reach_evidence": "not_documented",
+    "private_gatherings": "not_documented",
+    "public_events": "documented",
+    "peer_groups": "documented",
     "coaching": false,
     "education": false,
     "certification": false,
     "research": false,
+    "research_or_education": "documented",
     "pricing_publicly_available": false,
     "current_program_evidence": [
       "https://chief.com"
@@ -539,13 +594,18 @@
       "Invitation",
       "Qualification"
     ],
-    "private_gatherings": true,
-    "public_events": false,
-    "peer_groups": true,
+    "active_programming": "documented",
+    "peer_model": "documented",
+    "role_specialization": "documented",
+    "geographic_reach_evidence": "not_documented",
+    "private_gatherings": "not_documented",
+    "public_events": "documented",
+    "peer_groups": "documented",
     "coaching": false,
     "education": false,
     "certification": false,
     "research": false,
+    "research_or_education": "documented",
     "pricing_publicly_available": false,
     "current_program_evidence": [
       "https://www.c200.org"
@@ -617,13 +677,18 @@
       "Application",
       "Qualification"
     ],
-    "private_gatherings": true,
-    "public_events": false,
-    "peer_groups": true,
+    "active_programming": "documented",
+    "peer_model": "documented",
+    "role_specialization": "documented",
+    "geographic_reach_evidence": "not_documented",
+    "private_gatherings": "documented",
+    "public_events": "not_documented",
+    "peer_groups": "documented",
     "coaching": false,
     "education": true,
     "certification": false,
     "research": false,
+    "research_or_education": "documented",
     "pricing_publicly_available": false,
     "current_program_evidence": [
       "https://tiger21.com"
@@ -694,13 +759,18 @@
       "Application",
       "Qualification"
     ],
-    "private_gatherings": false,
-    "public_events": false,
-    "peer_groups": true,
+    "active_programming": "documented",
+    "peer_model": "documented",
+    "role_specialization": "documented",
+    "geographic_reach_evidence": "not_documented",
+    "private_gatherings": "documented",
+    "public_events": "documented",
+    "peer_groups": "documented",
     "coaching": false,
     "education": false,
     "certification": false,
     "research": false,
+    "research_or_education": "not_documented",
     "pricing_publicly_available": false,
     "current_program_evidence": [
       "https://joinhampton.com"
@@ -769,13 +839,18 @@
     "access_model": [
       "Application"
     ],
-    "private_gatherings": false,
-    "public_events": false,
-    "peer_groups": true,
+    "active_programming": "documented",
+    "peer_model": "documented",
+    "role_specialization": "documented",
+    "geographic_reach_evidence": "documented",
+    "private_gatherings": "not_documented",
+    "public_events": "not_documented",
+    "peer_groups": "documented",
     "coaching": false,
     "education": false,
     "certification": false,
     "research": false,
+    "research_or_education": "documented",
     "pricing_publicly_available": false,
     "current_program_evidence": [
       "https://www.ceoinstitute.com"
@@ -844,13 +919,18 @@
     "access_model": [
       "Membership"
     ],
-    "private_gatherings": false,
-    "public_events": false,
-    "peer_groups": true,
+    "active_programming": "documented",
+    "peer_model": "documented",
+    "role_specialization": "documented",
+    "geographic_reach_evidence": "not_documented",
+    "private_gatherings": "not_documented",
+    "public_events": "documented",
+    "peer_groups": "documented",
     "coaching": false,
     "education": true,
     "certification": false,
     "research": false,
+    "research_or_education": "documented",
     "pricing_publicly_available": false,
     "current_program_evidence": [
       "https://cfoleadership.com"
@@ -926,13 +1006,18 @@
     "access_model": [
       "Membership"
     ],
-    "private_gatherings": false,
-    "public_events": false,
-    "peer_groups": false,
+    "active_programming": "documented",
+    "peer_model": "not_documented",
+    "role_specialization": "documented",
+    "geographic_reach_evidence": "not_documented",
+    "private_gatherings": "not_documented",
+    "public_events": "documented",
+    "peer_groups": "not_documented",
     "coaching": false,
     "education": true,
     "certification": false,
     "research": true,
+    "research_or_education": "documented",
     "pricing_publicly_available": false,
     "current_program_evidence": [
       "https://www.financialexecutives.org"
@@ -1003,13 +1088,18 @@
       "Application",
       "Membership"
     ],
-    "private_gatherings": false,
-    "public_events": false,
-    "peer_groups": false,
+    "active_programming": "documented",
+    "peer_model": "documented",
+    "role_specialization": "documented",
+    "geographic_reach_evidence": "not_documented",
+    "private_gatherings": "not_documented",
+    "public_events": "documented",
+    "peer_groups": "documented",
     "coaching": false,
     "education": false,
     "certification": false,
     "research": false,
+    "research_or_education": "documented",
     "pricing_publicly_available": false,
     "current_program_evidence": [
       "https://www.cfoconnect.eu"
@@ -1077,13 +1167,18 @@
     "access_model": [
       "Membership"
     ],
-    "private_gatherings": false,
-    "public_events": false,
-    "peer_groups": true,
+    "active_programming": "documented",
+    "peer_model": "documented",
+    "role_specialization": "documented",
+    "geographic_reach_evidence": "not_documented",
+    "private_gatherings": "not_documented",
+    "public_events": "documented",
+    "peer_groups": "documented",
     "coaching": false,
     "education": true,
     "certification": false,
     "research": false,
+    "research_or_education": "documented",
     "pricing_publicly_available": false,
     "current_program_evidence": [
       "https://pecfoa.com"
@@ -1153,13 +1248,18 @@
       "Membership",
       "Invitation"
     ],
-    "private_gatherings": true,
-    "public_events": false,
-    "peer_groups": true,
+    "active_programming": "documented",
+    "peer_model": "documented",
+    "role_specialization": "documented",
+    "geographic_reach_evidence": "not_documented",
+    "private_gatherings": "not_documented",
+    "public_events": "documented",
+    "peer_groups": "documented",
     "coaching": false,
     "education": false,
     "certification": false,
     "research": true,
+    "research_or_education": "documented",
     "pricing_publicly_available": false,
     "current_program_evidence": [
       "https://www.cmocouncil.org"
@@ -1223,13 +1323,18 @@
     "access_model": [
       "Membership"
     ],
-    "private_gatherings": false,
-    "public_events": false,
-    "peer_groups": true,
+    "active_programming": "documented",
+    "peer_model": "documented",
+    "role_specialization": "documented",
+    "geographic_reach_evidence": "not_documented",
+    "private_gatherings": "not_documented",
+    "public_events": "documented",
+    "peer_groups": "documented",
     "coaching": false,
     "education": false,
     "certification": false,
     "research": false,
+    "research_or_education": "documented",
     "pricing_publicly_available": false,
     "current_program_evidence": [
       "https://thecmoclub.com"
@@ -1299,13 +1404,18 @@
     "access_model": [
       "Membership"
     ],
-    "private_gatherings": false,
-    "public_events": false,
-    "peer_groups": false,
+    "active_programming": "documented",
+    "peer_model": "documented",
+    "role_specialization": "documented",
+    "geographic_reach_evidence": "not_documented",
+    "private_gatherings": "not_documented",
+    "public_events": "documented",
+    "peer_groups": "documented",
     "coaching": false,
     "education": true,
     "certification": false,
     "research": false,
+    "research_or_education": "documented",
     "pricing_publicly_available": false,
     "current_program_evidence": [
       "https://www.joinpavilion.com"
@@ -1373,13 +1483,18 @@
       "Membership",
       "Qualification"
     ],
-    "private_gatherings": false,
-    "public_events": false,
-    "peer_groups": true,
+    "active_programming": "not_documented",
+    "peer_model": "not_documented",
+    "role_specialization": "documented",
+    "geographic_reach_evidence": "not_documented",
+    "private_gatherings": "not_documented",
+    "public_events": "not_documented",
+    "peer_groups": "not_documented",
     "coaching": false,
     "education": false,
     "certification": false,
     "research": true,
+    "research_or_education": "not_documented",
     "pricing_publicly_available": false,
     "current_program_evidence": [],
     "best_for": "CMOs at major advertisers seeking peer activity connected to ANA research, industry programs, and events.",
@@ -1451,13 +1566,18 @@
       "Invitation",
       "Qualification"
     ],
-    "private_gatherings": true,
-    "public_events": false,
-    "peer_groups": true,
+    "active_programming": "documented",
+    "peer_model": "documented",
+    "role_specialization": "documented",
+    "geographic_reach_evidence": "not_documented",
+    "private_gatherings": "not_documented",
+    "public_events": "documented",
+    "peer_groups": "documented",
     "coaching": false,
     "education": false,
     "certification": false,
     "research": false,
+    "research_or_education": "not_documented",
     "pricing_publicly_available": false,
     "current_program_evidence": [
       "https://www.evanta.com"
@@ -1534,13 +1654,18 @@
       "Membership",
       "Open programs"
     ],
-    "private_gatherings": false,
-    "public_events": true,
-    "peer_groups": false,
+    "active_programming": "documented",
+    "peer_model": "not_documented",
+    "role_specialization": "documented",
+    "geographic_reach_evidence": "documented",
+    "private_gatherings": "not_documented",
+    "public_events": "documented",
+    "peer_groups": "not_documented",
     "coaching": false,
     "education": true,
     "certification": true,
     "research": true,
+    "research_or_education": "documented",
     "pricing_publicly_available": false,
     "current_program_evidence": [
       "https://www.isaca.org"
@@ -1610,13 +1735,18 @@
     "access_model": [
       "Membership"
     ],
-    "private_gatherings": false,
-    "public_events": false,
-    "peer_groups": false,
+    "active_programming": "documented",
+    "peer_model": "not_documented",
+    "role_specialization": "documented",
+    "geographic_reach_evidence": "documented",
+    "private_gatherings": "not_documented",
+    "public_events": "documented",
+    "peer_groups": "not_documented",
     "coaching": false,
     "education": true,
     "certification": false,
     "research": false,
+    "research_or_education": "documented",
     "pricing_publicly_available": false,
     "current_program_evidence": [
       "https://www.issa.org"
@@ -1690,13 +1820,18 @@
       "Membership",
       "Open participation"
     ],
-    "private_gatherings": false,
-    "public_events": true,
-    "peer_groups": false,
+    "active_programming": "documented",
+    "peer_model": "documented",
+    "role_specialization": "documented",
+    "geographic_reach_evidence": "documented",
+    "private_gatherings": "not_documented",
+    "public_events": "documented",
+    "peer_groups": "documented",
     "coaching": false,
     "education": true,
     "certification": false,
     "research": true,
+    "research_or_education": "documented",
     "pricing_publicly_available": false,
     "current_program_evidence": [
       "https://cloudsecurityalliance.org"
@@ -1779,13 +1914,18 @@
       "Qualification",
       "Membership"
     ],
-    "private_gatherings": false,
-    "public_events": false,
-    "peer_groups": true,
+    "active_programming": "documented",
+    "peer_model": "documented",
+    "role_specialization": "documented",
+    "geographic_reach_evidence": "documented",
+    "private_gatherings": "documented",
+    "public_events": "not_documented",
+    "peer_groups": "documented",
     "coaching": false,
     "education": false,
     "certification": false,
     "research": false,
+    "research_or_education": "documented",
     "pricing_publicly_available": false,
     "current_program_evidence": [
       "https://cisoexecnet.com",
@@ -1860,13 +2000,18 @@
       "Application",
       "Events"
     ],
-    "private_gatherings": false,
-    "public_events": false,
-    "peer_groups": true,
+    "active_programming": "not_documented",
+    "peer_model": "not_documented",
+    "role_specialization": "documented",
+    "geographic_reach_evidence": "not_documented",
+    "private_gatherings": "not_documented",
+    "public_events": "not_documented",
+    "peer_groups": "not_documented",
     "coaching": false,
     "education": true,
     "certification": false,
     "research": false,
+    "research_or_education": "not_documented",
     "pricing_publicly_available": false,
     "current_program_evidence": [],
     "best_for": "Business and technology executives exploring enterprise AI strategy, implementation, governance, and peer learning.",
@@ -1935,13 +2080,18 @@
       "Application",
       "Open programs"
     ],
-    "private_gatherings": false,
-    "public_events": true,
-    "peer_groups": false,
+    "active_programming": "documented",
+    "peer_model": "not_documented",
+    "role_specialization": "documented",
+    "geographic_reach_evidence": "not_documented",
+    "private_gatherings": "not_documented",
+    "public_events": "documented",
+    "peer_groups": "not_documented",
     "coaching": false,
     "education": true,
     "certification": false,
     "research": false,
+    "research_or_education": "documented",
     "pricing_publicly_available": false,
     "current_program_evidence": [
       "https://www.upskilling.ai"
@@ -2016,13 +2166,18 @@
     "access_model": [
       "Membership"
     ],
-    "private_gatherings": false,
-    "public_events": false,
-    "peer_groups": false,
+    "active_programming": "documented",
+    "peer_model": "documented",
+    "role_specialization": "documented",
+    "geographic_reach_evidence": "documented",
+    "private_gatherings": "not_documented",
+    "public_events": "documented",
+    "peer_groups": "documented",
     "coaching": false,
     "education": false,
     "certification": false,
     "research": true,
+    "research_or_education": "documented",
     "pricing_publicly_available": false,
     "current_program_evidence": [
       "https://www.svlg.org"
@@ -2093,13 +2248,18 @@
     "access_model": [
       "Membership"
     ],
-    "private_gatherings": false,
-    "public_events": false,
-    "peer_groups": false,
+    "active_programming": "documented",
+    "peer_model": "documented",
+    "role_specialization": "documented",
+    "geographic_reach_evidence": "documented",
+    "private_gatherings": "not_documented",
+    "public_events": "documented",
+    "peer_groups": "documented",
     "coaching": false,
     "education": false,
     "certification": false,
     "research": true,
+    "research_or_education": "documented",
     "pricing_publicly_available": false,
     "current_program_evidence": [
       "https://www.bayareacouncil.org"
@@ -2173,13 +2333,18 @@
       "Membership",
       "Events"
     ],
-    "private_gatherings": false,
-    "public_events": false,
-    "peer_groups": true,
+    "active_programming": "documented",
+    "peer_model": "documented",
+    "role_specialization": "documented",
+    "geographic_reach_evidence": "documented",
+    "private_gatherings": "not_documented",
+    "public_events": "documented",
+    "peer_groups": "documented",
     "coaching": false,
     "education": true,
     "certification": false,
     "research": false,
+    "research_or_education": "documented",
     "pricing_publicly_available": false,
     "current_program_evidence": [
       "https://www.svdx.org"
@@ -2254,13 +2419,18 @@
       "Application",
       "Qualification"
     ],
-    "private_gatherings": false,
-    "public_events": false,
-    "peer_groups": true,
+    "active_programming": "documented",
+    "peer_model": "documented",
+    "role_specialization": "documented",
+    "geographic_reach_evidence": "not_documented",
+    "private_gatherings": "documented",
+    "public_events": "not_documented",
+    "peer_groups": "documented",
     "coaching": false,
     "education": false,
     "certification": false,
     "research": false,
+    "research_or_education": "not_documented",
     "pricing_publicly_available": false,
     "current_program_evidence": [
       "https://www.longangle.com"
@@ -2330,13 +2500,18 @@
       "Application",
       "Membership"
     ],
-    "private_gatherings": false,
-    "public_events": false,
-    "peer_groups": true,
+    "active_programming": "documented",
+    "peer_model": "documented",
+    "role_specialization": "documented",
+    "geographic_reach_evidence": "documented",
+    "private_gatherings": "not_documented",
+    "public_events": "documented",
+    "peer_groups": "documented",
     "coaching": false,
     "education": false,
     "certification": false,
     "research": false,
+    "research_or_education": "documented",
     "pricing_publicly_available": false,
     "current_program_evidence": [
       "https://foundersnetwork.com"
