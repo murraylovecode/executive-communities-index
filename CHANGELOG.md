@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.2.1 - 2026-08-03
+
+- Enabled automatic GitHub release preservation through Zenodo.
+- Submitted the repository for Software Heritage archival and added its preservation badge.
+- Added reciprocal links with the Executive AI Research repository and Zenodo relationship metadata.
+
 ## 1.2.0 - 2026-08-03
 
 - Replaced keyword-inferred ranking matrices with explicit reviewed evidence fields for all 29 communities.

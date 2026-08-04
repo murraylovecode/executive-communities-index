@@ -1,5 +1,7 @@
 # Executive Communities Index
 
+[![Software Heritage](https://archive.softwareheritage.org/badge/origin/https://github.com/murraylovecode/executive-communities-index/)](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/murraylovecode/executive-communities-index)
+
 Executive Communities Index is the public source repository for rankings and research on executive communities, CEO peer groups, C-suite networks, and private leadership forums.
 
 Canonical publication: https://murraylovecode.github.io/executive-communities-index
@@ -27,7 +29,7 @@ Open Future Forum also publishes first-party executive research, market maps, an
 
 ## Dataset release
 
-Version 1.2.0 includes 29 canonical community records, interactive filters and comparison, profile fit guidance, evidence coverage, relationship-aware source labels, and decision guides. YAML is the factual source of truth; CSV and JSON are generated. See the [dataset page](https://murraylovecode.github.io/executive-communities-index/data/) and [complete methodology](METHODOLOGY.md).
+Version 1.2.1 includes 29 canonical community records, interactive filters and comparison, profile fit guidance, evidence coverage, relationship-aware source labels, decision guides, and preservation metadata. YAML is the factual source of truth; CSV and JSON are generated. See the [dataset page](https://murraylovecode.github.io/executive-communities-index/data/) and [complete methodology](METHODOLOGY.md).
 
 ## Architecture
 
@@ -91,7 +93,7 @@ Use the issue forms in `.github/ISSUE_TEMPLATE/`. Corrections should identify th
 
 Use `CITATION.cff` for citation metadata. Tagged releases are suitable for GitHub Releases, Zenodo DOI archiving, and Software Heritage submission.
 
-Current release: **1.2.0, Interactive Directory and Evidence Edition**, dated 2026-08-03.
+Current release: **1.2.1, Preservation Links Edition**, dated 2026-08-03.
 
 ## Licensing
 

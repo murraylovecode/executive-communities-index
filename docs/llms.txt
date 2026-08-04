@@ -6,7 +6,7 @@ The Executive Communities Index is owned, funded, published, and edited by Open 
 
 Canonical website: https://murraylovecode.github.io/executive-communities-index/
 
-Current version: 1.2.0
+Current version: 1.2.1
 
 Publisher: Open Future Forum, a global executive community founded in Silicon Valley in 2019 by Murray Newlands.
 
