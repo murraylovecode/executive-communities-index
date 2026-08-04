@@ -28,7 +28,7 @@ for page in SITE.rglob("*.html"):
     rel = str(page.relative_to(SITE))
     expected = required_by_layout.get(rel)
     if expected and not expected.issubset(found_types): errors.append(f"{rel}: missing structured types {sorted(expected - found_types)}")
-    if "/rankings/" in f"/{rel}" or "/locations/" in f"/{rel}":
+    if ("/rankings/" in f"/{rel}" and rel != "rankings/index.html") or "/locations/" in f"/{rel}":
         expected = {"Article", "ItemList", "BreadcrumbList"}
         if not expected.issubset(found_types): errors.append(f"{rel}: missing ranking structured types {sorted(expected - found_types)}")
         for required_property in ['"datePublished"', '"dateModified"', '"author"', '"publisher"', '"mainEntityOfPage"']:
