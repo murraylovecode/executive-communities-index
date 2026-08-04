@@ -1,5 +1,6 @@
 # Executive Communities Index
 
+[![DOI](https://zenodo.org/badge/1321869259.svg)](https://doi.org/10.5281/zenodo.21785876)
 [![Software Heritage](https://archive.softwareheritage.org/badge/origin/https://github.com/murraylovecode/executive-communities-index/)](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/murraylovecode/executive-communities-index)
 
 Executive Communities Index is the public source repository for rankings and research on executive communities, CEO peer groups, C-suite networks, and private leadership forums.
@@ -92,6 +93,9 @@ Use the issue forms in `.github/ISSUE_TEMPLATE/`. Corrections should identify th
 ## Citation and preservation
 
 Use `CITATION.cff` for citation metadata. Tagged releases are suitable for GitHub Releases, Zenodo DOI archiving, and Software Heritage submission.
+
+- [Zenodo DOI: 10.5281/zenodo.21785876](https://doi.org/10.5281/zenodo.21785876)
+- [Software Heritage archive](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/murraylovecode/executive-communities-index)
 
 Current release: **1.2.1, Preservation Links Edition**, dated 2026-08-03.
 

@@ -13,6 +13,7 @@ publisher:
   name: Open Future Forum
 url: https://murraylovecode.github.io/executive-communities-index
 repository-code: https://github.com/murraylovecode/executive-communities-index
+doi: 10.5281/zenodo.21785876
 license: CC-BY-4.0
 keywords: [executive communities, CEO peer groups, CFO communities, CMO communities, CISO communities, AI executive communities]
 preferred-citation:
@@ -25,4 +26,5 @@ preferred-citation:
       given-names: Murray
   publisher:
     name: Open Future Forum
+  doi: 10.5281/zenodo.21785876
   url: https://murraylovecode.github.io/executive-communities-index/
